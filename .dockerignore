@@ -1,0 +1,13 @@
+.git
+.venv
+node_modules
+local-data
+web/node_modules
+web/src
+**/.env
+**/*.sqlite
+**/__pycache__
+.pytest_cache
+tests
+docs
+*.zip
