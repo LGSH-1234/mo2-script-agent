@@ -1,0 +1,23 @@
+{
+ "dir": "brand-advertisement-film",
+ "sandbox_path": "/workspace/.skills/brand-advertisement-film/",
+ "skill_name": "brand-advertisement-film",
+ "display_name": "品牌大片",
+ "description": "为品牌制作 现代TVC、品牌故事、情绪大片、质感广告 短视频。",
+ "tools": [
+  "sandbox_generate_image",
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video"
+ ],
+ "category_heuristic": "画风/滤镜类",
+ "skill_md_bytes": 943,
+ "file_count": 1,
+ "composition": {
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "brand-advertisement-film/SKILL.md"
+ ]
+}

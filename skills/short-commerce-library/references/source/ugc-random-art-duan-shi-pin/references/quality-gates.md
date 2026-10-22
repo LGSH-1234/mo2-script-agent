@@ -1,0 +1,21 @@
+# Random art-portal quality gates
+
+- The package contains no script directory, executable file, macro, binary, or runtime dependency.
+- The selection comes from the bundled 60-card style deck and the chosen number exists exactly once.
+- The receipt discloses the six-digit seed, quotient, remainder, numbered card, and selected movement.
+- The arithmetic satisfies `seed = 60 × quotient + remainder` and `card = remainder + 1`.
+- The action mode satisfies `mode = (quotient mod 12) + 1`, or an asset-based cyclic fallback is disclosed.
+- A reroll uses the stated `+104729` rule and records every rejected selection and reason.
+- The selected movement's style, light, color, composition, medium, mood, transition, motion, and camera come from its bundled card; optional vault enrichment does not replace the card.
+- Conflicting negative terms are removed rather than blindly merged.
+- The threshold mechanism is native to the selected movement.
+- The global character lock separates immutable identity geometry from style-adaptable surface treatment.
+- Face geometry, eye spacing, hair structure, proportions, outfit design, accessories and IP marks remain identifiable across every shot.
+- At least three identity anchors remain visible in each art-space shot and five in the final hold.
+- The selected style keeps one light logic, palette hierarchy, medium, edge treatment, spatial rule and camera behavior across art-space shots.
+- The clip uses one visual cause-and-effect, at most two locations, and one carried-back motif.
+- The 15-second plan contains 5–7 shots, at least four distinct shot sizes or viewpoints, and no more than two aggressive camera moves.
+- Every cut adds new action, geography, scale or consequence; camera movement matches the selected card.
+- The final readable consequence remains visible for at least 1.5 seconds.
+- Battle mode establishes both sides before the first clash, keeps Character A readable, uses one attack-counter-reversal-finish chain, and avoids gore or realistic injury.
+- The final output clearly states that the style was randomly selected.

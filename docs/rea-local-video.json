@@ -1,0 +1,17 @@
+{
+ "browser":{"mode":"launch","executable_path":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome","headless":true},
+ "start_url":{"url":"http://127.0.0.1:8766/storyboard?project=project-55a2be8bb2f44bf2"},
+ "environment":{"viewport":{"width":1440,"height":900,"device_scale_factor":1},"locale":"zh-CN","timezone":"Asia/Shanghai","color_scheme":"dark","reduced_motion":"reduce","service_workers":"block"},
+ "actions":[
+  {"step_id":"restored-board","action":"wait_for_timeout","duration_ms":600},
+  {"step_id":"shot","action":"click","locator":{"kind":"css","selector":"tr[aria-label='第 1 镜 雨中的照相馆']"},"timeout_ms":10000},
+  {"step_id":"video-intent","action":"click","locator":{"kind":"role","role":"button","name":"生成视频（模拟）"},"timeout_ms":10000},
+  {"step_id":"submit","action":"click","locator":{"kind":"role","role":"button","name":"提交生成"},"timeout_ms":10000},
+  {"step_id":"video-result","action":"wait_for_timeout","duration_ms":6500},
+  {"step_id":"home","action":"click","locator":{"kind":"role","role":"link","name":"首页"},"timeout_ms":10000},
+  {"step_id":"template-preview","action":"click","locator":{"kind":"role","role":"button","name":"孤将破阵"},"timeout_ms":10000},
+  {"step_id":"template-start","action":"click","locator":{"kind":"role","role":"link","name":"以此灵感创作分镜"},"timeout_ms":10000},
+  {"step_id":"prefilled-brief","action":"wait_for_timeout","duration_ms":600}
+ ],
+ "capture":{"after_each_step":["dom","accessibility","screenshot","url"],"at_end":["url"],"events":["page-errors"]}
+}

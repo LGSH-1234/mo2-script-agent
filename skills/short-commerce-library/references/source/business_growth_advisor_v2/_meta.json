@@ -1,0 +1,38 @@
+{
+ "dir": "business_growth_advisor_v2",
+ "sandbox_path": "/workspace/.skills/business_growth_advisor_v2/",
+ "skill_name": "business_growth_advisor_v2",
+ "display_name": "生意增长顾问",
+ "description": "面向电商商家、本地生活门店老板、广告投手/运营、工厂/B2B 服务商的生意增长 skill。重点诊断商品卖点、素材转化、投放 ROI、门店客流、团购转化和 B2B 价值表达问题；当用户上传商品图、卖点、素材、投放截图、后台表格或竞品参考时，先拆清卖点和视频方向，再给出复盘建议、执行计划和下一步增长动作。不要求平台后台接入、API key、OAuth 或开发者账户；使用用户主动提供的信息，并基于用户线索主动调用 pippit_omni_search 搜索公开市场参照。",
+ "tools": [],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 20228,
+ "file_count": 19,
+ "composition": {
+  "json": 3,
+  "SKILL.md": 1,
+  "references": 15
+ },
+ "has_scripts": false,
+ "files": [
+  "business_growth_advisor_v2/PACKAGE_MANIFEST.json",
+  "business_growth_advisor_v2/SKILL.md",
+  "business_growth_advisor_v2/VERSION.json",
+  "business_growth_advisor_v2/platform_manifest.json",
+  "business_growth_advisor_v2/references/methods/conversation_state_machine.md",
+  "business_growth_advisor_v2/references/methods/data_intake.md",
+  "business_growth_advisor_v2/references/methods/diagnosis_framework.md",
+  "business_growth_advisor_v2/references/methods/evidence_and_confidence.md",
+  "business_growth_advisor_v2/references/methods/execution_plan.md",
+  "business_growth_advisor_v2/references/methods/metric_calculation.md",
+  "business_growth_advisor_v2/references/methods/pain_point_entry.md",
+  "business_growth_advisor_v2/references/methods/public_market_research.md",
+  "business_growth_advisor_v2/references/methods/selling_point_analysis.md",
+  "business_growth_advisor_v2/references/methods/user_growth_profile.md",
+  "business_growth_advisor_v2/references/methods/video_brief_handoff.md",
+  "business_growth_advisor_v2/references/methods/video_opportunity_framework.md",
+  "business_growth_advisor_v2/references/platforms/douyin_qianchuan.md",
+  "business_growth_advisor_v2/references/platforms/tiktok_shop.md",
+  "business_growth_advisor_v2/references/platforms/xiaohongshu.md"
+ ]
+}

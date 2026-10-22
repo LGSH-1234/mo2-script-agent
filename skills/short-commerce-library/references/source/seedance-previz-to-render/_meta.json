@@ -1,0 +1,25 @@
+{
+ "dir": "seedance-previz-to-render",
+ "sandbox_path": "/workspace/.skills/seedance-previz-to-render/",
+ "skill_name": "seedance-previz-to-render",
+ "display_name": "",
+ "description": "为白模视频、动作预演、粗模产品展示和建筑空间漫游设计精细渲染方案与可执行提示词。适用于在保留原有镜头路径、人物调度、动作节奏和空间结构的基础上，补全材质、贴图、灯光、环境细节及画面质感；可依据参考图匹配写实、商业广告、科幻或风格化视觉，覆盖角色预演成片化、产品材质升级与建筑室内可视化。",
+ "tools": [],
+ "category_heuristic": "画风/滤镜类",
+ "skill_md_bytes": 14827,
+ "file_count": 6,
+ "composition": {
+  "SKILL.md": 1,
+  "json": 1,
+  "references": 4
+ },
+ "has_scripts": false,
+ "files": [
+  "seedance-previz-to-render/SKILL.md",
+  "seedance-previz-to-render/evals/evals.json",
+  "seedance-previz-to-render/references/architecture-render-guide.md",
+  "seedance-previz-to-render/references/character-previs-guide.md",
+  "seedance-previz-to-render/references/product-render-guide.md",
+  "seedance-previz-to-render/references/style-parsing-guide.md"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "dir": "seedance-shot-design",
+ "sandbox_path": "/workspace/.skills/seedance-shot-design/",
+ "skill_name": "seedance-shot-design",
+ "display_name": "",
+ "description": "> Professional-grade virtual film director and prompt engineer for Seedance 2.0 (即梦). Transforms vague ideas into cinematic, production-ready video prompts with Hollywood-caliber shot design. Covers every workflow — text-to-video, image-to-video, multi-modal references, video extension, character swap, dialogue-driven short films, and music-synced edits. Ships with a cinematography dictionary (50+ safe camera-move phrases), a director style library (Villeneuve, Wes Anderson, Shinkai, Wuxia & more), a 3-layer lighting & quality-anchor system that kills the \"plastic AI look,\" and a built-in structured validation checklist so every prompt passes before delivery. Supports bilingual output (Chinese/English) with smart >15 s auto-segmentation for long-form storytelling. Trigger words: Seedance, Shot Design, AI video, storyboard, video prompt, short film, cinematic prompt, 即梦, 视频提示词, 分镜, 视频脚本, AI视频, 短片脚本, 镜头设计, 运镜.",
+ "tools": [],
+ "category_heuristic": "画风/滤镜类",
+ "skill_md_bytes": 41956,
+ "file_count": 19,
+ "composition": {
+  "other": 9,
+  "SKILL.md": 1,
+  "references": 6,
+  "scripts": 2,
+  "assets": 1
+ },
+ "has_scripts": true,
+ "files": [
+  "seedance-shot-design/.gitignore",
+  "seedance-shot-design/LICENSE",
+  "seedance-shot-design/README.es.md",
+  "seedance-shot-design/README.fr.md",
+  "seedance-shot-design/README.ja.md",
+  "seedance-shot-design/README.ko.md",
+  "seedance-shot-design/README.md",
+  "seedance-shot-design/README.pt.md",
+  "seedance-shot-design/README.zh-CN.md",
+  "seedance-shot-design/SKILL.md",
+  "seedance-shot-design/assets/logo.svg",
+  "seedance-shot-design/references/audio-tags.md",
+  "seedance-shot-design/references/cinematography.md",
+  "seedance-shot-design/references/director-styles.md",
+  "seedance-shot-design/references/quality-anchors.md",
+  "seedance-shot-design/references/scenarios.md",
+  "seedance-shot-design/references/seedance-specs.md",
+  "seedance-shot-design/scripts/test_validate.py",
+  "seedance-shot-design/scripts/validate_prompt.py"
+ ]
+}

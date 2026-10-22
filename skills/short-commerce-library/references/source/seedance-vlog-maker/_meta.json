@@ -1,0 +1,24 @@
+{
+ "dir": "seedance-vlog-maker",
+ "sandbox_path": "/workspace/.skills/seedance-vlog-maker/",
+ "skill_name": "seedance-vlog-maker",
+ "display_name": "Vlog一键成片",
+ "description": "为已有照片、视频和音频编排 Vlog、旅行记录、电子相册、生活短片或纪念视频，产出可用于视频生成的成片方案与提示词。适用于多图成片、视频素材混剪、照片轻微动态化，以及参考视频节奏和包装风格的创作。设计素材顺序、时间轴、镜头运动、转场、贴纸、花字和音效，使画面与统一的音乐节奏协调。",
+ "tools": [
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video"
+ ],
+ "category_heuristic": "MV/音乐类",
+ "skill_md_bytes": 32607,
+ "file_count": 2,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "seedance-vlog-maker/SKILL.md",
+  "seedance-vlog-maker/references/style-library.md"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "dir": "pov-character-video",
+ "sandbox_path": "/workspace/.skills/pov-character-video/",
+ "skill_name": "pov-character-video",
+ "display_name": "",
+ "description": "Generate production-ready video prompts for 小云雀 when the user wants a POV/first-person interactive video built around an uploaded character image. Use this skill whenever the request involves 第一视角、POV、与上传角色互动、陪伴感、恋爱感、宠物式陪伴、治愈陪伴、搞笑反差、Q版3D可爱角色、真实环境中的角色互动，even if the user does not explicitly ask for a prompt. This skill is especially suitable when the user wants a 9:16 vertical video with real-world lighting, preserved character traits, visible first-person hands/body presence, and no subtitles, text, logo, or watermark.",
+ "tools": [],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 10792,
+ "file_count": 2,
+ "composition": {
+  "SKILL.md": 1,
+  "json": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "pov-character-video/SKILL.md",
+  "pov-character-video/evals/evals.json"
+ ]
+}

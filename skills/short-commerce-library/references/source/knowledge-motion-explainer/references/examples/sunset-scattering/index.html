@@ -1,0 +1,115 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>日落为什么偏红 — 静音视觉示例</title>
+<style>
+@font-face{font-family:Title;src:url('./fonts/title.ttc');font-display:block}
+@font-face{font-family:Body;src:url('./fonts/body.ttc');font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111416}
+#sunset{width:100%;height:100%;position:relative;overflow:hidden;background:#111416;color:#f1e4ce;font-family:Body,sans-serif}
+canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+.series{position:absolute;left:6.25%;top:6.2%;font-size:22px;letter-spacing:5px;color:#b9aea0}
+.folio{position:absolute;right:6.25%;top:6.2%;font-size:22px;letter-spacing:4px;color:#b9aea0;text-align:right}
+.copy{position:absolute;left:6.25%;top:26%;width:44%;z-index:2}
+.eyebrow{color:#dab388;font-size:24px;letter-spacing:4px;margin-bottom:24px}
+h1{font-family:Title,serif;font-weight:600;font-size:92px;line-height:1.45;letter-spacing:0;margin:0;white-space:pre-line}
+.rule{width:84px;height:2px;background:#c39162;margin:34px 0 28px}
+.summary{font-size:31px;color:#bdb5aa;line-height:1.55;white-space:pre-line;margin:0}
+.mechanism{width:34%}.mechanism h1{font-size:80px;line-height:1.45}
+.mechanism .summary{font-size:30px;line-height:1.6}
+.note{position:absolute;left:6.25%;bottom:15.2%;font-size:22px;color:#ada798;z-index:2;letter-spacing:1px}
+.progress{position:absolute;left:6.25%;right:6.25%;bottom:2.55%;height:1px;background:#645649;opacity:.65;z-index:3}
+.progress span{display:block;height:2px;background:#d7ae80;width:0}
+</style>
+</head>
+<body>
+<div id="sunset" data-composition-id="sunset" data-width="1920" data-height="1080" data-fps="30" data-duration="26">
+  <canvas id="world" width="1920" height="1080" class="clip" data-start="0" data-duration="26" data-track-index="0"></canvas>
+  <div class="series">光 · 大气 · 颜色</div>
+  <div class="folio" id="folio">01 / 04　一个日常问题</div>
+  <div class="copy" id="copy"><div class="eyebrow" id="eyebrow">SUNSET / 日落</div><h1 id="headline">日落时，
+太阳为什么偏红？</h1><div class="rule"></div><p class="summary" id="summary">同一束阳光，
+走过了更长的大气。</p></div>
+  <div class="note" id="note">从眼前的颜色，走进光的路径</div>
+  <div class="progress"><span id="progress"></span></div>
+</div>
+<script src="./vendor/layout_audit.js"></script>
+<script src="./vendor/gsap.min.js"></script>
+<script>
+// All scene geometry is a function of absolute composition time. No live clock,
+// requestAnimationFrame, network fetch, or random state is used during capture.
+const canvas=document.getElementById('world'), ctx=canvas.getContext('2d',{alpha:false,willReadFrequently:true});
+const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
+const smooth=(a,b,t)=>{const u=clamp((t-a)/(b-a));return u*u*(3-2*u)};
+const mix=(a,b,t)=>a+(b-a)*t;
+const hash=(i)=>{const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x)};
+const dom={copy:document.getElementById('copy'),headline:document.getElementById('headline'),eyebrow:document.getElementById('eyebrow'),summary:document.getElementById('summary'),folio:document.getElementById('folio'),note:document.getElementById('note'),progress:document.getElementById('progress')};
+function line(x1,y1,x2,y2,color,width=2,alpha=1){ctx.save();ctx.globalAlpha*=alpha;ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.stroke();ctx.restore()}
+function circle(x,y,r,color){ctx.fillStyle=color;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill()}
+// 标签以最终画幅坐标排版；若主体以后增加相机变换，只投影锚点，文字另行布局。
+function text(id,str,x,y,size=26,color='#bfbab0',align='left',group){ctx.font=`${size}px Body`;ctx.fillStyle=color;ctx.textAlign=align;LayoutAudit.fillText(ctx,str,x,y,{id,group})}
+function glow(x,y,r,color){const g=ctx.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,color);g.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=g;ctx.fillRect(x-r,y-r,r*2,r*2)}
+function background(){ctx.fillStyle='#111416';ctx.fillRect(0,0,1920,1080);glow(1260,610,890,'rgba(113,79,51,.22)');glow(1670,270,490,'rgba(59,78,100,.10)')}
+function landscape(t,alpha){if(alpha<=0)return;ctx.save();ctx.globalAlpha=alpha;
+ const sx=1400,sy=635+7*Math.sin(t*.18), horizon=736;
+ glow(sx,sy,470,'rgba(223,133,75,.40)');glow(sx,sy,190,'rgba(251,183,104,.24)');
+ const sky=ctx.createLinearGradient(0,320,0,870);sky.addColorStop(0,'rgba(83,77,104,0)');sky.addColorStop(.5,'rgba(130,95,107,.15)');sky.addColorStop(1,'rgba(190,123,80,.18)');ctx.fillStyle=sky;ctx.fillRect(0,280,1920,660);
+ const sun=ctx.createRadialGradient(sx-20,sy-25,3,sx,sy,82);sun.addColorStop(0,'#ffe3a8');sun.addColorStop(.8,'#efba70');sun.addColorStop(1,'#d99056');ctx.fillStyle=sun;ctx.beginPath();ctx.arc(sx,sy,79,0,Math.PI*2);ctx.fill();
+ for(let k=0;k<4;k++){ctx.beginPath();ctx.moveTo(0,1080);for(let x=0;x<=1960;x+=8){const z=x*.0025;const y=692+k*64+Math.sin(z*2.1+k*1.8)*30+Math.sin(z*5.2+k)*15+Math.sin(z*21+k*1.7)*3+Math.sin(z*51+k)*1.2;ctx.lineTo(x,y)}ctx.lineTo(1960,1080);ctx.closePath();const mountain=ctx.createLinearGradient(0,640+k*60,0,1080);mountain.addColorStop(0,['#5e4b53','#343943','#24323a','#15232a'][k]);mountain.addColorStop(1,['#2d3039','#242d36','#1b2930','#111b20'][k]);ctx.fillStyle=mountain;ctx.fill()}
+ const lake=ctx.createLinearGradient(0,770,0,1080);lake.addColorStop(0,'rgba(20,32,40,0)');lake.addColorStop(1,'rgba(15,23,27,.95)');ctx.fillStyle=lake;ctx.fillRect(0,790,1920,290);
+ for(let i=0;i<43;i++){const y=770+i*6,spread=18+i*3.0,x=sx+Math.sin(i*.91+t*.19)*8;line(x-spread,y,x+spread,y,'#c69562',1.2,(1-i/48)*.28)}
+ // Sparse, elongated clouds give scale without adding unrelated illustration.
+ for(let i=0;i<7;i++){const x=1000+i*136,y=468+Math.sin(i*1.37)*43;line(x,y,x+96+hash(i)*90,y+6,'#a47e75',1.2,.15)}
+ const fade=ctx.createLinearGradient(590,0,1060,0);fade.addColorStop(0,'#111416');fade.addColorStop(1,'rgba(17,20,22,0)');ctx.fillStyle=fade;ctx.fillRect(0,180,1060,900);
+ ctx.restore()}
+function sphere(t,alpha){if(alpha<=0)return;ctx.save();ctx.globalAlpha=alpha;
+ const cx=1435,cy=1320,r=650,ra=755,ox=cx,oy=cy-r;
+ const atmos=ctx.createRadialGradient(cx,cy,r-10,cx,cy,ra+26);atmos.addColorStop(0,'rgba(45,67,77,0)');atmos.addColorStop(.12,'rgba(152,198,208,.42)');atmos.addColorStop(.38,'rgba(103,150,174,.21)');atmos.addColorStop(.84,'rgba(80,117,151,.07)');atmos.addColorStop(1,'rgba(56,84,120,0)');ctx.fillStyle=atmos;ctx.beginPath();ctx.arc(cx,cy,ra+26,0,Math.PI*2);ctx.fill();
+ const earth=ctx.createRadialGradient(1230,660,50,cx,cy,r);earth.addColorStop(0,'#29424b');earth.addColorStop(.45,'#192d36');earth.addColorStop(1,'#111a21');ctx.fillStyle=earth;ctx.beginPath();ctx.arc(cx,cy,r,0,Math.PI*2);ctx.fill();
+ ctx.save();ctx.beginPath();ctx.arc(cx,cy,r-1,0,Math.PI*2);ctx.clip();
+ for(let j=0;j<35;j++){ctx.beginPath();for(let x=740;x<1925;x+=8){let y=720+j*17+Math.sin(x*.008+j*.6)*16+Math.sin(x*.019+j)*7;if(x===740)ctx.moveTo(x,y);else ctx.lineTo(x,y)}ctx.strokeStyle='rgba(98,132,133,.10)';ctx.lineWidth=1;ctx.stroke()}
+ for(let i=0;i<420;i++){const x=820+hash(i+500)*1100,y=690+hash(i+950)*380;circle(x,y,.6+hash(i+800)*.8,'rgba(155,162,143,.14)')}
+ ctx.restore();
+ ctx.strokeStyle='rgba(159,199,205,.75)';ctx.lineWidth=2;ctx.beginPath();ctx.arc(cx,cy,r,Math.PI*1.06,Math.PI*1.94);ctx.stroke();
+ ctx.strokeStyle='rgba(136,166,190,.30)';ctx.lineWidth=1;ctx.beginPath();ctx.arc(cx,cy,ra,Math.PI*1.09,Math.PI*1.94);ctx.stroke();
+ // The observer stays fixed while the incoming direction moves from high Sun
+ // to a near-horizontal ray. Shell thickness is exaggerated, never quantified.
+ const tilt=smooth(6.1,10.1,t)*Math.PI/2,dx=Math.sin(tilt),dy=Math.cos(tilt);
+ const length=-r*Math.cos(tilt)+Math.sqrt(ra*ra-r*r*Math.sin(tilt)**2);
+ const ex=ox-length*dx,ey=oy-length*dy,L=440+310*Math.sin(tilt),sx=ox-L*dx,sy=oy-L*dy;
+ line(ox,oy,ox,oy-475,'#c9c5af',1,.15);ctx.setLineDash([5,9]);line(ox,oy-105,ox,oy,'#efe3c9',2,.38);ctx.setLineDash([]);
+ if(t>9.2){ctx.save();ctx.globalAlpha*=smooth(9.2,10.4,t);text('high-path','高处入射：路径短',ox+32,510,24,'#a7b6bd');line(ox+14,532,ox+14,643,'#93a8b3',1,.5);ctx.restore()}
+ glow(sx,sy,71,'rgba(230,178,110,.22)');circle(sx,sy,22,'#e5c08a');line(sx+dx*28,sy+dy*28,ex,ey,'#e6d4b3',2,.73);
+ const warm=smooth(11.8,18.5,t);const g=ctx.createLinearGradient(ex,ey,ox,oy);g.addColorStop(0,'#dfd7c4');g.addColorStop(.3,`rgb(${mix(220,220,warm)},${mix(213,174,warm)},${mix(189,118,warm)})`);g.addColorStop(1,`rgb(${mix(220,238,warm)},${mix(208,146,warm)},${mix(185,88,warm)})`);line(ex,ey,ox,oy,g,7);line(ex,ey,ox,oy,'#e5b780',19,.07);
+ circle(ex,ey,5,'#e9d4b5');circle(ox,oy,7,'#eadbc0');ctx.strokeStyle='rgba(225,215,196,.6)';ctx.lineWidth=1;ctx.beginPath();ctx.arc(ox,oy,18,0,Math.PI*2);ctx.stroke();
+ if(t>=9){const a=smooth(9,10,t);ctx.save();ctx.globalAlpha*=a;const yy=oy+64;line(ex,yy,ox-20,yy,'#d2a16d',1.5,.8);line(ex,yy-6,ex,yy+6,'#d2a16d',1.5);line(ox-20,yy-6,ox-20,yy+6,'#d2a16d',1.5);text('low-path','低角度入射：路径更长',mix(ex,ox,.5)+72,yy+42,27,'#d2b18b','center');ctx.restore()}
+ text('observer','观察者',ox+40,oy+16,28,'#e9ddc5');text('earth','地球',1685,895,28,'#82959d');text('atmosphere','大气',1710,616,28,'#aac0cc');
+ // Seeded locations remain fixed; moving short-wave packets leave the direct
+ // beam in several directions. Red/orange packets retain the direct path.
+ const active=smooth(11,12.3,t);
+ if(active>0){ctx.save();ctx.globalAlpha*=active;
+  for(let i=0;i<8;i++){const q=.12+i*.10,bx=mix(ex,ox,q),by=mix(ey,oy,q);const ang=(-2.55+hash(i+44)*1.9)+(i===0?Math.PI:0),dist=130+hash(i+80)*115;ctx.setLineDash([3,8]);line(bx,by,bx+Math.cos(ang)*dist,by+Math.sin(ang)*dist,'#789cbd',1.5,.50);ctx.setLineDash([]);const p=((t-11.2)*.26+i*.173)%1;const z=smooth(0,.86,p),xx=bx+Math.cos(ang)*dist*z,yy=by+Math.sin(ang)*dist*z;line(xx-Math.cos(ang)*24,yy-Math.sin(ang)*24,xx,yy,'#95c9ee',3,.55);glow(xx,yy,17,'rgba(123,170,209,.40)');circle(xx,yy,4.5,'#b5dcf6')}
+  for(let i=0;i<6;i++){const p=((t-10.8)*.25+i/6)%1;circle(mix(ex,ox,p),mix(ey,oy,p),4.3,'#f4bf79')}
+  const fade=smooth(12,13,t);ctx.globalAlpha*=fade;line(1104,448,1204,548,'#85aaca',1,.7);text('scatter-label','短波长的光',940,401,30,'#b5cde0','left','scatter-note');text('scatter-detail','更容易散向其他方向',940,440,26,'#8facbf','left','scatter-note');
+ ctx.restore()}
+ if(t>=17){ctx.save();ctx.globalAlpha*=smooth(17,18,t);line(1350,830,1460,830,'#dca873',3,.9);text('warm-light','直达光偏暖',1490,839,30,'#dfb389');ctx.restore()}
+ ctx.restore()}
+function grain(){ctx.save();ctx.globalAlpha=.06;for(let i=0;i<3600;i++){const x=hash(i+10000)*1920,y=hash(i+14000)*1080;ctx.fillStyle=i%2?'#e0d7c4':'#020303';ctx.fillRect(x,y,1.2,1.2)}ctx.restore()}
+function setCopy(t){let h,e,s,n,f,mechanism;
+ if(t<5){h='日落时，\n太阳为什么偏红？';e='SUNSET / 日落';s='同一束阳光，\n走过了更长的大气。';n='从眼前的颜色，走进光的路径';f='01 / 04　一个日常问题';mechanism=false}
+ else if(t<11.6){h='低一点，\n路就长一些。';e='01 / 路径';s='太阳靠近地平线，\n光便斜着穿过大气。';n='结构示意 · 大气厚度与尺度均已夸张';f='02 / 04　改变入射角';mechanism=true}
+ else if(t<20.4){h='蓝光散开，\n直达光渐暖。';e='02 / 散射';s='短波长的光更容易\n离开原来的前进方向。';n='机制示意 · 只比较方向与颜色变化';f='03 / 04　跟随同一束光';mechanism=true}
+ else{h='穿过更长的大气，\n直达阳光更暖。';e='03 / 回到日落';s='沿着更长的路径，\n直达光相对更偏橙红。';n='实际颜色也受气溶胶、云和观测条件影响';f='04 / 04　回答开场问题';mechanism=false}
+ dom.headline.textContent=h;dom.eyebrow.textContent=e;dom.summary.textContent=s;dom.note.textContent=n;dom.folio.textContent=f;dom.copy.classList.toggle('mechanism',mechanism);
+ dom.progress.style.width=`${clamp(t/26)*100}%`;
+}
+function draw(t){ctx.reset();background();const enter=smooth(4.6,5.5,t),leave=smooth(20.0,21.1,t);landscape(t,1-enter+leave);sphere(t,enter*(1-leave));grain();setCopy(t)}
+let current=0;const clock={get seconds(){return current},set seconds(v){current=v;draw(v)}};
+// The property setter also runs on seek with suppressed callbacks.
+document.fonts.ready.then(()=>{draw(0);const tl=gsap.timeline({paused:true});tl.fromTo(clock,{seconds:0},{seconds:26,duration:26,ease:'none',immediateRender:true});window.__timelines=window.__timelines||{};window.__timelines.sunset=tl;});
+</script>
+</body>
+</html>

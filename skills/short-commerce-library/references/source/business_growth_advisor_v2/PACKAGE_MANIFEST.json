@@ -1,0 +1,41 @@
+
+{
+  "package_type": "online_agent_skill",
+  "skill_id": "business_growth_advisor_v2",
+  "fornax_skill_key": "nest.skill.business_growth_advisor_v2",
+  "display_name": "生意增长顾问",
+  "version": "0.1.9",
+  "entrypoint": "SKILL.md",
+  "platform_manifest": "platform_manifest.json",
+  "references": [
+    "references/platforms/tiktok_shop.md",
+    "references/platforms/douyin_qianchuan.md",
+    "references/platforms/xiaohongshu.md",
+    "references/methods/pain_point_entry.md",
+    "references/methods/public_market_research.md",
+    "references/methods/selling_point_analysis.md",
+    "references/methods/data_intake.md",
+    "references/methods/metric_calculation.md",
+    "references/methods/diagnosis_framework.md",
+    "references/methods/user_growth_profile.md",
+    "references/methods/video_opportunity_framework.md",
+    "references/methods/evidence_and_confidence.md",
+    "references/methods/execution_plan.md",
+    "references/methods/conversation_state_machine.md",
+    "references/methods/video_brief_handoff.md"
+  ],
+  "notes": [
+    "This package is intended for online agent runtime consumption, not Codex local skill installation.",
+    "The package assumes user-provided data and pippit_omni_search for public market research, platform rules, public competitor expression, and creative references.",
+    "Reference links are treated as auxiliary clues and are not assumed readable; users should provide screenshots, copied text, exported tables, key frames, or short descriptions when links cannot be accessed.",
+    "Metric calculations require confirmed definitions and fields, then must be computed by program rather than mental arithmetic or language-model estimation.",
+    "User growth profiles are Markdown files stored under /workspace/growth_profiles/project_or_shop_or_merchant/xxx.md and are maintained through read, merge, and write-back on relevant turns.",
+    "Primary value props must avoid generic 'business growth analysis' wording and instead promise concrete outcomes: product image + selling points to 3 ad video directions, selling point and hook diagnosis, weak creative opening diagnosis, media buyer style product review, or turning many selling points into stoppable video scripts.",
+    "Selling point analysis is grounded in public marketing frameworks: Strategyzer Value Proposition Canvas, Jobs-to-be-Done, TikTok creative best practices, and Google Ads creative guidance.",
+    "When users provide product, category, platform, competitor, reference video, link, audience, industry, store type, B2B domain, or concrete creative pain points, advisor should actively call pippit_omni_search before ranking selling points.",
+    "Advisor starts from concrete merchant pain points such as low conversion creatives, weak hooks, unclear product value, poor ROI, local store traffic issues, or B2B value communication before expanding into broader diagnosis.",
+    "Advisor outputs quick 1-3 creative directions, Markdown execution plans, or video briefs/videos through currently available agent capabilities.",
+    "The package does not require platform API keys, developer accounts, OAuth setup, or direct backend integrations.",
+    "Current built-in platform methods focus on TikTok Shop, Douyin Ecommerce / 巨量千川, and 小红书."
+  ]
+}

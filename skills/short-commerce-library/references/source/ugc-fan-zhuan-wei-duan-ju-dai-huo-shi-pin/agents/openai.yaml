@@ -1,0 +1,4 @@
+interface:
+  display_name: "30秒微短剧带货 Prompt"
+  short_description: "从产品卖点开始，逐步确认题材、导演脚本与Seedance提示词"
+  default_prompt: "使用 $microdrama-ad-prompts 从品牌与产品开始，逐步生成30秒微短剧带货视频提示词。"

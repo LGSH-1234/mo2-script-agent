@@ -1,0 +1,32 @@
+{
+ "dir": "screenwriter-zh",
+ "sandbox_path": "/workspace/.skills/screenwriter-zh/",
+ "skill_name": "screenwriter-zh",
+ "display_name": "",
+ "description": "当用户需要好莱坞式电影剧本、类型短片、场景对白或已有剧本修改时使用。将人物目标、阻力、选择和后果写成可拍的戏，并用符合悬疑、犯罪、动作、喜剧或剧情片的空间、光线、声音与潜台词建立银幕氛围；保留用户原有题材和修改范围。支持梗概、大纲、节拍、时长精简、好莱坞格式文档与双语对白；仅要剧本时只交付文本，明确要拍摄时提供制作交接。",
+ "tools": [],
+ "category_heuristic": "叙事/短剧类",
+ "skill_md_bytes": 6107,
+ "file_count": 14,
+ "composition": {
+  "other": 13,
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "screenwriter-zh/README.md",
+  "screenwriter-zh/SKILL.md",
+  "screenwriter-zh/hollywood-craft.md",
+  "screenwriter-zh/methodology.md",
+  "screenwriter-zh/style-rules.md",
+  "screenwriter-zh/templates/characters.template.md",
+  "screenwriter-zh/templates/synopsis.template.md",
+  "screenwriter-zh/templates/treatment.template.md",
+  "screenwriter-zh/templates/worldbuilding.template.md",
+  "screenwriter-zh/timing-and-cutting.md",
+  "screenwriter-zh/tools/build_bilingual.js",
+  "screenwriter-zh/tools/build_screenplay.js",
+  "screenwriter-zh/tools/build_treatment.js",
+  "screenwriter-zh/workflow.md"
+ ]
+}

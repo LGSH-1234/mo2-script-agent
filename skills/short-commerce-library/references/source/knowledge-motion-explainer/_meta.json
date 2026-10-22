@@ -1,0 +1,34 @@
+{
+ "dir": "knowledge-motion-explainer",
+ "sandbox_path": "/workspace/.skills/knowledge-motion-explainer/",
+ "skill_name": "knowledge-motion-explainer",
+ "display_name": "知识图解视频",
+ "description": ">- 用于制作或修改通过动态图解讲清知识、原理、机制或过程的视频。 当用户要求制作知识讲解视频、科普动画、原理演示、技术讲解视频， 或将文章、论文、课程材料改编为可视化讲解视频时使用。 用户提供此类参考视频并要求制作相似效果时也适用。 只有用户明确要求或上下文已确定需要视频产物时才触发； 单纯的知识问答、文字讲解、静态图表、PPT制作，以及仅剪辑素材或添加字幕的请求不触发。",
+ "tools": [
+  "sandbox_generate_audio"
+ ],
+ "category_heuristic": "叙事/短剧类",
+ "skill_md_bytes": 11128,
+ "file_count": 14,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 13
+ },
+ "has_scripts": false,
+ "files": [
+  "knowledge-motion-explainer/SKILL.md",
+  "knowledge-motion-explainer/references/audio.md",
+  "knowledge-motion-explainer/references/composition.md",
+  "knowledge-motion-explainer/references/examples/sunset-scattering/index.html",
+  "knowledge-motion-explainer/references/examples/sunset-scattering/narration.txt",
+  "knowledge-motion-explainer/references/examples/sunset-scattering/storyboard.md",
+  "knowledge-motion-explainer/references/review.md",
+  "knowledge-motion-explainer/references/runtime.md",
+  "knowledge-motion-explainer/references/scripts/audio_pipeline.py",
+  "knowledge-motion-explainer/references/scripts/audio_timing_review.py",
+  "knowledge-motion-explainer/references/scripts/check_composition.mjs",
+  "knowledge-motion-explainer/references/scripts/layout_audit.js",
+  "knowledge-motion-explainer/references/scripts/review_video.py",
+  "knowledge-motion-explainer/references/visual-direction.md"
+ ]
+}

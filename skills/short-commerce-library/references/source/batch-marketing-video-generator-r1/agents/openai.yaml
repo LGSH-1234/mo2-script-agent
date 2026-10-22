@@ -1,0 +1,5 @@
+
+interface:
+  display_name: "Batch Marketing Video Generator"
+  short_description: "Create batch marketing videos with a dependency-graph project manager"
+  default_prompt: "Use $batch-marketing-video-generator to plan and generate my batch marketing videos."

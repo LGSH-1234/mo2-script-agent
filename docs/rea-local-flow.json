@@ -1,0 +1,14 @@
+{
+ "browser":{"mode":"launch","executable_path":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome","headless":true},
+ "start_url":{"url":"http://127.0.0.1:8766/storyboard?new=1"},
+ "environment":{"viewport":{"width":1440,"height":900,"device_scale_factor":1},"locale":"zh-CN","timezone":"Asia/Shanghai","color_scheme":"dark","reduced_motion":"reduce","service_workers":"block"},
+ "actions":[
+  {"step_id":"ready","action":"wait_for_timeout","duration_ms":600},
+  {"step_id":"load-example","action":"click","locator":{"kind":"role","role":"button","name":"载入案例"},"timeout_ms":10000},
+  {"step_id":"board","action":"wait_for_timeout","duration_ms":600},
+  {"step_id":"review","action":"click","locator":{"kind":"role","role":"button","name":"确认此版分镜表"},"timeout_ms":10000},
+  {"step_id":"approve","action":"click","locator":{"kind":"role","role":"button","name":"确认此版本"},"timeout_ms":10000},
+  {"step_id":"approved","action":"wait_for_timeout","duration_ms":600}
+ ],
+ "capture":{"after_each_step":["dom","accessibility","screenshot","url"],"at_end":["url"],"events":["page-errors"]}
+}

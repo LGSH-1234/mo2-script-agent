@@ -1,0 +1,23 @@
+{
+ "dir": "storyline-advertisement",
+ "sandbox_path": "/workspace/.skills/storyline-advertisement/",
+ "skill_name": "storyline-advertisement",
+ "display_name": "剧情广告",
+ "description": "为商品创作融合人物冲突、戏剧反差和情节反转的带货短视频。适用于霸总宠爱、重生逆袭、宫斗、家庭伦理、职场爽剧、悬疑或喜剧等剧情广告，将商品卖点融入人物关系和故事转折，用剧情吸引观众并突出产品价值。",
+ "tools": [
+  "sandbox_generate_image",
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video"
+ ],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 1378,
+ "file_count": 1,
+ "composition": {
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "storyline-advertisement/SKILL.md"
+ ]
+}

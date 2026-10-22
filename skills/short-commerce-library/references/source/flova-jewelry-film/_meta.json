@@ -1,0 +1,29 @@
+{
+ "dir": "flova-jewelry-film",
+ "sandbox_path": "/workspace/.skills/flova-jewelry-film/",
+ "skill_name": "flova-jewelry-film",
+ "display_name": "首饰品牌片",
+ "description": "高级首饰品牌片创作技能。根据用户上传的模特参考图、首饰参考图、环境参考图和品牌参考图，按固定12镜头叙事逻辑生成电影级首饰品牌片（含角色三视图、首饰细节图、环境渲染图、逐镜头关键帧、视频片段、背景音乐与最终剪辑合成）。适用于珠宝/首饰/配饰品牌的形象片、产品展示片、社交媒体品牌内容。当用户意图涉及首饰品牌视频创作、珠宝广告片、配饰视觉大片时触发。",
+ "tools": [
+  "sandbox_generate_image",
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video\"]\nimage_model: seedream_5.0_pro\nvideo_model: Seedance_2.5"
+ ],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 25105,
+ "file_count": 6,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 5
+ },
+ "has_scripts": false,
+ "files": [
+  "flova-jewelry-film/SKILL.md",
+  "flova-jewelry-film/references/INDEX.md",
+  "flova-jewelry-film/references/formats/brand-frame.md",
+  "flova-jewelry-film/references/formats/platforms-markets.md",
+  "flova-jewelry-film/references/formats/video-prompt-grammar.md",
+  "flova-jewelry-film/references/industries/jewelry-visual-archive.md"
+ ]
+}

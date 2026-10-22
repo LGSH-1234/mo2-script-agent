@@ -1,0 +1,22 @@
+{
+ "dir": "expert-product-promotion",
+ "sandbox_path": "/workspace/.skills/expert-product-promotion/",
+ "skill_name": "expert-product-promotion",
+ "display_name": "达人带货",
+ "description": "将商品进行达人口播、场景种草、开箱测评、前后对比。",
+ "tools": [
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video"
+ ],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 1010,
+ "file_count": 1,
+ "composition": {
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "expert-product-promotion/SKILL.md"
+ ]
+}

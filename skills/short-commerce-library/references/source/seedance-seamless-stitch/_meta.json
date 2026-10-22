@@ -1,0 +1,22 @@
+{
+ "dir": "seedance-seamless-stitch",
+ "sandbox_path": "/workspace/.skills/seedance-seamless-stitch/",
+ "skill_name": "seedance-seamless-stitch",
+ "display_name": "无缝转场拼接",
+ "description": "将多段图片、视频、音频素材拼接为连贯短片的导演级 Prompt 编排助手。当用户要把多个素材拼成短片，并出现无缝衔接、丝滑转场、拼接成片、一键成片、多素材成片、转场补帧、轨道补齐、关键帧、镜头衔接、焦距转场、俯冲转场、甩镜、遮挡转场、旋转变装、背景切换、形变过渡、保留原素材、自动配 BGM、不要字幕等意图时触发。也适用于用户提供粗略拼接需求，需要输出可直接复制的结构化导演 Prompt。",
+ "tools": [
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video"
+ ],
+ "category_heuristic": "叙事/短剧类",
+ "skill_md_bytes": 20354,
+ "file_count": 1,
+ "composition": {
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "seedance-seamless-stitch/SKILL.md"
+ ]
+}

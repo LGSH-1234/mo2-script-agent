@@ -1,0 +1,22 @@
+{
+ "dir": "emotion-expression-director",
+ "sandbox_path": "/workspace/.skills/emotion-expression-director/",
+ "skill_name": "emotion-expression-director",
+ "display_name": "",
+ "description": "为人物的情绪表达、微表情和表情修正编写可执行的图像或视频提示词。适用于强忍眼泪、微笑转为失落、情绪递进或反转、台词与神态协调，以及改善表情僵硬、夸张或跳变的需求。将抽象情绪细化为眼神、眉嘴动作、呼吸和身体反应，输出情绪曲线、表演提示词和针对性约束。",
+ "tools": [],
+ "category_heuristic": "叙事/短剧类",
+ "skill_md_bytes": 3787,
+ "file_count": 3,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 1,
+  "other": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "emotion-expression-director/SKILL.md",
+  "emotion-expression-director/agents/openai.yaml",
+  "emotion-expression-director/references/expression-language.md"
+ ]
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Random Art Portal Theater"
+  short_description: "Send one IP character into a random art-style mini theater"
+  default_prompt: "Use $random-art-portal-theater to send this character into a disclosed random art style for a 15-second mini theater."
+  brand_color: "#7A5AF8"
+
+policy:
+  allow_implicit_invocation: true

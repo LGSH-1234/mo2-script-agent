@@ -1,0 +1,24 @@
+{
+ "dir": "depth_video",
+ "sandbox_path": "/workspace/.skills/depth_video/",
+ "skill_name": "depth_video",
+ "display_name": "深度视频复刻",
+ "description": "提取参考视频的空间深度，生成呈现远近层次的灰度深度视频；也可保留原片的运镜和动作，替换为新的人物或场景制作同款视频。适用于深度视频生成、镜头运动复现、动作复刻、换人物或换场景重拍，让原片的运动方式与新的视觉内容结合。",
+ "tools": [
+  "sandbox_generate_video",
+  "sandbox_generate_image"
+ ],
+ "category_heuristic": "工具与系统类",
+ "skill_md_bytes": 9668,
+ "file_count": 3,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 2
+ },
+ "has_scripts": false,
+ "files": [
+  "depth_video/SKILL.md",
+  "depth_video/references/depth-replicate.md",
+  "depth_video/references/scripts/depth_video.py"
+ ]
+}

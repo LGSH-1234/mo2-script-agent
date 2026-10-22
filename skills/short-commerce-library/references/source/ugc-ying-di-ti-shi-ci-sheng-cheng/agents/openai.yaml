@@ -1,0 +1,6 @@
+interface:
+  display_name: "Seedance八维表演提示词导演"
+  short_description: "把一个选题转成含八维表演与AU校准的Seedance成品提示词"
+  default_prompt: "Use $proj-109-skill-performance-expression-sheet to turn this topic into one production-ready Seedance video prompt with eight-dimensional acting and AU/FACS timing."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,20 @@
+{
+ "dir": "schedule-task-management",
+ "sandbox_path": "/workspace/.skills/schedule-task-management/",
+ "skill_name": "schedule-task-management",
+ "display_name": "",
+ "description": "为用户创建和管理定时任务：把「每天/每周/工作日/N分钟后/某个时间点」要自动发起的一次 Agent 执行落地，并支持查看、暂停/恢复、修改、删除。当用户说到定时、周期、提醒我、每天/每周做某事、到点自动生成、稍后执行等意图时使用。",
+ "tools": [
+  "schedule_manage"
+ ],
+ "category_heuristic": "其他",
+ "skill_md_bytes": 11711,
+ "file_count": 1,
+ "composition": {
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "schedule-task-management/SKILL.md"
+ ]
+}

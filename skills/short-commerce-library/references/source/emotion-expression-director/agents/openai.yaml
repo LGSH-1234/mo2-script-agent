@@ -1,0 +1,5 @@
+
+interface:
+  display_name: "人物情感表情导演"
+  short_description: "生成可控、渐变、自然且适配视频时间轴的人物情感表情动态提示词"
+  default_prompt: "使用 $emotion-expression-director 为我的角色生成一段情绪递进自然、表情可控的动态提示词。"

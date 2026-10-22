@@ -1,0 +1,28 @@
+{
+ "dir": "generate-ecommerce-hook-videos",
+ "sandbox_path": "/workspace/.skills/generate-ecommerce-hook-videos/",
+ "skill_name": "generate-ecommerce-hook-videos",
+ "display_name": "",
+ "description": "为单个电商商品设计并生成5秒竖屏片头 Hook。根据商品信息与参考素材，分别探索商品原生视觉冲击、口播语义冲击、通用爆点骨架×商品专属峰值三条路线，默认给出三个选项并动态推荐一个；选定后检查需要延续到后续商品视频的角色、商品、道具、场景和声音资产，再保持 seedance-reprompt-skill 的原结构编译 Prompt 并调用当前视频能力生成。适用于商品短视频开头、前三秒创意、视觉/声音/口播/文本/痛点/悬念/奇观 Hook，以及“商品不必首帧出现、在注意力峰值揭晓”的需求。默认不生成卖点正文、完整广告或批量任务。",
+ "tools": [],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 11418,
+ "file_count": 9,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 7,
+  "other": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "generate-ecommerce-hook-videos/SKILL.md",
+  "generate-ecommerce-hook-videos/agents/openai.yaml",
+  "generate-ecommerce-hook-videos/references/asset-consistency.md",
+  "generate-ecommerce-hook-videos/references/audio-voice.md",
+  "generate-ecommerce-hook-videos/references/candidate-ranking.md",
+  "generate-ecommerce-hook-videos/references/category-routing.md",
+  "generate-ecommerce-hook-videos/references/safety-boundaries.md",
+  "generate-ecommerce-hook-videos/references/semantic-hooks.md",
+  "generate-ecommerce-hook-videos/references/visual-grammar.md"
+ ]
+}

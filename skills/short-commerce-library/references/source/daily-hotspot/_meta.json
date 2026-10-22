@@ -1,0 +1,20 @@
+{
+ "dir": "daily-hotspot",
+ "sandbox_path": "/workspace/.skills/daily-hotspot/",
+ "skill_name": "daily-hotspot",
+ "display_name": "",
+ "description": "收集每日热点事件，产品最新动态，抖音热点视频，营销方向热点。或者用户想查看最近的热点视频，热门营销方向，抖音热点，热点新闻等相关方向使用该Skill收集相关热点信息。用户需要每天收集某一方向热点使用。用户需要追踪每日某个方向的热点。有相关要求时必须调用本skill，不允许直接使用 `pippit_omni_search`工具搜集",
+ "tools": [
+  "pippit_omni_search"
+ ],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 6349,
+ "file_count": 1,
+ "composition": {
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "daily-hotspot/SKILL.md"
+ ]
+}

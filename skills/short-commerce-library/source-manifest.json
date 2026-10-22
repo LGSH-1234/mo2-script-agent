@@ -1,0 +1,3687 @@
+{
+  "schema_version": 1,
+  "imported_on": "2026-10-17",
+  "source_root": "E:\\小云雀测试\\xiaoyunque-recon\\xiaoyunque-recon\\skills\\selected",
+  "source_file_count": 575,
+  "source_skill_count": 80,
+  "note": "完整原件保留；仅适配主技能自动发现。源脚本未执行，原平台接口未注册。",
+  "skills": [
+    {
+      "number": 1,
+      "directory": "ugc-dian-shang-bao-kuan-zhong-cao-jiao-ben-sheng-cheng-qi",
+      "title": "电商爆款种草脚本生成器",
+      "origin": "store",
+      "author": "小帅a",
+      "guide": "hooks-and-copy",
+      "reference": "source/ugc-dian-shang-bao-kuan-zhong-cao-jiao-ben-sheng-cheng-qi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 2,
+      "directory": "ugc-pin-pai-shi-jue-quan-liu-cheng",
+      "title": "品牌视觉全流程",
+      "origin": "store",
+      "author": "徐小羊",
+      "guide": "product-visuals",
+      "reference": "source/ugc-pin-pai-shi-jue-quan-liu-cheng/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 3,
+      "directory": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge",
+      "title": "网红探店Vlog广告风格",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "vlog-and-local",
+      "reference": "source/ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 4,
+      "directory": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi",
+      "title": "真实自拍种草短视频大师",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "hooks-and-copy",
+      "reference": "source/ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 5,
+      "directory": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge",
+      "title": "TikTokUGC原生带货广告风格",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "hooks-and-copy",
+      "reference": "source/ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 6,
+      "directory": "ugc-jing-pin-ying-xiao-fen-xi",
+      "title": "竞品营销分析",
+      "origin": "store",
+      "author": "user99339596258133",
+      "guide": "growth-and-research",
+      "reference": "source/ugc-jing-pin-ying-xiao-fen-xi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 7,
+      "directory": "ugc-ai-wang-hong-mo-te-dai-huo-shi-pin",
+      "title": "AI网红模特带货视频",
+      "origin": "store",
+      "author": "二哈玩AI",
+      "guide": "product-visuals",
+      "reference": "source/ugc-ai-wang-hong-mo-te-dai-huo-shi-pin/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 8,
+      "directory": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge",
+      "title": "美食吃播ASMR广告风格",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "vlog-and-local",
+      "reference": "source/ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 9,
+      "directory": "ugc-qi-ye-lao-ban-zhuan-shu-ai-ying-xiao-fang-an-sheng-cheng-qi",
+      "title": "企业老板专属AI营销方案生成器",
+      "origin": "store",
+      "author": "user27331876985943",
+      "guide": "growth-and-research",
+      "reference": "source/ugc-qi-ye-lao-ban-zhuan-shu-ai-ying-xiao-fang-an-sheng-cheng-qi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 10,
+      "directory": "ugc-can-kao-tu-jue-se-feng-ge-qian-yi-skill-v2-0",
+      "title": "参考图角色风格迁移 Skill v2.0",
+      "origin": "store",
+      "author": "老张乳业",
+      "guide": "shot-direction",
+      "reference": "source/ugc-can-kao-tu-jue-se-feng-ge-qian-yi-skill-v2-0/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 11,
+      "directory": "ugc-huang-jin-15-miao-wei-xu-shi",
+      "title": "黄金15秒微叙事",
+      "origin": "store",
+      "author": "焉然",
+      "guide": "hooks-and-copy",
+      "reference": "source/ugc-huang-jin-15-miao-wei-xu-shi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 12,
+      "directory": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge",
+      "title": "TikTok病毒挑战赛广告风格",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "hooks-and-copy",
+      "reference": "source/ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 13,
+      "directory": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge",
+      "title": "GRWM美妆教程广告风格",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "product-visuals",
+      "reference": "source/ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 14,
+      "directory": "ugc-geo-zhen-duan",
+      "title": "GEO诊断",
+      "origin": "store",
+      "author": "user99339596258133",
+      "guide": "growth-and-research",
+      "reference": "source/ugc-geo-zhen-duan/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 15,
+      "directory": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao",
+      "title": "变装卡点转场广告",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "product-visuals",
+      "reference": "source/ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 16,
+      "directory": "ugc-ling-shi-dai-huo-jiao-ben-sheng-cheng-qi",
+      "title": "零食带货脚本生成器",
+      "origin": "store",
+      "author": "阿琴好物分享",
+      "guide": "hooks-and-copy",
+      "reference": "source/ugc-ling-shi-dai-huo-jiao-ben-sheng-cheng-qi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 17,
+      "directory": "ugc-b-roll-kong-jing-sheng-cheng-qi",
+      "title": "B Roll（空境）生成器",
+      "origin": "store",
+      "author": "SeastZhu",
+      "guide": "shot-direction",
+      "reference": "source/ugc-b-roll-kong-jing-sheng-cheng-qi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 18,
+      "directory": "ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7",
+      "title": "数字人直播间(适用蔬菜水果)v7",
+      "origin": "store",
+      "author": "灵燚AI",
+      "guide": "product-visuals",
+      "reference": "source/ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 19,
+      "directory": "home-makeover-vlog",
+      "title": "家居改造Vlog",
+      "origin": "store",
+      "author": "年糕团子AI",
+      "guide": "vlog-and-local",
+      "reference": "source/home-makeover-vlog/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 20,
+      "directory": "commuter-vlog",
+      "title": "打工人通勤Vlog",
+      "origin": "store",
+      "author": "年糕团子AI",
+      "guide": "vlog-and-local",
+      "reference": "source/commuter-vlog/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 21,
+      "directory": "fashion-outfit-change-video-generator",
+      "title": "女装转椅换装视频",
+      "origin": "store",
+      "author": "牙姐Ai",
+      "guide": "product-visuals",
+      "reference": "source/fashion-outfit-change-video-generator/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 22,
+      "directory": "ugc-mei-zhuang-zhong-cao-yin-qing-beautyforge",
+      "title": "美妆种草引擎 · BeautyForge",
+      "origin": "store",
+      "author": "王小易",
+      "guide": "product-visuals",
+      "reference": "source/ugc-mei-zhuang-zhong-cao-yin-qing-beautyforge/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 23,
+      "directory": "ugc-xiao-bai-pian-chang",
+      "title": "小白片场",
+      "origin": "store",
+      "author": "牧小沐",
+      "guide": "shot-direction",
+      "reference": "source/ugc-xiao-bai-pian-chang/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 24,
+      "directory": "food-vlog-creator",
+      "title": "美食探店Vlog",
+      "origin": "store",
+      "author": "年糕团子AI",
+      "guide": "vlog-and-local",
+      "reference": "source/food-vlog-creator/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 25,
+      "directory": "ugc-random-art-duan-shi-pin",
+      "title": "Random Art 短视频",
+      "origin": "store",
+      "author": "加盐的咖啡SaltCoffee",
+      "guide": "shot-direction",
+      "reference": "source/ugc-random-art-duan-shi-pin/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 26,
+      "directory": "ugc-cinematic-comedy-pro",
+      "title": "cinematic-comedy-pro",
+      "origin": "store",
+      "author": "missf",
+      "guide": "shot-direction",
+      "reference": "source/ugc-cinematic-comedy-pro/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 27,
+      "directory": "fitness-vlog",
+      "title": "健身自律Vlog",
+      "origin": "store",
+      "author": "年糕团子AI",
+      "guide": "vlog-and-local",
+      "reference": "source/fitness-vlog/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 28,
+      "directory": "pov-city-vlog",
+      "title": "男友视角文旅Vlog",
+      "origin": "store",
+      "author": "五季漫剧",
+      "guide": "vlog-and-local",
+      "reference": "source/pov-city-vlog/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 29,
+      "directory": "shopping-vlog-creator",
+      "title": "shopping 购物 Vlog",
+      "origin": "store",
+      "author": "年糕团子AI",
+      "guide": "vlog-and-local",
+      "reference": "source/shopping-vlog-creator/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 30,
+      "directory": "ugc-chuang-yi-guang-gao-pian-dao-yan",
+      "title": "创意广告片导演",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "shot-direction",
+      "reference": "source/ugc-chuang-yi-guang-gao-pian-dao-yan/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 31,
+      "directory": "storyline-advertisement",
+      "title": "反转短剧带货视频",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "hooks-and-copy",
+      "reference": "source/storyline-advertisement/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 32,
+      "directory": "knowledge-motion-explainer",
+      "title": "知识讲解视频",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/knowledge-motion-explainer/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 33,
+      "directory": "depth_video",
+      "title": "深度视频复刻",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "variants-and-editing",
+      "reference": "source/depth_video/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 34,
+      "directory": "seedance-vlog-maker",
+      "title": "Vlog直出",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "vlog-and-local",
+      "reference": "source/seedance-vlog-maker/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 35,
+      "directory": "marketing-video-creator",
+      "title": "营销视频",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "variants-and-editing",
+      "reference": "source/marketing-video-creator/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 36,
+      "directory": "expert-product-promotion",
+      "title": "达人带货",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "hooks-and-copy",
+      "reference": "source/expert-product-promotion/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 37,
+      "directory": "emotion-expression-director",
+      "title": "人物情感表情导演Skill",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/emotion-expression-director/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 38,
+      "directory": "brand-advertisement-film",
+      "title": "品牌大片",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/brand-advertisement-film/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 39,
+      "directory": "cinema-dna-21x9x3",
+      "title": "影视感镜头skill",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/cinema-dna-21x9x3/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 40,
+      "directory": "seedance-shot-design",
+      "title": "电影级分镜提示词",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/seedance-shot-design/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 41,
+      "directory": "multi-grid-storyboard",
+      "title": "多宫格分镜",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/multi-grid-storyboard/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 42,
+      "directory": "screenwriter-zh",
+      "title": "好莱坞编剧skill",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/screenwriter-zh/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 43,
+      "directory": "partial-video-editor",
+      "title": "视频局部精修",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "variants-and-editing",
+      "reference": "source/partial-video-editor/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 44,
+      "directory": "seedance-previz-to-render",
+      "title": "白模渲染",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/seedance-previz-to-render/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 45,
+      "directory": "seedance-seamless-stitch",
+      "title": "无缝转场视频制作",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "variants-and-editing",
+      "reference": "source/seedance-seamless-stitch/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 46,
+      "directory": "character-realism-enhancer",
+      "title": "人物质感修复",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/character-realism-enhancer/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 47,
+      "directory": "commercial-ad-creation",
+      "title": "商品宣传短片",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/commercial-ad-creation/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 48,
+      "directory": "batch-marketing-video-generator-r1",
+      "title": "批量生成",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "variants-and-editing",
+      "reference": "source/batch-marketing-video-generator-r1/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 49,
+      "directory": "ugc-bian-ju-ju-ben-fen-jing-shi",
+      "title": "编剧剧本分镜师",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "shot-direction",
+      "reference": "source/ugc-bian-ju-ju-ben-fen-jing-shi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 50,
+      "directory": "fashion-ecommerce-creator",
+      "title": "服装带货视频生成",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "product-visuals",
+      "reference": "source/fashion-ecommerce-creator/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 51,
+      "directory": "video-language-localization",
+      "title": "视频翻译",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "variants-and-editing",
+      "reference": "source/video-language-localization/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 52,
+      "directory": "daily-hotspot",
+      "title": "每日热点趋势",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "growth-and-research",
+      "reference": "source/daily-hotspot/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 53,
+      "directory": "material_fission",
+      "title": "爆款素材裂变",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "variants-and-editing",
+      "reference": "source/material_fission/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 54,
+      "directory": "digital-avatar-product-video",
+      "title": "虚拟达人种草视频",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "hooks-and-copy",
+      "reference": "source/digital-avatar-product-video/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 55,
+      "directory": "seedance-shotlist-director",
+      "title": "视频导演skill",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/seedance-shotlist-director/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 56,
+      "directory": "generate-ecommerce-hook-videos",
+      "title": "爆款hook制造机",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "hooks-and-copy",
+      "reference": "source/generate-ecommerce-hook-videos/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 57,
+      "directory": "ugc-ying-shi-bian-ju-skill",
+      "title": "影视编剧skill",
+      "origin": "store",
+      "author": "user0868685261850",
+      "guide": "shot-direction",
+      "reference": "source/ugc-ying-shi-bian-ju-skill/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 58,
+      "directory": "ugc-ju-ben-shen-cha-yu-gai-bian-da-shi",
+      "title": "剧本审查与改编大师",
+      "origin": "store",
+      "author": "王小易",
+      "guide": "shot-direction",
+      "reference": "source/ugc-ju-ben-shen-cha-yu-gai-bian-da-shi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 59,
+      "directory": "ugc-zhuan-ye-ju-ben-skill",
+      "title": "专业剧本skill",
+      "origin": "store",
+      "author": "浮、生",
+      "guide": "shot-direction",
+      "reference": "source/ugc-zhuan-ye-ju-ben-skill/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 60,
+      "directory": "ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi",
+      "title": "2.5通用导演skill提示词优化神器",
+      "origin": "store",
+      "author": "大头",
+      "guide": "shot-direction",
+      "reference": "source/ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 61,
+      "directory": "emotion-director",
+      "title": "情绪导演Skill",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/emotion-director/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 62,
+      "directory": "ugc-fan-zhuan-wei-duan-ju-dai-huo-shi-pin",
+      "title": "反转微短剧带货视频",
+      "origin": "store",
+      "author": "赛博大福",
+      "guide": "hooks-and-copy",
+      "reference": "source/ugc-fan-zhuan-wei-duan-ju-dai-huo-shi-pin/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 63,
+      "directory": "fashion-film-studio",
+      "title": "时装展示短片Skill",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "product-visuals",
+      "reference": "source/fashion-film-studio/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 64,
+      "directory": "pov-character-video",
+      "title": "POV视角视频",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "vlog-and-local",
+      "reference": "source/pov-character-video/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 65,
+      "directory": "business_growth_advisor_v2",
+      "title": "生意增长顾问",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "growth-and-research",
+      "reference": "source/business_growth_advisor_v2/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 66,
+      "directory": "flova-jewelry-film",
+      "title": "首饰广告Vlog",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "product-visuals",
+      "reference": "source/flova-jewelry-film/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 67,
+      "directory": "ugc-shang-ye-guang-gao-chuang-zuo",
+      "title": "商业广告创作",
+      "origin": "store",
+      "author": "王小易",
+      "guide": "shot-direction",
+      "reference": "source/ugc-shang-ye-guang-gao-chuang-zuo/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 68,
+      "directory": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan",
+      "title": "全球顶牛创意广告片导演",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "shot-direction",
+      "reference": "source/ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 69,
+      "directory": "ugc-dian-ying-ji-shi-pin-fen-jing-jing-xi-hua-chai-jie",
+      "title": "电影级视频分镜精细化拆解",
+      "origin": "store",
+      "author": "甘甜小洋",
+      "guide": "shot-direction",
+      "reference": "source/ugc-dian-ying-ji-shi-pin-fen-jing-jing-xi-hua-chai-jie/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 70,
+      "directory": "ugc-ying-di-ti-shi-ci-sheng-cheng",
+      "title": "影帝提示词生成",
+      "origin": "store",
+      "author": "牙姐Ai",
+      "guide": "shot-direction",
+      "reference": "source/ugc-ying-di-ti-shi-ci-sheng-cheng/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 71,
+      "directory": "teto-dynamic-video",
+      "title": "高能卡点运镜视频",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "shot-direction",
+      "reference": "source/teto-dynamic-video/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 72,
+      "directory": "ugc-pin-pai-logo-dong-tai-pian-tou-sheng-cheng-ji-neng",
+      "title": "品牌LOGO动态片头生成技能",
+      "origin": "store",
+      "author": "JACKPOORS",
+      "guide": "product-visuals",
+      "reference": "source/ugc-pin-pai-logo-dong-tai-pian-tou-sheng-cheng-ji-neng/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 73,
+      "directory": "ugc-yi-jian-chu-pian-tu-pian-miao-bian-zhen-ren-gan-vlog-shi-pin",
+      "title": "一键出片！图片秒变真人感 Vlog 视频",
+      "origin": "store",
+      "author": "user954673233220",
+      "guide": "hooks-and-copy",
+      "reference": "source/ugc-yi-jian-chu-pian-tu-pian-miao-bian-zhen-ren-gan-vlog-shi-pin/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 74,
+      "directory": "schedule-task-management",
+      "title": "定时任务创建",
+      "origin": "builtin",
+      "author": "平台官方",
+      "guide": "runtime-adaptation",
+      "reference": "source/schedule-task-management/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 75,
+      "directory": "ugc-wen-lv-duan-pian-chuang-zuo-skill",
+      "title": "文旅短片创作skill",
+      "origin": "store",
+      "author": "Mr.One",
+      "guide": "vlog-and-local",
+      "reference": "source/ugc-wen-lv-duan-pian-chuang-zuo-skill/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 76,
+      "directory": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge",
+      "title": "知识博主口播广告风格",
+      "origin": "store",
+      "author": "MAXEVA",
+      "guide": "hooks-and-copy",
+      "reference": "source/ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 77,
+      "directory": "ugc-2d-gai-nian-jue-se-sheng-cheng",
+      "title": "角色灵感大师",
+      "origin": "store",
+      "author": "Bryanx",
+      "guide": "shot-direction",
+      "reference": "source/ugc-2d-gai-nian-jue-se-sheng-cheng/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 78,
+      "directory": "old-money-aesthetic-ad",
+      "title": "老钱风欧陆广告",
+      "origin": "store",
+      "author": "偶子",
+      "guide": "product-visuals",
+      "reference": "source/old-money-aesthetic-ad/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 79,
+      "directory": "ugc-ying-shi-mei-shu-zhi-dao-skill",
+      "title": "影视美术指导skill",
+      "origin": "store",
+      "author": "user47310717161391",
+      "guide": "shot-direction",
+      "reference": "source/ugc-ying-shi-mei-shu-zhi-dao-skill/SKILL",
+      "integration": "source_reference_only"
+    },
+    {
+      "number": 80,
+      "directory": "ugc-fen-jing-dao-yan",
+      "title": "分镜导演",
+      "origin": "store",
+      "author": "user0868685261850",
+      "guide": "shot-direction",
+      "reference": "source/ugc-fen-jing-dao-yan/SKILL",
+      "integration": "source_reference_only"
+    }
+  ],
+  "files": [
+    {
+      "path": "batch-marketing-video-generator-r1/_meta.json",
+      "bytes": 4420,
+      "sha256": "975f7b9b925fd56a84d1cb168c0ce02ba74d7460ffa4068152b4f0e70ccf942c"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/agents/openai.yaml",
+      "bytes": 259,
+      "sha256": "3cba86ac333806c701b6eeb0fc6c4a3292bda31dc72defc1d66af129ddbf4b52"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/agents/creative-assistant.md",
+      "bytes": 20115,
+      "sha256": "5d8a5b674680b16f0fba875ce976e37382c573adbfd2cde5f899780c209d3421"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/asset-anchor-gates.md",
+      "bytes": 22732,
+      "sha256": "bf2615ed64a9ae36c809ce9d9e0be9871b4a0825883bac433124730e2b125ccd"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/common-knowledge.md",
+      "bytes": 2706,
+      "sha256": "edc8fcf10fc45f327158e55db47bf6451436c94c0341cf54596e77d1e408575a"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/creative-research.md",
+      "bytes": 7962,
+      "sha256": "589da72b1b10cf6a5b746eaa3205253b3dda162be850afb930a01b3f4fc83907"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/deliverable-contract.md",
+      "bytes": 4623,
+      "sha256": "9815fb6900cf04ed1d9896d72e913a316c43db9917c692b61140fee560b50cd1"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/dynamic-questionnaire-guide.md",
+      "bytes": 18669,
+      "sha256": "4a46b25f90746dfa9104c3b9b54e2fb3b282cfd15cd21ee8023e4b1b956e21e8"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/evidence-and-commands.md",
+      "bytes": 22689,
+      "sha256": "8edffafb0b0a0402736e96c5e4b38d035e2fc7bde6054b03b9d2a5b174306941"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/execution-lowering.md",
+      "bytes": 9313,
+      "sha256": "f026fd6cfe5f5a7a0da311e7f2fe2a143f82372949058ab4f10060f3b4b79961"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/external-knowledge.md",
+      "bytes": 3629,
+      "sha256": "c77ed2f3e23036779b858f83f45bb7d340958f16041fe22bf14670dc16d4a14e"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/frame-spec-template.md",
+      "bytes": 3655,
+      "sha256": "e8e140ddaf6dd904771feb289352139c8e407f19c524a9bc92a3b6b593b1838f"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/graph-contract.md",
+      "bytes": 31745,
+      "sha256": "5a3bb571e7b1505392c192d719f92a7a36c3b7a22570b59ebcf6add1eb49ab17"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/grid-prompt-template.md",
+      "bytes": 6345,
+      "sha256": "315af08cfd9dbea3722e4ba48defbbd24989cd636fb582890a91cd55814a1e44"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/information-understanding-template.md",
+      "bytes": 14486,
+      "sha256": "64e3a0aa4fd3d6bfdb43e7c493082613ac1ed73ada1220924552ac73a314ada5"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/marketing-creative-guidance.md",
+      "bytes": 6397,
+      "sha256": "f0f4a6b5dc70392d0cbdefb0382c3ea2a336f2b65fecd7033de7db442d29b2b5"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/marketing-proof-playbook.md",
+      "bytes": 6060,
+      "sha256": "339e61038befed93478fa195c2c5b78a4ac526fa97ff617c90ab41aeb66013d1"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/media-requirements.md",
+      "bytes": 3237,
+      "sha256": "d7a5f034e687df3264bcfb78ebe5fdaaf9fc52250d73a794dbeee6c6e5417dfc"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/next-action-views.md",
+      "bytes": 6756,
+      "sha256": "9448ffe947c173e9723e2266abf00d1cdcb30708f4602c03d94e9d1f79621d5e"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/part-continuity.md",
+      "bytes": 4382,
+      "sha256": "c38fcc25c4f146db6d5a203f72d2955f1cd556424679a79f029e49a1a1d7866b"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/payload-route-gates.md",
+      "bytes": 19550,
+      "sha256": "c94dcc3efd2c8f942b2b598cd6639ddee69c1ee7595e9a66c41860aae83cccb0"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/performance-timing-craft.md",
+      "bytes": 5029,
+      "sha256": "054ef2be61830f3f2d0237edee6aea3cdecf54f926ab6a0a087417476253439b"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/post-delivery-revision.md",
+      "bytes": 4607,
+      "sha256": "ead0ee99bff905e2383b56d75f7f599fd4a20f1719895b5b299effc4286d9394"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/project-lifecycle.md",
+      "bytes": 3611,
+      "sha256": "e7f2dc67d4fbd7f455359d79c38e35a226311bbb7d4620750c614823fc71555b"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/reference-action-craft.md",
+      "bytes": 5567,
+      "sha256": "c2cb5b8147ab82acbe0cb6f967a3d69dfc0508f7eaf456c796f14211bcfb096b"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/revision-routing.md",
+      "bytes": 8880,
+      "sha256": "2d2034f67ab6bdbc8c51d0f478813c88012f4dc94effc41faa596a8e5ef742d8"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/runtime-anchor-contract.md",
+      "bytes": 5007,
+      "sha256": "6e3b20d796f3197731957222aaea18088f5c8df735619ef2ccac7eb45dc69360"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/runtime-lowering-grid-contract.md",
+      "bytes": 17503,
+      "sha256": "74caf8d5b8ee0a5fd2d813cb13d8ce699e341804be9012bf013836514dbc0afb"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/storyboard-frame-generation.md",
+      "bytes": 6384,
+      "sha256": "96403be776c9374c45efe113bfb3dcbba94096a5e033e8fb77ddcb855d4bf3d7"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/storyboard-grid-template.md",
+      "bytes": 5035,
+      "sha256": "7df4f45fbb250d31b656ee57c487f0f2e24e19db8793a9eeaf171c83c8f07509"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/storyboard-source-contract.md",
+      "bytes": 2494,
+      "sha256": "bcafefb1fd17b31e71e38c58a21a4c27fbe4d3fe6cfdd2b98b348a8a1184ddf3"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/storyboard-template.md",
+      "bytes": 7211,
+      "sha256": "447dd94f47a2ca0b9f867a73a09cb9d0e91fcee24e6926170853aded219cfeb9"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/user-communication.md",
+      "bytes": 8737,
+      "sha256": "456d1e85cd6aa1df3be2ce134f830d8292c55c4e84b3a1634157bf8b35fa5bf5"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/video-blueprint-template.md",
+      "bytes": 9648,
+      "sha256": "b2212efe10c5af2f6b195045a840278aaa313b09924399c67e2fe6d3bd28a4b0"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/video-spec-contract.md",
+      "bytes": 3270,
+      "sha256": "92f5ea15f9dcdc3499ccd92d5e19faba9302ce39e68c8d93a07a72f9637c1f90"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/visual-workflow.md",
+      "bytes": 5156,
+      "sha256": "90fde7ae7db8ac5202d752c32c5e013b565db1b0b86a7afa4286966e43f266b3"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/references/voice-anchor-gates.md",
+      "bytes": 16253,
+      "sha256": "8c2e0b762eeef9015375c7a60bea9843beda9a95de436e87cc07b7b7cd5dfd52"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/release_identity.json",
+      "bytes": 158,
+      "sha256": "e7e20e8bf518567c6620957fa9f2c71ef8e3c4d4431139447b0a6284300c39f2"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/scripts/batch_pm.py",
+      "bytes": 212,
+      "sha256": "56ad57a7c3ab0ef5f8f1f3fc28fa879a9fe775650fa35015455c657772a7c393"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/scripts/batch_pm_cli.py",
+      "bytes": 48636,
+      "sha256": "7f724529af8db20e3a137122374e1d023d6dcafefe333b679bbfc73af47458c8"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/scripts/batch_pm_graph.py",
+      "bytes": 173524,
+      "sha256": "1ad4314ce9a3067c84cf3fcfdc4381b6b1b4a2ce2f88aad43763127d8018b372"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/scripts/batch_pm_presentation.py",
+      "bytes": 18901,
+      "sha256": "b81b872a43b913feded2544c054193a308f97604a07d29575c46619e6b139d2b"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/scripts/batch_pm_view.py",
+      "bytes": 12530,
+      "sha256": "65b9ddf922344fac262a7e84dd48233c3c8629589a4b2ab8c7bf401642503ce9"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/scripts/compose_storyboard_sheet.py",
+      "bytes": 50205,
+      "sha256": "66a84dada40f1671d5e38a3ff07cfb2d5b71a49600f264c7567ba25b9779d283"
+    },
+    {
+      "path": "batch-marketing-video-generator-r1/SKILL.md",
+      "bytes": 12028,
+      "sha256": "1fc53b13df156c6b2ee99a6bd9b0b3230240c70e9cf220f1419f8f3203cba7f6"
+    },
+    {
+      "path": "brand-advertisement-film/_meta.json",
+      "bytes": 598,
+      "sha256": "5a303981386644b582509115e318913d5fed3c5313a81c31f54279ffa49b24af"
+    },
+    {
+      "path": "brand-advertisement-film/SKILL.md",
+      "bytes": 941,
+      "sha256": "894be16190ad79048c9b69a23c0c0bdefb19b06155ab526cd54163ccee162d8f"
+    },
+    {
+      "path": "business_growth_advisor_v2/_meta.json",
+      "bytes": 2318,
+      "sha256": "a7ff47b3793cf759ced2a49021a7bc61728088ba505c43691f81be972cf8150d"
+    },
+    {
+      "path": "business_growth_advisor_v2/PACKAGE_MANIFEST.json",
+      "bytes": 3298,
+      "sha256": "accab3d8a04984e574fab5fb64f8397a7be5d968900f83d78fb7a20922d3a5b8"
+    },
+    {
+      "path": "business_growth_advisor_v2/platform_manifest.json",
+      "bytes": 2411,
+      "sha256": "ba70a90e183c797595a23329986ac1658561c976f78feb0ee8825b44e799ff89"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/conversation_state_machine.md",
+      "bytes": 4079,
+      "sha256": "8740bb0e56d1be1e509c878a0fd50ab6dbfd4d4e0561cd31b508ca914277984d"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/data_intake.md",
+      "bytes": 6367,
+      "sha256": "d9ce4c54c534ae2f4dd7717dff06871e9a658c0c5080229ba8c7ee6dd7052ade"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/diagnosis_framework.md",
+      "bytes": 4478,
+      "sha256": "3ccc06b2054ab94b1bb01af1b003187be7b5c197c07da31f2b0feff5cfadc237"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/evidence_and_confidence.md",
+      "bytes": 4064,
+      "sha256": "3e04482e9ea757a5dbaf47422dff5f6e79b890a35a1921ef52df10270de71e9d"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/execution_plan.md",
+      "bytes": 3495,
+      "sha256": "6a2c9cdfcfad080cf91101253be336547d86c421c11edad33859bd7821a74ab6"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/metric_calculation.md",
+      "bytes": 7127,
+      "sha256": "f5ddc0ea53e0313107128ea6faa94bc4f307e322bf28dafb84ffe4093fd01563"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/pain_point_entry.md",
+      "bytes": 8399,
+      "sha256": "c1f6131b8d46356b6bb6b5dd9db4a91e276579318ed1fc9efbc8d3cbc807b9b1"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/public_market_research.md",
+      "bytes": 4765,
+      "sha256": "8575668373c269dda37a9fa7aeb892ee1f7e83d3ef4653dbefac936f2627fe0c"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/selling_point_analysis.md",
+      "bytes": 8495,
+      "sha256": "d6adcfef8c52186dfdd428a4d767070ce7bbd2b944a68d5d001c0417c78e08b3"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/user_growth_profile.md",
+      "bytes": 8299,
+      "sha256": "074a165999b238b96dde9f2ca42d24b1e841caa66b29af7452449332cc395109"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/video_brief_handoff.md",
+      "bytes": 5199,
+      "sha256": "c3b27e3dd4fde890d48fe7291c3cb6751d9a8e2c83fef6715f83e15dfe3a21d4"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/methods/video_opportunity_framework.md",
+      "bytes": 4694,
+      "sha256": "3f520c50bdb877b21ed3b2533a1348cac45f91dc892393097a595a67d60e362e"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/platforms/douyin_qianchuan.md",
+      "bytes": 2497,
+      "sha256": "823a05587c223b70200b338ad64bcf5b38e92cee3789d27434babd2099297525"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/platforms/tiktok_shop.md",
+      "bytes": 2285,
+      "sha256": "4af4edcd7a5310d587975d5c0f85bcec09563f32a213ba971bfc6c1a136c0ce6"
+    },
+    {
+      "path": "business_growth_advisor_v2/references/platforms/xiaohongshu.md",
+      "bytes": 3917,
+      "sha256": "a9e09a58490031d378c28984bd8047f42af89424b833de54f351d2eac9a1995e"
+    },
+    {
+      "path": "business_growth_advisor_v2/SKILL.md",
+      "bytes": 20227,
+      "sha256": "f04c2a8afe596e71b9112a8e3b0ec96b9390537671a9f6029d3ecf2506202f15"
+    },
+    {
+      "path": "business_growth_advisor_v2/VERSION.json",
+      "bytes": 1496,
+      "sha256": "5e0062405a76a9391b3f9d8a5aad8b93c9802bf66ae39d46a612b3fd75b3e861"
+    },
+    {
+      "path": "character-realism-enhancer/_meta.json",
+      "bytes": 1229,
+      "sha256": "1d207844919879a0ac6ea8ce467e7b3044e260a090abd4ab535958c19728f21b"
+    },
+    {
+      "path": "character-realism-enhancer/references/identity-preservation.md",
+      "bytes": 2544,
+      "sha256": "2adb2d8b5cf755aada8a3ad26a900d27a1eb17180dec642d9c7ba6076a2f64db"
+    },
+    {
+      "path": "character-realism-enhancer/references/INDEX.md",
+      "bytes": 567,
+      "sha256": "14a32aa6df2676febc045e466cd5558b6c9c8277cf8aa098fddada1624c16f12"
+    },
+    {
+      "path": "character-realism-enhancer/references/lighting-material.md",
+      "bytes": 1489,
+      "sha256": "51e47cd54ad1f5cc8ff519696408ab4154c6ab1fe6f0c969b1692caa5173f78d"
+    },
+    {
+      "path": "character-realism-enhancer/references/skin-material.md",
+      "bytes": 1788,
+      "sha256": "adaa03a95473c6edd3ac0ce20dc835639278753b72dbf576479c52adf88903f0"
+    },
+    {
+      "path": "character-realism-enhancer/SKILL.md",
+      "bytes": 14317,
+      "sha256": "519fa596e163f943ffab83898b574b7d83bd16325140d2e5c6de03976a345cbc"
+    },
+    {
+      "path": "cinema-dna-21x9x3/_meta.json",
+      "bytes": 842,
+      "sha256": "192b4eeb51547e264f8cadad92e6c1c8a5605a7a15b592938268638633cb15fa"
+    },
+    {
+      "path": "cinema-dna-21x9x3/SKILL.md",
+      "bytes": 41312,
+      "sha256": "83847b28218ad41f4d4cf42cd3e6c7510795b020d76f6279ea4ffa5340733cfc"
+    },
+    {
+      "path": "commercial-ad-creation/_meta.json",
+      "bytes": 1274,
+      "sha256": "0fe1ce69c13fe8993e39b2a4e4d081283c862e06912d178bdc3be307f6f7f5ba"
+    },
+    {
+      "path": "commercial-ad-creation/references/formats/platforms-markets.md",
+      "bytes": 1475,
+      "sha256": "9e8e16d5a04f0cd84fcd3b0ba8faf014f8a1ae5f66c0527470976f64b1a8599b"
+    },
+    {
+      "path": "commercial-ad-creation/references/formats/video-prompt-grammar.md",
+      "bytes": 6959,
+      "sha256": "5ca4167448547de73536874559c251728d1fbec0827a8915088adfe656ac000b"
+    },
+    {
+      "path": "commercial-ad-creation/references/INDEX.md",
+      "bytes": 467,
+      "sha256": "da9d202e96d3b0d9a5f091766e7ccd298f9a1f8f900e41133f77731abd8cd4e6"
+    },
+    {
+      "path": "commercial-ad-creation/references/industries/product-ad.md",
+      "bytes": 4104,
+      "sha256": "74b879eec6a28c3c86a7147d932cad912cfcd535a9ec02b153b7ac33c751ee2c"
+    },
+    {
+      "path": "commercial-ad-creation/SKILL.md",
+      "bytes": 12078,
+      "sha256": "80a97d23029ef16a2e0679566a2cf75ff84357bdfb079d5860c9a51a37e3045f"
+    },
+    {
+      "path": "commuter-vlog/references/formats/narration-scripts.md",
+      "bytes": 738,
+      "sha256": "f94083458dbf31f145ac8afa6deeb18c7fb05556dbb0ca9516f4c1c6ad750e36"
+    },
+    {
+      "path": "commuter-vlog/references/formats/platforms-markets.md",
+      "bytes": 851,
+      "sha256": "c57f64a2f06ec7fe84ef90bd4deee3db6928bbc6334f93b4d4117a30843b654f"
+    },
+    {
+      "path": "commuter-vlog/references/formats/video-prompt-grammar.md",
+      "bytes": 2564,
+      "sha256": "993a83dbd8d53ad10e43d25280b061be84b7b088ea6456b554710ef97f762131"
+    },
+    {
+      "path": "commuter-vlog/references/formats/visual-styles.md",
+      "bytes": 2046,
+      "sha256": "27ef0b6bd4dd609336656a440668f760b66ae505fec29e19dbd1fb1e9d223881"
+    },
+    {
+      "path": "commuter-vlog/references/formats/weather-scenes.md",
+      "bytes": 1280,
+      "sha256": "95f31fecac88263913f896e861e6eead3d1d4d69660b6d1ef45ced3a49c318a3"
+    },
+    {
+      "path": "commuter-vlog/references/INDEX.md",
+      "bytes": 566,
+      "sha256": "40762c53a8ef6f0bd93fe7c621c8255796de7bb0660fa8af72afa053b6ff1157"
+    },
+    {
+      "path": "commuter-vlog/references/industries/worker-identities.md",
+      "bytes": 1330,
+      "sha256": "0003ad2b6e281914b1dd1243fb2cccf1d9278987014305573fbf641ec8e7bf66"
+    },
+    {
+      "path": "commuter-vlog/SKILL.md",
+      "bytes": 14882,
+      "sha256": "49ead14f94eaef021434d6f16f8cc0e55f53aa62f6ff738a062d0f18f7abfd20"
+    },
+    {
+      "path": "daily-hotspot/_meta.json",
+      "bytes": 815,
+      "sha256": "40f215e2fdd8d931a912b544a91da8b50807ce85c3de82af7d20d33014f1672d"
+    },
+    {
+      "path": "daily-hotspot/SKILL.md",
+      "bytes": 6348,
+      "sha256": "1a31667d44bb73a70300033d1746ca72ce9a0e0ce274e2242e6f8baddc45dbc6"
+    },
+    {
+      "path": "depth_video/_meta.json",
+      "bytes": 868,
+      "sha256": "05222d7abca1279536a40f1cdc263f03b6f18392edc84b1dc18294a06fa34076"
+    },
+    {
+      "path": "depth_video/references/depth-replicate.md",
+      "bytes": 3646,
+      "sha256": "2dc701c6435d195aefec258008309d9620fc73eb952524a78563ed36e99c1253"
+    },
+    {
+      "path": "depth_video/references/scripts/depth_video.py",
+      "bytes": 10820,
+      "sha256": "06518e6d9ddccb7cdd6185ab61c7de9fcfe5620bb7798d60d63a83931a7f33ea"
+    },
+    {
+      "path": "depth_video/SKILL.md",
+      "bytes": 9667,
+      "sha256": "fb31cdeda7c601519e2b83c492b1200c55fbbcb9ea3ed1f7f4748ce9496d483f"
+    },
+    {
+      "path": "digital-avatar-product-video/_meta.json",
+      "bytes": 1309,
+      "sha256": "174890fd8b9a0a835aebf0e45257b703109f3238786f4115d807e3fdab2de950"
+    },
+    {
+      "path": "digital-avatar-product-video/references/formats/audio-design.md",
+      "bytes": 2019,
+      "sha256": "5a9a51fe71837384d3b0473898c4912641c5fc37a81bb06171cbe8deb4eed5e0"
+    },
+    {
+      "path": "digital-avatar-product-video/references/formats/output-spec.md",
+      "bytes": 1854,
+      "sha256": "0deee5a47b16ebd785fe849f5fe147928d1c62feed7d73ef81541a4fb6f68a71"
+    },
+    {
+      "path": "digital-avatar-product-video/references/formats/video-prompt.md",
+      "bytes": 3990,
+      "sha256": "3f105321d513aa9ce95ed09f48dc03556683ce9830980786d113bcd861b27d96"
+    },
+    {
+      "path": "digital-avatar-product-video/references/INDEX.md",
+      "bytes": 738,
+      "sha256": "e7d3fbb8be403672cbbb04bd0ec0a4272bc0ad81a0381e23148c56c43b47e6cc"
+    },
+    {
+      "path": "digital-avatar-product-video/references/industries/product-categories.md",
+      "bytes": 2238,
+      "sha256": "cf5402d9a942f6feba4769d2744201d52809ad7d0011ce4d475618e16464381c"
+    },
+    {
+      "path": "digital-avatar-product-video/SKILL.md",
+      "bytes": 10594,
+      "sha256": "34aa524a766abf0c693e19cd443f13b871f155a56a22af2b244434ff8b636801"
+    },
+    {
+      "path": "emotion-director/_meta.json",
+      "bytes": 877,
+      "sha256": "e177628ae95d696b317fff9c020c201516014dc523bbaed4e5576f6d317a3206"
+    },
+    {
+      "path": "emotion-director/SKILL.md",
+      "bytes": 18789,
+      "sha256": "c4527955e109511394776094fa1e9a5b8077dd477f750b6536486696da8936a9"
+    },
+    {
+      "path": "emotion-expression-director/_meta.json",
+      "bytes": 938,
+      "sha256": "54d474745c297d4d39662388307ec5ed5bcc32831fd462917e266677e74020f6"
+    },
+    {
+      "path": "emotion-expression-director/agents/openai.yaml",
+      "bytes": 306,
+      "sha256": "96efdcd7267b91b31a50eec6483086e3875df4a60f390302ec78120c1d75d659"
+    },
+    {
+      "path": "emotion-expression-director/references/expression-language.md",
+      "bytes": 3163,
+      "sha256": "42fcb22121f29250133d4f1a89918e17d8b426e42bdedccddc07a90b81325a39"
+    },
+    {
+      "path": "emotion-expression-director/SKILL.md",
+      "bytes": 3786,
+      "sha256": "e62396625cc613fdd299620cb16b937dfb26bac49a3a8f556f978023073a6c43"
+    },
+    {
+      "path": "expert-product-promotion/_meta.json",
+      "bytes": 562,
+      "sha256": "d234c5e6ffb65896977f5a7d377e7b9dca7a6d71dab8aae41f551d2243ea2ba7"
+    },
+    {
+      "path": "expert-product-promotion/SKILL.md",
+      "bytes": 1008,
+      "sha256": "df8a722d4196e4bb23b53da40e2c87fbb7353ec501e04d880ccc2faa4d9257fd"
+    },
+    {
+      "path": "fashion-ecommerce-creator/_meta.json",
+      "bytes": 2483,
+      "sha256": "17f71d044d09b78c5cf1412a9106c8821159c5ad98c976bc272951b996fb8498"
+    },
+    {
+      "path": "fashion-ecommerce-creator/SKILL.md",
+      "bytes": 93464,
+      "sha256": "4a81e6a6b3373f200cadb6542e2312540f834bf4b5924c7c4696a7cd4c766317"
+    },
+    {
+      "path": "fashion-film-studio/_meta.json",
+      "bytes": 1443,
+      "sha256": "e7329e4ef1de0e4973123bf3ee4ed50147ef4e10c55fd1981d9832374d3b49a0"
+    },
+    {
+      "path": "fashion-film-studio/references/craft/lighting-camera-fabric.md",
+      "bytes": 4169,
+      "sha256": "70719bf9e6c525535864c193cebb5b41da60669e27029fe7238e94aace605137"
+    },
+    {
+      "path": "fashion-film-studio/references/formats/bgm-prompt.md",
+      "bytes": 1811,
+      "sha256": "c5b3b00965dc6f30eb732f4d07b85e56e648202f5e46154a7cbe3c2d2daf4e1c"
+    },
+    {
+      "path": "fashion-film-studio/references/formats/lifestyle-style.md",
+      "bytes": 4692,
+      "sha256": "364056e70908baa96fba6a2d1b9f7318a202be43d6fac6e044d75be499837942"
+    },
+    {
+      "path": "fashion-film-studio/references/formats/runway-style.md",
+      "bytes": 2355,
+      "sha256": "7c8c44c3e5c8cc9ce130cb2e39fdbf074229b5db3a27168d3e6cf02db77196ab"
+    },
+    {
+      "path": "fashion-film-studio/references/formats/video-prompt-grammar.md",
+      "bytes": 4042,
+      "sha256": "97b2c874681291979e882d152cd3b961dc657d38309b46ed51f9e3dee848bbb9"
+    },
+    {
+      "path": "fashion-film-studio/references/INDEX.md",
+      "bytes": 1016,
+      "sha256": "cad9a136cffb49e13208265f84ab3ce87f48d98fe2ae93e9fc29ae2a32049f20"
+    },
+    {
+      "path": "fashion-film-studio/references/industries/garment-analysis.md",
+      "bytes": 3954,
+      "sha256": "9f1cd59d63009e48943481b9d4f17ac00c775fe5f7d70c2a94e4e4bb0e61b728"
+    },
+    {
+      "path": "fashion-film-studio/SKILL.md",
+      "bytes": 24872,
+      "sha256": "25f75e2be5a8020296fc44c189b242f2ab53715d91250b6f3ec9682c957f9037"
+    },
+    {
+      "path": "fashion-outfit-change-video-generator/references/input-contract.md",
+      "bytes": 2817,
+      "sha256": "f0c08d175e29a20d15f69eaef9d5ec848b0be91ade068ea663e5808779facaac"
+    },
+    {
+      "path": "fashion-outfit-change-video-generator/references/outfit-image-stage.md",
+      "bytes": 4318,
+      "sha256": "e2ddd78aa1a076b230d182afb0f475908559294c8c1d660a76acb109923c8f58"
+    },
+    {
+      "path": "fashion-outfit-change-video-generator/references/qa-checklist.md",
+      "bytes": 4094,
+      "sha256": "0e6e211e1d143dda715fb2be85dabf5f7cbbe39916d47e687dd92b30a93ac2fe"
+    },
+    {
+      "path": "fashion-outfit-change-video-generator/references/video-stage.md",
+      "bytes": 8516,
+      "sha256": "c809a3f2a1b087ef04cef091f7b5f4324bf1ce9e0fb83d5c1f7b41c14d24de76"
+    },
+    {
+      "path": "fashion-outfit-change-video-generator/SKILL.md",
+      "bytes": 6067,
+      "sha256": "2652d903a16696a15f935c246bb0e66b31df412f7e59a978615fa1b20eb6860e"
+    },
+    {
+      "path": "fitness-vlog/references/formats/platforms-markets.md",
+      "bytes": 428,
+      "sha256": "00214cdbbce6a37349086cb9509fabfa47d0bff47566678ea896d8d2e84c2084"
+    },
+    {
+      "path": "fitness-vlog/references/formats/video-prompt-grammar.md",
+      "bytes": 428,
+      "sha256": "00214cdbbce6a37349086cb9509fabfa47d0bff47566678ea896d8d2e84c2084"
+    },
+    {
+      "path": "fitness-vlog/references/INDEX.md",
+      "bytes": 1193,
+      "sha256": "8489a009136114b25172b6d1fe6bbdab2098e95bea39563e11926327d84d86f7"
+    },
+    {
+      "path": "fitness-vlog/SKILL.md",
+      "bytes": 10214,
+      "sha256": "42595cb9709401ce8f4e60fc3c397d9b0197087e7f5b2290c49b338cbae96d33"
+    },
+    {
+      "path": "flova-jewelry-film/_meta.json",
+      "bytes": 1394,
+      "sha256": "039f619b02e7c21244c344b588f4f48af1aa6e804176158d2b9518c1009038f2"
+    },
+    {
+      "path": "flova-jewelry-film/references/formats/brand-frame.md",
+      "bytes": 1425,
+      "sha256": "2b1083ae1bfd39ed708d43181920a6f544798c5a7a93ceb0f662a0d40388e055"
+    },
+    {
+      "path": "flova-jewelry-film/references/formats/platforms-markets.md",
+      "bytes": 593,
+      "sha256": "c6471d86bbfb8b213d8a3e0816f606b8cc1ed3014826c258125d05c0044e2827"
+    },
+    {
+      "path": "flova-jewelry-film/references/formats/video-prompt-grammar.md",
+      "bytes": 3920,
+      "sha256": "6ca9debcb67b96f4db2b29254d65207491f289302f06fd7a042bed53be757b0f"
+    },
+    {
+      "path": "flova-jewelry-film/references/INDEX.md",
+      "bytes": 688,
+      "sha256": "3e8de0881c2eaf9823e4e31cc2ad05f2f3e6d5713d2d9d78b8aa75dfa5cd5add"
+    },
+    {
+      "path": "flova-jewelry-film/references/industries/jewelry-visual-archive.md",
+      "bytes": 2610,
+      "sha256": "3112ae70c0d90cf7819070b713ec69e5fbe0ddeecc749ab9bcbca7f63b411e94"
+    },
+    {
+      "path": "flova-jewelry-film/SKILL.md",
+      "bytes": 25104,
+      "sha256": "839d1f4acc316d1debbae943254d10f7af607bcb6c0ef1b7ec66131a8957c83e"
+    },
+    {
+      "path": "food-vlog-creator/references/formats/platforms-markets.md",
+      "bytes": 5175,
+      "sha256": "6969f11a83aa81932956cebf0620930a542cf0e1a6860dd532c2a665f2f9588b"
+    },
+    {
+      "path": "food-vlog-creator/references/formats/video-prompt-grammar.md",
+      "bytes": 6225,
+      "sha256": "5a1d7e624e36ab3917d654bb7caeffe14a3800ab08034569219bf059ac2edd7d"
+    },
+    {
+      "path": "food-vlog-creator/references/INDEX.md",
+      "bytes": 361,
+      "sha256": "dea14d5980d9a9e631b51ea9b7e215018e4bd3a256e266c0b73854caa52b9cbc"
+    },
+    {
+      "path": "food-vlog-creator/references/industries/food-categories.md",
+      "bytes": 7655,
+      "sha256": "450147940cb8dfaedcbe378d97d48e2f9ae464e6485697fd63cd11d2c150c638"
+    },
+    {
+      "path": "food-vlog-creator/SKILL.md",
+      "bytes": 10728,
+      "sha256": "dc87685b35752bc71072e37ca2298d8ff2c347ea957dc85f4991a88cc9921543"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/_meta.json",
+      "bytes": 1674,
+      "sha256": "4b69d38cc16fdea6d04a3d4b0c4d63b4c9fb9f108fe83ddff4b3d082842a1503"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/agents/openai.yaml",
+      "bytes": 335,
+      "sha256": "8492817dcb384f3b28859d8eb436363ee6547c439b63ee819aea4f58e06212eb"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/references/asset-consistency.md",
+      "bytes": 5523,
+      "sha256": "eccb07b8c54edfae26b9b07e302cb446b187ddb165660cbd34eb0c4e92e09e66"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/references/audio-voice.md",
+      "bytes": 4828,
+      "sha256": "fd6860d32ee3b01d0f98343442c0a475023e6c34422fcf15b72a62a42640cc72"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/references/candidate-ranking.md",
+      "bytes": 6188,
+      "sha256": "3462e74035751a181fe86c1c06c5babc2b47a09c995cf17048625006f77370cb"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/references/category-routing.md",
+      "bytes": 8620,
+      "sha256": "7aa90ebc1dcb1fed60e6dee2a6b55d3a4f6915e23b9ddbc34228f6823779116b"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/references/safety-boundaries.md",
+      "bytes": 9235,
+      "sha256": "af394c8abf381ec8876ef119f0eeb229f41b05de58aceb34db09fd0397073080"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/references/semantic-hooks.md",
+      "bytes": 5514,
+      "sha256": "2e6b521ca6a2895ffe4355364ae5431611e3b04e202ddaf389294d2baf888709"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/references/visual-grammar.md",
+      "bytes": 8535,
+      "sha256": "573e90116cb7b9c2a3255d0680310db73d206fd1ace1917717faad8a6dd4804e"
+    },
+    {
+      "path": "generate-ecommerce-hook-videos/SKILL.md",
+      "bytes": 11417,
+      "sha256": "29872292fb5baf08a9f0dd862069fe8fbacada6032a3c53554988b9cc5cfc356"
+    },
+    {
+      "path": "home-makeover-vlog/references/formats/platforms-markets.md",
+      "bytes": 1750,
+      "sha256": "c27783b32662a10c0c2aafc1d7b008318f391e40ec40e8d3696b21e502dfe793"
+    },
+    {
+      "path": "home-makeover-vlog/references/formats/video-prompt-grammar.md",
+      "bytes": 6334,
+      "sha256": "afd579e9c97bd8b5490d551edf8d32baa1e1cc830e5ee75665cebfb4edf66f61"
+    },
+    {
+      "path": "home-makeover-vlog/references/INDEX.md",
+      "bytes": 610,
+      "sha256": "16c371cd419eabd9193cd2832bd75714903e4542279830f45fa145173bff2971"
+    },
+    {
+      "path": "home-makeover-vlog/references/industries/home-makeover-styles.md",
+      "bytes": 4669,
+      "sha256": "3819130bd22445f17ba71445c364bcf28b216536bc88ee1c37cd577b8e57f230"
+    },
+    {
+      "path": "home-makeover-vlog/SKILL.md",
+      "bytes": 10330,
+      "sha256": "7d0215a826b3e24d106bd55c17fb23021aef976b6297316599e74712c10f832d"
+    },
+    {
+      "path": "INDEX.md",
+      "bytes": 13171,
+      "sha256": "886349b6ea693d5417b728229c207e5de69a32b375f7da8f95ca45c546e2dbad"
+    },
+    {
+      "path": "knowledge-motion-explainer/_meta.json",
+      "bytes": 1900,
+      "sha256": "09f6448c2ea2c1a5d72f7dc6c138f5ba1c0bcb2f07b1af9ec2cefb8c80a42074"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/audio.md",
+      "bytes": 13281,
+      "sha256": "84600f6f54be9b31c07f2eff8e66b688d45225884f57c62fbdf250a4791328c7"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/composition.md",
+      "bytes": 11479,
+      "sha256": "f304510b84d1535ac5fc4f91b0c52abb428f55d511b5ab9f4c2d0838464479ef"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/examples/sunset-scattering/index.html",
+      "bytes": 12743,
+      "sha256": "221503ace0d118d7bc3487acf04aa26c43e23aaafbc78af2553657f0de0d5fb2"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/examples/sunset-scattering/narration.txt",
+      "bytes": 277,
+      "sha256": "b62b58c6d2fcedb1e7a37aac74fe4b6a1ccbc4e241377e922a21988e9f1c4c51"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/examples/sunset-scattering/storyboard.md",
+      "bytes": 8016,
+      "sha256": "a3689201b7c42a3651e77449c9c414c85254fbd99307052f2683c8edc21b94a8"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/review.md",
+      "bytes": 11237,
+      "sha256": "9d2b0b422f1ac4bc0db80bd6eedb4bf67ecf58a7897d44c02f5ba8bf796f0b0a"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/runtime.md",
+      "bytes": 8948,
+      "sha256": "ce468d2f7b9610aa04449e308a7e9eb70e091a6999928c6fc11d2e53c1380f3a"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/scripts/audio_pipeline.py",
+      "bytes": 44388,
+      "sha256": "eb143de1f313182b591b26672b5c399a60db729b95370e45f50438514913a183"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/scripts/audio_timing_review.py",
+      "bytes": 6988,
+      "sha256": "c83ff619553ba0ce95f987070f103b2f0c3db2c2562b03905317ff26dae2e910"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/scripts/check_composition.mjs",
+      "bytes": 12885,
+      "sha256": "af6cfb3013946e2c080bb417004a053b2866bd99919158ba079389b525088923"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/scripts/layout_audit.js",
+      "bytes": 12780,
+      "sha256": "65bd2ee3612df6d6d20dbf3d6cb820c9119fc4005e856038f6e0b6f0a18e3a65"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/scripts/review_video.py",
+      "bytes": 27703,
+      "sha256": "abc85d0fd9faed3052a0a79245c13708a408a5ba6cb417564e80489307f0b7dc"
+    },
+    {
+      "path": "knowledge-motion-explainer/references/visual-direction.md",
+      "bytes": 15070,
+      "sha256": "87380999264944734a73177a2e33c21849a0d8e8da82c0eed21cb0ce05491447"
+    },
+    {
+      "path": "knowledge-motion-explainer/SKILL.md",
+      "bytes": 11127,
+      "sha256": "6bb994bdc9c22639394f57d645493bfb6c6ea837d8c189486ee857ee75b21670"
+    },
+    {
+      "path": "marketing-video-creator/_meta.json",
+      "bytes": 4542,
+      "sha256": "0b0139fd7b99c09c68b3f5dca850be6254c5c0b29f46459193d34f1c40271204"
+    },
+    {
+      "path": "marketing-video-creator/contract-assets-and-localization.md",
+      "bytes": 16517,
+      "sha256": "3205404538b16ec4970c6ae8749da98fae97ba96e82d343a24b32c47fc667e2f"
+    },
+    {
+      "path": "marketing-video-creator/contract-creative-and-script.md",
+      "bytes": 22659,
+      "sha256": "573629ab9aaacbc1f0d524d0be3a16134ffeb9bb67db74c758ba0c09b03d0559"
+    },
+    {
+      "path": "marketing-video-creator/contract-interaction-products-delivery.md",
+      "bytes": 14236,
+      "sha256": "21785736c8b11f6fb59fe0bc7b85ac10015cc85760100f5bdc756210137a480c"
+    },
+    {
+      "path": "marketing-video-creator/contract-persuasion-quality.md",
+      "bytes": 9540,
+      "sha256": "eb1af2f7418425e045fed0d6c7a71d53405b21393585744b061740f3f4d2ebfd"
+    },
+    {
+      "path": "marketing-video-creator/contract-platform-and-execution.md",
+      "bytes": 12298,
+      "sha256": "7c7a46504bb2566e17b09740b1821d74f1b9b9fdfe2854dcbe444594ab13ecf7"
+    },
+    {
+      "path": "marketing-video-creator/contract-product-truth.md",
+      "bytes": 69034,
+      "sha256": "7694314e20248cffc477b6d1ea87410943da291551f1140ecbd5d429d5286c7d"
+    },
+    {
+      "path": "marketing-video-creator/references/ai-prompt-guide/_shared-compiler-rules.md",
+      "bytes": 10698,
+      "sha256": "e7c6b77fa5c08562aa04dde8e3b375f15332f0025a13dd6fad95282ffce04408"
+    },
+    {
+      "path": "marketing-video-creator/references/ai-prompt-guide/seedance-2.0.md",
+      "bytes": 6741,
+      "sha256": "6eb7130b7835868195f1edc4a699782ed7782d86d3ad5e8d42de2b17c99169c1"
+    },
+    {
+      "path": "marketing-video-creator/references/ai-prompt-guide/seedance-2.5.md",
+      "bytes": 9144,
+      "sha256": "6f4c2fdcf4ca46b09e2593845b86b22e7b1382980761cabe72cd2578e92f3f8a"
+    },
+    {
+      "path": "marketing-video-creator/references/base/assets-and-execution.md",
+      "bytes": 39878,
+      "sha256": "e004780c7713e208d018c3eea91b05be2a0a889c19aceadfadf758cfbcf428e5"
+    },
+    {
+      "path": "marketing-video-creator/references/base/channel-and-market.md",
+      "bytes": 4733,
+      "sha256": "ee7b56a587c45ffb78d1b86b6b1aa7fbd50eb437090ea38a8b13ae3a2f40ca46"
+    },
+    {
+      "path": "marketing-video-creator/references/base/collaboration-and-quality.md",
+      "bytes": 51427,
+      "sha256": "0921dc247ca243477f9276a55cf12a2fd18a84e0ba1e381f7851b07700a37d02"
+    },
+    {
+      "path": "marketing-video-creator/references/base/commerce-category-playbooks.md",
+      "bytes": 8462,
+      "sha256": "6ed3d1e5eebfaf36a1e0cc4606fcd341a24b1f7d1919926823992d826dd70be5"
+    },
+    {
+      "path": "marketing-video-creator/references/base/creative-and-storyboard.md",
+      "bytes": 35597,
+      "sha256": "c66458112c44f976711409731482c17c85b49de91111e64d4e70bffea404a86d"
+    },
+    {
+      "path": "marketing-video-creator/references/base/dialogue-ratio.md",
+      "bytes": 13853,
+      "sha256": "9a106b6f4292944c0fbb41a4cfabc5ae086770185673652ecfdc37d0354840b6"
+    },
+    {
+      "path": "marketing-video-creator/references/base/frozen-formats.md",
+      "bytes": 18285,
+      "sha256": "c88e16652c97779cd166524005fd5023d145a9ef8657f68ab68f28c0f040f240"
+    },
+    {
+      "path": "marketing-video-creator/references/base/intake-and-project-state.md",
+      "bytes": 40302,
+      "sha256": "07b16981f6d95b69bb1da3388ce62364c93c2696358f3402d8506b7b4677d9d1"
+    },
+    {
+      "path": "marketing-video-creator/references/base/marketing-base-and-routing.md",
+      "bytes": 9420,
+      "sha256": "41f9bec2a5c697d658162201312270786727a4274163e1b82fd393400927d148"
+    },
+    {
+      "path": "marketing-video-creator/references/base/proof-and-demonstration.md",
+      "bytes": 4446,
+      "sha256": "42951ff51aaaf021f4d5abade37b9cc30004f7115ee8e0ab00915ba34fb66ed1"
+    },
+    {
+      "path": "marketing-video-creator/references/contract-json-schemas.md",
+      "bytes": 27626,
+      "sha256": "b84b8e43b8ec52dd9e2aff67603514a5d961a5f9c8a1b33265fb3c34b38e1b0f"
+    },
+    {
+      "path": "marketing-video-creator/references/direction/_shared-profile-preamble.md",
+      "bytes": 1496,
+      "sha256": "987d99be7669ef143af0c8505fee041c5dacfd6371ad1ad8b007ce462d8d7954"
+    },
+    {
+      "path": "marketing-video-creator/references/direction/brand-film.md",
+      "bytes": 5842,
+      "sha256": "9c1de6a0b5813eb8214e90e1e157abbabcd0b3170649e76dc4c4c4c37f3cdab9"
+    },
+    {
+      "path": "marketing-video-creator/references/direction/creator-ugc.md",
+      "bytes": 7494,
+      "sha256": "41e8c3f8ee3de801aaa4ff85055c7d71bca002e2945c5e4b8b025d31ab15e4a3"
+    },
+    {
+      "path": "marketing-video-creator/references/direction/general-marketing.md",
+      "bytes": 1517,
+      "sha256": "74c15b15e24ad0ffde7d1dbc5cabcd387482b9df4d744e43fc6d8221b2e357ef"
+    },
+    {
+      "path": "marketing-video-creator/references/direction/seasonal-promotion.md",
+      "bytes": 6354,
+      "sha256": "decfe16f463b4bc76117d6d1613587ef36e115236c28baed37e03a3f0033683b"
+    },
+    {
+      "path": "marketing-video-creator/references/direction/story-commerce.md",
+      "bytes": 6339,
+      "sha256": "4d460179ea453210867eda917c8892afc2b768e6464f2ad2b2e7af1f2593939f"
+    },
+    {
+      "path": "marketing-video-creator/references/workflow/modification-routing.md",
+      "bytes": 6898,
+      "sha256": "95c39429642e7e182fb35313acacde8576c47a77ba61029ed7c0f37d1a84fd1e"
+    },
+    {
+      "path": "marketing-video-creator/references/workflow/step-1-intake.md",
+      "bytes": 4283,
+      "sha256": "5499130cc017a86fd634e58cca42101979c67457419dad7723358560dd3244a9"
+    },
+    {
+      "path": "marketing-video-creator/references/workflow/step-2-modeling-routing.md",
+      "bytes": 9757,
+      "sha256": "e0b6085268f18c00fac68b642da12440021bf101e81eeef1999f33c96f86a328"
+    },
+    {
+      "path": "marketing-video-creator/references/workflow/step-3-hook-style-play.md",
+      "bytes": 10576,
+      "sha256": "f39dbba4f7a09b5dd18f4b429d5290f5a480706daeab42a21ac6898a40198f9d"
+    },
+    {
+      "path": "marketing-video-creator/references/workflow/step-4-story-script.md",
+      "bytes": 7805,
+      "sha256": "52d1c158dab3f4e2e957495d280bc24b7fba93a186766f7de2c615a148745c18"
+    },
+    {
+      "path": "marketing-video-creator/references/workflow/step-5-assets.md",
+      "bytes": 13620,
+      "sha256": "8d98d079d17bcaf510e1f01ba5144fc98dfd69736a0dc8c6ceeb7f7c4dff93a1"
+    },
+    {
+      "path": "marketing-video-creator/references/workflow/step-6-compile-confirm.md",
+      "bytes": 14537,
+      "sha256": "4ec4e94f730e3b6b67986101f614d7bc9dd6eb1cf292b055b6fb308521a8cb75"
+    },
+    {
+      "path": "marketing-video-creator/references/workflow/step-7-generate-deliver.md",
+      "bytes": 5049,
+      "sha256": "bd3768628bb233d280c38d02c1cf5b526c527b2146ab7446e72ada2fac1355b8"
+    },
+    {
+      "path": "marketing-video-creator/scripts/count_chars.py",
+      "bytes": 19060,
+      "sha256": "cee39d2ce04cae31ba82ae5d11bc5f6f4978eb68014e939bbff1ccc9912e72e5"
+    },
+    {
+      "path": "marketing-video-creator/scripts/merge_images_grid.py",
+      "bytes": 19448,
+      "sha256": "fd1edab2a9c0393be707c95167aa0caa0612f0c2229d0e496dfc94e5d0af2092"
+    },
+    {
+      "path": "marketing-video-creator/scripts/read_file.py",
+      "bytes": 5114,
+      "sha256": "c88905a59c39d4fc150220b6579db38053ab611b4d55c4a6b3fdfbb88e71fe91"
+    },
+    {
+      "path": "marketing-video-creator/scripts/test_video_workflow.py",
+      "bytes": 62750,
+      "sha256": "a6a16d6561a43f18908d49b82519d9a65e7aae67dbbfea42a8e4d1473642bbae"
+    },
+    {
+      "path": "marketing-video-creator/scripts/validate_creative_contract.py",
+      "bytes": 42048,
+      "sha256": "54728f7582afb6bb6be9bef5a19139a021d1d47279e749ca03d3ef40bcbe3ad9"
+    },
+    {
+      "path": "marketing-video-creator/scripts/validate_final_prompt.py",
+      "bytes": 14427,
+      "sha256": "cffd73c79e374afaa5bcbf0bd9d15737b53b650cfeeff26bc1c2ae2cb8bc79e1"
+    },
+    {
+      "path": "marketing-video-creator/scripts/validate_story_script.py",
+      "bytes": 20475,
+      "sha256": "6772ea1251dbb7bcb2d608d904d40d592edf55190ef0b133fd9210f1d1f2a75f"
+    },
+    {
+      "path": "marketing-video-creator/SKILL.md",
+      "bytes": 18531,
+      "sha256": "429edf541a32b00247291238cf0752035c4058cd757ecef53afb18715ef08ab7"
+    },
+    {
+      "path": "material_fission/_meta.json",
+      "bytes": 815,
+      "sha256": "96a61afe8fb899c5070a3d166dfcb7c2297843446d2049bcf449d76bc5a4745b"
+    },
+    {
+      "path": "material_fission/SKILL.md",
+      "bytes": 15536,
+      "sha256": "067f7d95b67c9510ad8506af94bc1f86ecd7fc493c5c8efbaa6026ca7150204c"
+    },
+    {
+      "path": "multi-grid-storyboard/_meta.json",
+      "bytes": 1170,
+      "sha256": "e9a97d4b3fcfee20040f06f82d4b9e69399e5cc10f8f71ba62210837fff337cc"
+    },
+    {
+      "path": "multi-grid-storyboard/README_使用说明.md",
+      "bytes": 2524,
+      "sha256": "d4e10d53d8003a66b321fc0ff25738731f63cfa1a6e66ffc6bfd7943d776d421"
+    },
+    {
+      "path": "multi-grid-storyboard/references/prompt_templates.md",
+      "bytes": 5515,
+      "sha256": "8dc8710cc57e2a748d36bdd31358268350d32dac4310acab8734d44dbaafdc3a"
+    },
+    {
+      "path": "multi-grid-storyboard/SKILL.md",
+      "bytes": 11319,
+      "sha256": "d885adc610efa8f3976649ee2180d7242f6145a6fe13dc1b107a024c4110e4ca"
+    },
+    {
+      "path": "old-money-aesthetic-ad/references/craft/sound-design.md",
+      "bytes": 4875,
+      "sha256": "f1477fa01e6b6b172696652aeb3d78c788e74f649b6df6e6a551b4625f9b0f86"
+    },
+    {
+      "path": "old-money-aesthetic-ad/references/craft/visual-craft.md",
+      "bytes": 3381,
+      "sha256": "54bdf6281d4a2304ea7ebf500ece92047f9ab849e42970de67fefce47fb7637f"
+    },
+    {
+      "path": "old-money-aesthetic-ad/references/formats/av-storyboard-spec.md",
+      "bytes": 4047,
+      "sha256": "7db412e6bb1af56077be632a3bca32ceac903d5ec25cdd786d245219778a9562"
+    },
+    {
+      "path": "old-money-aesthetic-ad/references/formats/platforms-markets.md",
+      "bytes": 1572,
+      "sha256": "04ccd7ba6d1e954adbbb83bd4c128c0884fa8d208a18b2e70c5ba89005925b89"
+    },
+    {
+      "path": "old-money-aesthetic-ad/references/formats/video-prompt-grammar.md",
+      "bytes": 5590,
+      "sha256": "b71ab4ac9db19fc0ed53f03a74d78bf73dcd09c4bd7fb150b6d612b6a4b0860c"
+    },
+    {
+      "path": "old-money-aesthetic-ad/references/INDEX.md",
+      "bytes": 629,
+      "sha256": "08fd97fbe7aa460a64b6594638b60edaa5279a75383264b90ce4e8adfd7e180c"
+    },
+    {
+      "path": "old-money-aesthetic-ad/SKILL.md",
+      "bytes": 13226,
+      "sha256": "0361cd2c4b19b0a468cdab05d072a92ada71026d93d966a93a2d7b1719a8e789"
+    },
+    {
+      "path": "partial-video-editor/_meta.json",
+      "bytes": 844,
+      "sha256": "3057ddc4e91f1c86c5c776e2eecf13869f7bbdc7cd3d55bbb4ac4fac883cf15d"
+    },
+    {
+      "path": "partial-video-editor/evals/evals.json",
+      "bytes": 8150,
+      "sha256": "c2897db27dff4d9399279effb1305b9e64e887460f1ce5b46031846d54463aba"
+    },
+    {
+      "path": "partial-video-editor/SKILL.md",
+      "bytes": 13038,
+      "sha256": "21e1d1546a0d257d4f1d1e363e59eebd8fadaea63d1d9495deadafb56c390ff0"
+    },
+    {
+      "path": "pov-character-video/_meta.json",
+      "bytes": 1076,
+      "sha256": "1e581b1b62379a26a14e7a7f205d682191d58f201c23bed39d5265e58493fe02"
+    },
+    {
+      "path": "pov-character-video/evals/evals.json",
+      "bytes": 1612,
+      "sha256": "f8a043652abcd0feb61c163209d9106903a4c227b4f5ab43635a82d7114b2958"
+    },
+    {
+      "path": "pov-character-video/SKILL.md",
+      "bytes": 10791,
+      "sha256": "6b96312bda3166bec95c504e054ec89edbbc4e8231b10a837b9f42a6f54d6e73"
+    },
+    {
+      "path": "pov-city-vlog/references/formats/constraint-checklist.md",
+      "bytes": 4573,
+      "sha256": "24d4650712892997cbae85cb616c454f56a2a9f92b88ac96e9d48f772c14ff1f"
+    },
+    {
+      "path": "pov-city-vlog/references/formats/platforms-markets.md",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "pov-city-vlog/references/formats/video-prompt-grammar.md",
+      "bytes": 5821,
+      "sha256": "a0c09462169eca4fa91b96d11617b8fba022ad1ed31d0351f97e8526c17c7eb7"
+    },
+    {
+      "path": "pov-city-vlog/references/INDEX.md",
+      "bytes": 398,
+      "sha256": "4286e6bfe8eab0f20a93c8235477c12c6a8a5efcd0d041c27ec42c1a5e23bb58"
+    },
+    {
+      "path": "pov-city-vlog/SKILL.md",
+      "bytes": 19313,
+      "sha256": "ce767fe4813f17b87c015897764eea972dcee3450b3738d2ef1489b6278379c3"
+    },
+    {
+      "path": "schedule-task-management/_meta.json",
+      "bytes": 735,
+      "sha256": "81928ae31b3e87510a180dcfa1f474bfb22a2213ea2ce0549bb29a77c75055b2"
+    },
+    {
+      "path": "schedule-task-management/SKILL.md",
+      "bytes": 11710,
+      "sha256": "7500668ded9e1cc9c26648ee16e0f005f73351b0b1a7811469056cc2f6d26d29"
+    },
+    {
+      "path": "screenwriter-zh/_meta.json",
+      "bytes": 1439,
+      "sha256": "869dee10ff884979abf5f9180889016318924668435efc268071c41b21c372d1"
+    },
+    {
+      "path": "screenwriter-zh/hollywood-craft.md",
+      "bytes": 4007,
+      "sha256": "ca095b6a0c9e0050f78fb10d5ef40a8d4a6b87a7f50ed9ffc5346a818a5893ce"
+    },
+    {
+      "path": "screenwriter-zh/methodology.md",
+      "bytes": 5948,
+      "sha256": "8a7e08c032ede8fedfe9cf1de49694d2df5dffdd2848cd59b69be1bc7823dff7"
+    },
+    {
+      "path": "screenwriter-zh/README.md",
+      "bytes": 3721,
+      "sha256": "dce2289110e734320b313134bdbbeed68c4b70c63c093cf61d796725c0a0e57e"
+    },
+    {
+      "path": "screenwriter-zh/SKILL.md",
+      "bytes": 6106,
+      "sha256": "167f18f4febcb2f7f91750058d192c7ab12f28e9fb3bc82fc5a836df7dfcfc1e"
+    },
+    {
+      "path": "screenwriter-zh/style-rules.md",
+      "bytes": 4597,
+      "sha256": "f2982270e50f0f6aae7e20160345fc4cca9881e9909e26a5a9ce873de91ec707"
+    },
+    {
+      "path": "screenwriter-zh/templates/characters.template.md",
+      "bytes": 2056,
+      "sha256": "864dcd00df19d83ea8370b9db2103ecd9ce4ee8e3128621838dbf590f60734f5"
+    },
+    {
+      "path": "screenwriter-zh/templates/synopsis.template.md",
+      "bytes": 1879,
+      "sha256": "4f14f38b58e2fb1f81a54e83350bbdd7157a8777b3a2285698377d478c6c071d"
+    },
+    {
+      "path": "screenwriter-zh/templates/treatment.template.md",
+      "bytes": 2033,
+      "sha256": "2b36338a76feb6ee8efee476264f7f9ce4075a09f9d14f44fae2818d1e2d1a30"
+    },
+    {
+      "path": "screenwriter-zh/templates/worldbuilding.template.md",
+      "bytes": 2260,
+      "sha256": "5827b61f6a2a2318b287a8c886962e6b844c863a93af060bb8e06730d67cd69a"
+    },
+    {
+      "path": "screenwriter-zh/timing-and-cutting.md",
+      "bytes": 7258,
+      "sha256": "4b2933d2bf289cef86c3b2f20783dbf29d5bd238a67907566dddf23898bc3f35"
+    },
+    {
+      "path": "screenwriter-zh/tools/build_bilingual.js",
+      "bytes": 5062,
+      "sha256": "432e5b7108b0c19d38bc3b175714ccab8ac0a1c11a8aaf29b1634873545176ac"
+    },
+    {
+      "path": "screenwriter-zh/tools/build_screenplay.js",
+      "bytes": 5357,
+      "sha256": "48da91ad734e1e71a36e04cf2d4a3d98206b81e150a51b9a8051ed911a928f8e"
+    },
+    {
+      "path": "screenwriter-zh/tools/build_treatment.js",
+      "bytes": 3972,
+      "sha256": "ff08bb027d4ba36c594ef7c78f376d589c616f2bf0413423aa59c3358a427b01"
+    },
+    {
+      "path": "screenwriter-zh/workflow.md",
+      "bytes": 3971,
+      "sha256": "d3eb196391bea97f90564cb557fa30b36fa05b7f034032548cd36a8bef52e12a"
+    },
+    {
+      "path": "seedance-previz-to-render/_meta.json",
+      "bytes": 1186,
+      "sha256": "3c280bb20e3e689ca05b6e4845740d4e50ed88ce7b1f654f622c133744066658"
+    },
+    {
+      "path": "seedance-previz-to-render/evals/evals.json",
+      "bytes": 2689,
+      "sha256": "8923d89a3eec1834b269b542b55395ccf8c0700ee4386b268513a641d8508bb3"
+    },
+    {
+      "path": "seedance-previz-to-render/references/architecture-render-guide.md",
+      "bytes": 4940,
+      "sha256": "c9fcf0b88b1fe967a339d585be031e5a371045438458c9603fd0f9abb3963d74"
+    },
+    {
+      "path": "seedance-previz-to-render/references/character-previs-guide.md",
+      "bytes": 4894,
+      "sha256": "deec5e8956a9a6f6a8779f97e1e4839b80de0cfcb54cee9b0795e9e22e8931aa"
+    },
+    {
+      "path": "seedance-previz-to-render/references/product-render-guide.md",
+      "bytes": 5021,
+      "sha256": "473b961b36188bcc8f62c5dd2995efd52de72dbc53babc008c676bc4f6468c88"
+    },
+    {
+      "path": "seedance-previz-to-render/references/style-parsing-guide.md",
+      "bytes": 6212,
+      "sha256": "c4211b6259573a558751de44b3e34acd7009b78a5a3911ccfd5c7a4fe978b349"
+    },
+    {
+      "path": "seedance-previz-to-render/SKILL.md",
+      "bytes": 14826,
+      "sha256": "96f01f464051ead4de19b4879afc18be75c12612cd68b2e978b89608772072c9"
+    },
+    {
+      "path": "seedance-seamless-stitch/_meta.json",
+      "bytes": 1042,
+      "sha256": "265630672e2f7c63231a131364fcbbba5c25a3613050136890e4e949a265faa1"
+    },
+    {
+      "path": "seedance-seamless-stitch/SKILL.md",
+      "bytes": 20353,
+      "sha256": "fff0c80709415c759bc9f6d0ed4bb2d77dd5b57f3d65dab9e20ec87a4b22d239"
+    },
+    {
+      "path": "seedance-shot-design/.gitignore",
+      "bytes": 29,
+      "sha256": "760dd12c852175712c0cd503e1165fb00ac4aecfd4b74f7c7f57e83213ae5bca"
+    },
+    {
+      "path": "seedance-shot-design/_meta.json",
+      "bytes": 2243,
+      "sha256": "576a6316d097904fe81fa40c87718323507bbe22f9f866c8bbe47d19dd114d3a"
+    },
+    {
+      "path": "seedance-shot-design/assets/logo.svg",
+      "bytes": 3987,
+      "sha256": "0d56fc2a75f1a0b80f598e0b7e3c2254a2f5c44f48b2d54a20cdf0b06324b505"
+    },
+    {
+      "path": "seedance-shot-design/LICENSE",
+      "bytes": 906,
+      "sha256": "4896eae944546178653a96ea3eabd58231c794551c987cc77bfec6ca6fa52098"
+    },
+    {
+      "path": "seedance-shot-design/README.es.md",
+      "bytes": 26931,
+      "sha256": "8ef678ae6443b02ea9ec4170dec0e4d4109aa316761de117c878a6292f78d69c"
+    },
+    {
+      "path": "seedance-shot-design/README.fr.md",
+      "bytes": 22091,
+      "sha256": "b61bb394eedcad430900c5bb8d96dc95ab1fb947de83dbe4efb90b56a180b8b1"
+    },
+    {
+      "path": "seedance-shot-design/README.ja.md",
+      "bytes": 28789,
+      "sha256": "916d20ad1df0a918f386aa9648f9721fd8aec4e7b16e3cc5b50360ee41caf2d7"
+    },
+    {
+      "path": "seedance-shot-design/README.ko.md",
+      "bytes": 25174,
+      "sha256": "ed450a5719d911edd33c8b1c10c38a42d3a88179226170a3e9970524cdbe7b99"
+    },
+    {
+      "path": "seedance-shot-design/README.md",
+      "bytes": 27190,
+      "sha256": "e93f8972c733c1c2f98a6b3809a0bf1641cc5ee193717f185688bef4dc76b681"
+    },
+    {
+      "path": "seedance-shot-design/README.pt.md",
+      "bytes": 21289,
+      "sha256": "8a6096742ad281bfcc0b82d79c4af85098de689e0de268a428a1b94da3c61de0"
+    },
+    {
+      "path": "seedance-shot-design/README.zh-CN.md",
+      "bytes": 23779,
+      "sha256": "ece955c0c21b9214c1730928e773c2a35def946fd9e65f8213b81e40c76784ec"
+    },
+    {
+      "path": "seedance-shot-design/references/audio-tags.md",
+      "bytes": 10114,
+      "sha256": "2e58c7fea919275ac6fd2b1a1fa836c4518a8168bb9f3993a607f14b3686b57e"
+    },
+    {
+      "path": "seedance-shot-design/references/cinematography.md",
+      "bytes": 20095,
+      "sha256": "9c7c3672a2655c1b98e6d5bae718609527ed1375b7837ab6ef9513d5ffb583a6"
+    },
+    {
+      "path": "seedance-shot-design/references/director-styles.md",
+      "bytes": 21087,
+      "sha256": "ab6c6e15e818fd885040c0f984f79e495b4a94de08b935158b365443698e6e6b"
+    },
+    {
+      "path": "seedance-shot-design/references/quality-anchors.md",
+      "bytes": 14845,
+      "sha256": "a6a0efffb97f86a71d912ac3deeda79b4a524b26b281faa8912a7d108edd756c"
+    },
+    {
+      "path": "seedance-shot-design/references/scenarios.md",
+      "bytes": 46693,
+      "sha256": "d1dc45ca1d44ed1fd5d3e5ed8b0f51392f9a7ead4678fd5949d90965eb81f851"
+    },
+    {
+      "path": "seedance-shot-design/references/seedance-specs.md",
+      "bytes": 5889,
+      "sha256": "8cccc78211e4a1e79204111f0cf93f4c9ae55af45204d824c109046edd4249b4"
+    },
+    {
+      "path": "seedance-shot-design/scripts/test_validate.py",
+      "bytes": 17989,
+      "sha256": "1ee7a1f806e299f3a8b759c34fbd0b53240357e15243c67ecb343b7bf9def5c8"
+    },
+    {
+      "path": "seedance-shot-design/scripts/validate_prompt.py",
+      "bytes": 24850,
+      "sha256": "9369378c49d3af20580f2d26bd4e3e785b585c1a1d874122e280ab1d91fc2369"
+    },
+    {
+      "path": "seedance-shot-design/SKILL.md",
+      "bytes": 41955,
+      "sha256": "dce0b9ab7f0c551ac4e5df6526d90a36423daee5d50af2d7c622a6794cdef751"
+    },
+    {
+      "path": "seedance-shotlist-director/_meta.json",
+      "bytes": 1353,
+      "sha256": "6409c0e264c64b0829ff07d1a4ef9246a050ad487413a34dfb17f56b58a474ca"
+    },
+    {
+      "path": "seedance-shotlist-director/SKILL.md",
+      "bytes": 21343,
+      "sha256": "a55478387450f8189d118ca06207015ac0d0aaef651c419f5cb8afc97193dca1"
+    },
+    {
+      "path": "seedance-vlog-maker/_meta.json",
+      "bytes": 951,
+      "sha256": "af3458c029d410628fa7e0aa790febac8d474a233562bc26b1de739a9a420cb2"
+    },
+    {
+      "path": "seedance-vlog-maker/references/style-library.md",
+      "bytes": 3195,
+      "sha256": "4d28c2dfe51167b2991e4e013f51fc5602ab5fb86ba751d7429827265634299e"
+    },
+    {
+      "path": "seedance-vlog-maker/SKILL.md",
+      "bytes": 32605,
+      "sha256": "a2fd8713bc645b6e89ecfe98aebbca250caee2f955537b56c4a4116fda354a6e"
+    },
+    {
+      "path": "shopping-vlog-creator/references/formats/platforms-markets.md",
+      "bytes": 1701,
+      "sha256": "e630013aafb615f4e5ceecb97ff8aca58213ef8da7a6d316f20ffe278586f4c9"
+    },
+    {
+      "path": "shopping-vlog-creator/references/formats/video-prompt-grammar.md",
+      "bytes": 428,
+      "sha256": "00214cdbbce6a37349086cb9509fabfa47d0bff47566678ea896d8d2e84c2084"
+    },
+    {
+      "path": "shopping-vlog-creator/references/formats/vlog-prompt-grammar.md",
+      "bytes": 10491,
+      "sha256": "9ed5d12dcc3cef326a2fac29faeb27dc10ad76c631757333b7891da869e9c08c"
+    },
+    {
+      "path": "shopping-vlog-creator/references/INDEX.md",
+      "bytes": 422,
+      "sha256": "1ef5ba1d4d3fc2f749af7c24caec3450401437680a34ad165fe21835f8ad1421"
+    },
+    {
+      "path": "shopping-vlog-creator/SKILL.md",
+      "bytes": 10827,
+      "sha256": "eb35217ee0e870bc01bcfaeb886ff920b94d365824bd597f04a32a857edd5ad6"
+    },
+    {
+      "path": "storyline-advertisement/_meta.json",
+      "bytes": 802,
+      "sha256": "d125d9faee955a828168fd250367545619acfcc0014bd302d6718b69807f2485"
+    },
+    {
+      "path": "storyline-advertisement/SKILL.md",
+      "bytes": 1376,
+      "sha256": "03b603091eaf20a02a22b984b14fc460daa5ab08bce0e2236b87d411f99f9e63"
+    },
+    {
+      "path": "teto-dynamic-video/_meta.json",
+      "bytes": 1389,
+      "sha256": "fbffd287cb87240b0712b116afc5d3b1eea410a254996595f0899032b439218b"
+    },
+    {
+      "path": "teto-dynamic-video/references/formats/audio-rhythm.md",
+      "bytes": 4238,
+      "sha256": "c80e3872c923cd3c91a35152255b91699a1cc03cbff425d7e8322ca160a10c57"
+    },
+    {
+      "path": "teto-dynamic-video/references/formats/background-replacement.md",
+      "bytes": 4515,
+      "sha256": "eccde5447f00836612087e955187e0aab36beb50aa098941b1deb4cf9f201196"
+    },
+    {
+      "path": "teto-dynamic-video/references/formats/shot-design-and-effects.md",
+      "bytes": 13949,
+      "sha256": "9fd1d2edb3a424f979e2f3c7c37928cf15d05fe61b41f4d181c8adb08e4a2eeb"
+    },
+    {
+      "path": "teto-dynamic-video/references/formats/tvc-mode.md",
+      "bytes": 13340,
+      "sha256": "deb95bfa3d1f32feb984fea5e7829fae0918d6f0c91697c78036e80e165a0718"
+    },
+    {
+      "path": "teto-dynamic-video/references/formats/video-prompt-grammar.md",
+      "bytes": 8229,
+      "sha256": "20930c5bf4bfed2fd90aab00b2ab5eecebe02e1bbf5c4169de418111ac9e8b9a"
+    },
+    {
+      "path": "teto-dynamic-video/references/INDEX.md",
+      "bytes": 741,
+      "sha256": "820f3ab64e856b49db955b9142842d5cff4d1fdc5d341c484b676696576b93e2"
+    },
+    {
+      "path": "teto-dynamic-video/SKILL.md",
+      "bytes": 20914,
+      "sha256": "b6b9bb727f38080305af4c6ff986bd201f88606cb782f6c38b7e829dea2b2b5f"
+    },
+    {
+      "path": "ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi/references/action-and-effects.md",
+      "bytes": 20691,
+      "sha256": "876c2ddb31f451dd7d0511a32677bbb054605f34b196dbd446a3db146ae7114e"
+    },
+    {
+      "path": "ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi/references/director-method.md",
+      "bytes": 10405,
+      "sha256": "07e89ce2b73ad87f07b40b5c0ff4abf382205dfe195d53ad01266178032dffc9"
+    },
+    {
+      "path": "ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi/references/platform-adapter.md",
+      "bytes": 6570,
+      "sha256": "d7cb4369f95115fa33ce374eb73ecc796d812dbe97dedc5d05ead6c9bcad1b60"
+    },
+    {
+      "path": "ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi/references/production-continuity.md",
+      "bytes": 7396,
+      "sha256": "d6c8d213c7a62f6213f5be660672fe79d4349400427d207d8f62904276dc2fae"
+    },
+    {
+      "path": "ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi/references/prompt-compiler.md",
+      "bytes": 8191,
+      "sha256": "2b6e6d3876c77440cc7a593f482e5e777b3c21110010dbfbbb2f1ebf2ad3132c"
+    },
+    {
+      "path": "ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi/references/review-and-repair.md",
+      "bytes": 4800,
+      "sha256": "245710e4d9e527280e7fd0a4990c327fe0d5ead9258b902f699d564b181dd985"
+    },
+    {
+      "path": "ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi/references/worked-examples.md",
+      "bytes": 15368,
+      "sha256": "e280dd3d9b52ddbfcffd2cd7c1769d0acf3b73214ec4eedba5a144e28d394adf"
+    },
+    {
+      "path": "ugc-2-5-tong-yong-dao-yan-skill-ti-shi-ci-you-hua-shen-qi/SKILL.md",
+      "bytes": 6612,
+      "sha256": "b1dd10519ee7b185f56a7e52816e6c64995c771e1de31a28dc4a1e04cc4f7835"
+    },
+    {
+      "path": "ugc-2d-gai-nian-jue-se-sheng-cheng/SKILL.md",
+      "bytes": 10651,
+      "sha256": "b21aff06af5f92abb9e986df5d74b58765d114899c41446e825910a9f8a3a76b"
+    },
+    {
+      "path": "ugc-ai-wang-hong-mo-te-dai-huo-shi-pin/SKILL.md",
+      "bytes": 13022,
+      "sha256": "e55ddced792fc7766a8eaa5cb96c12372d8d3b4a50730aedd28bf411800f37f4"
+    },
+    {
+      "path": "ugc-b-roll-kong-jing-sheng-cheng-qi/SKILL.md",
+      "bytes": 6520,
+      "sha256": "1495b46f3a0bafd485930aa4af151dc4623334d80126573350f83a090e3d444d"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/0822-master-deep-enhancement.md",
+      "bytes": 14316,
+      "sha256": "7e5568a9f311d020076f9dee02de0e8a224dec5e6ee19e8c979a1ee355f55853"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/0822-mj-longvideo-adaptation.md",
+      "bytes": 7675,
+      "sha256": "a52fc580b1bca79a3f18bacb92c1ce1f53690c691713a226bd46cdfbfaca0c4b"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/director-styles.md",
+      "bytes": 15861,
+      "sha256": "a2c8c8865f9463f05a794333a8b04036b850c3e5d565ed1fa6290a4294768fdb"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/master-committee-and-loop.md",
+      "bytes": 8295,
+      "sha256": "6b3b8ee87676bf19dc7f2592bec77c617e1405a400eb615e30cf0017a1a46f5b"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/master-jury-review.md",
+      "bytes": 6437,
+      "sha256": "4b0a9ac32ce7d287a5a3291576d5905dc491eff3a5ce82cc6f9e1105f5c1b379"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/narrative-structures.md",
+      "bytes": 12063,
+      "sha256": "89d68a823b7ab94b32ad81e903c8d558d16c858af9f99588ad75fc150c1f5a0c"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/nolan-motifs.md",
+      "bytes": 6205,
+      "sha256": "3e837994795344ba2cd9dce0ad954c23610fb782031278bd4929276062b3faa1"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/quality-gate.md",
+      "bytes": 9011,
+      "sha256": "42288489b4ec22e34848c3df322bc4521aff0c439bf6edd9cd0d4b762c971e4c"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/seedance25-protocol.md",
+      "bytes": 6817,
+      "sha256": "20422743956b2a42a6a98fd49fb3673a655aa9785d0d87d597d9eac83bf70028"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/shot-libraries.md",
+      "bytes": 13583,
+      "sha256": "c3fc08e5cf844239899e8318fc36a5d2b754bf0eaba60ba1ade935a1c3cc66e3"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/references/six-dimension-engine.md",
+      "bytes": 13038,
+      "sha256": "2dba3777e024e10020c5ec4d05ab5b0b2a906c20cbcae4ae0404b66bb70fc5f8"
+    },
+    {
+      "path": "ugc-bian-ju-ju-ben-fen-jing-shi/SKILL.md",
+      "bytes": 40505,
+      "sha256": "b7a6448bf8a8a0c89e79770cb0a40b1254a846e44350367ae5639976a80b323d"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/references/01-transition-transformation-dna.md",
+      "bytes": 1798,
+      "sha256": "0d2bd321769e30fa62ea8a656f12f760c3cd49ae9072229c8b5e9a99373fd3c3"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/references/02-viral-script-hooks.md",
+      "bytes": 1685,
+      "sha256": "02fee3a02da9ed42bf88b90a2a164fa9ab29c0f50a86205fe9ebf7bd99e4d939"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/references/03-sound-design-asmr.md",
+      "bytes": 1485,
+      "sha256": "6cca06ecb866a5558f72e6968367f78a3633afd1aa982f6ec0950de549f05a0b"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/references/cinedance-camera-optics.md",
+      "bytes": 1773,
+      "sha256": "4586f6f7494a14528f11ed2f51ad17416e95fce670e3cd2257631cb21108cc0c"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/references/midjourney-v8-t2i-engine.md",
+      "bytes": 30706,
+      "sha256": "fc8a36c8f658b3d125e580d7c37c225a908d94d13352b2bfdb54c8f4cbb7e00d"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/references/multiref-ensemble-acting.md",
+      "bytes": 9360,
+      "sha256": "05036608a5e17bcfe7a46da478ca90db3b04e28f3531ffbf5a4969cb46d0cf7b"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/references/perf-acting-au-system.md",
+      "bytes": 1801,
+      "sha256": "1d78a1e0111e29416f71e861580179e8c4bf85e27ab41eabbcdff671584be6c9"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/references/whitebox-3d-rendering-guide.md",
+      "bytes": 1743,
+      "sha256": "2a102b0249b17256496b64ba5d87b647d2c2bd2c5fc36fa410cb85e278dbe09b"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/skill-intro.md",
+      "bytes": 3543,
+      "sha256": "7183ccbe6a3cebfa09a5d8bc40d4da0b92e4ed8fab0c720403a933d9231de2cb"
+    },
+    {
+      "path": "ugc-bian-zhuang-ka-dian-zhuan-chang-guang-gao/SKILL.md",
+      "bytes": 21172,
+      "sha256": "693a9d64ddfcf649752da1e7121603f36874e14315589184e5094819f10e56b0"
+    },
+    {
+      "path": "ugc-can-kao-tu-jue-se-feng-ge-qian-yi-skill-v2-0/SKILL.md",
+      "bytes": 11476,
+      "sha256": "49858838701f8838977ccfba66a02b542c341a5a7db011a186ffb2b28e3853df"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/assets/character_card_blank.md",
+      "bytes": 1936,
+      "sha256": "68c06961205d85fd92f0e96d02eca8c240c66d0a985c8376b601765999f68e9a"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/assets/geo_layout_blank.md",
+      "bytes": 1290,
+      "sha256": "9cb062ae81f19dd3106a5335c6fe3095e9e45419057f0c753ef51ff8b431252d"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/assets/satisfaction_density_blank.md",
+      "bytes": 1350,
+      "sha256": "90694cd206342299caa25b15596cb57d3a2a8c9f7ff5e66ae866f6bcf3fd6c75"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/assets/storyboard_skeleton_blank.md",
+      "bytes": 2905,
+      "sha256": "43c698fa2e6bf6eb83b63760afa158d94983132e0d5e69885439277e7c3f785f"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/assets/style_prefix_template.md",
+      "bytes": 3385,
+      "sha256": "3cf3858de30114b6db286830c5f8fa950c95d8c89fa95d6bbd992a839d8001f1"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/01-whitebox-champion-rendering.md",
+      "bytes": 12763,
+      "sha256": "f6e9b02f12a070f163a8f1e9f96748c58b5caf83a4b9aa439b216c660a2e191f"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/02-seedance-25-full-capabilities.md",
+      "bytes": 8965,
+      "sha256": "0f5dcec006dd19f64d507f0bd8fcf5b0627ed2e9b5f839a95947b7ad3a0456e2"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/03-cinedance-camera-optics.md",
+      "bytes": 29268,
+      "sha256": "33838eeba98e5e907f3b92663449db3e5454326ff501b310b5ae38435c6b7bd2"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/04-acting-behavior-system.md",
+      "bytes": 23085,
+      "sha256": "84632551e0bd1aaa9e5a1d045fc99cdb35cd4fc885d159c493d88498b4860101"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/05-lira-asset-generation.md",
+      "bytes": 29014,
+      "sha256": "40efc75bbb286037a1fc2dd70cf8d13009688769ccc5da98f8469290fd7c73af"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/06-audio-driven-sound-engineering.md",
+      "bytes": 8807,
+      "sha256": "6c766bdb439ca24d013a84dfc2f8cbb4dccb24ac995b80f6fa4ffd52db78e0bf"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/07-hellgrind-production-pipeline.md",
+      "bytes": 10166,
+      "sha256": "f655a229d763eb6c1254ac0693338ad21987acd87103798061679889f457a79d"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/08-master-prompt-templates.md",
+      "bytes": 12273,
+      "sha256": "fcb17128fe15670fbdaec0eedd0768a6c871a2feb6311c425cec850ffd73a178"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/0822-master-deep-enhancement.md",
+      "bytes": 13573,
+      "sha256": "a84fe4a5b55c3b3b5556d9890a59fc08e463d64b3f31cef5c6c118e13b43e10a"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/10-capability-engines.md",
+      "bytes": 10368,
+      "sha256": "59c250923b24a809fd4d28a38d4d9ecb64cd0cd0715e65c4536beefd668ec321"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/11-user-asset-logo-placement.md",
+      "bytes": 9024,
+      "sha256": "be7cf776679f6c2f02de11181d0cfc0487635331d9878316435b1152606523ca"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/13-multiref-i2v-pipeline.md",
+      "bytes": 27948,
+      "sha256": "866b698f4cb0a6006d91a1ef4de616b879286c1708357617ca8a64b83432aae2"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/14-seedance-25-longvideo.md",
+      "bytes": 4413,
+      "sha256": "4ddb3a90faecc8ffd0d8567bf02fbaad9fc9af621641ac3c8734a461a9f3c0cc"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/15-director-shot-library.md",
+      "bytes": 5191,
+      "sha256": "2e457a21bb93b8ffefc18d2997f0516e96a7d75d4a4580f04905fad9d98e34a4"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/ad-master-creative-method.md",
+      "bytes": 3571,
+      "sha256": "a2b5af6aecd61773091b847d7e956f26c806911b2f50414d86c5f83a62d82ad7"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/ad-master-directors.md",
+      "bytes": 3537,
+      "sha256": "f0ff3358caf32771900cb1572edf5e95f2bac2b0f1dd657962b3cdd4fa3a57c3"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/ad-master-jury.md",
+      "bytes": 2864,
+      "sha256": "e7ba8f3cfad965668ac5c10602518ddd320d4a701a83f71974a4d5ba80d33bed"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/ad-structure-brand.md",
+      "bytes": 3519,
+      "sha256": "854bff137cbe88ab41ef052d5b34546731e11729011db1489a2053260a2ab3b4"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/ad-style-library.md",
+      "bytes": 6676,
+      "sha256": "ee5c07628834e2ba22fabc4fd870a96bf60e23a3b1f1d51fad8bd01d6e2bcd73"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/sd-character-continuity.md",
+      "bytes": 8350,
+      "sha256": "08ad5d1ae21a708aa54921b02f8edfa0bf64fcc0b9c6f9700861c7539c96bd0e"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/sd-comic-drama-video.md",
+      "bytes": 8771,
+      "sha256": "8ac859389625473e3152d2a93c7f3b85f4d6673cc80652ebd111dcafa5e6fe94"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/sd-dialogue-generation.md",
+      "bytes": 5236,
+      "sha256": "e62f12e354f49cf50a78ab2a10a7463d051952592ebd952d3715ce4a53766415"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/sd-ending-hooks.md",
+      "bytes": 5649,
+      "sha256": "a63db8c279d995b6245542dfca1c4b73cfa99d40ee396eab0193e4cdf264e67a"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/sd-episode-structure.md",
+      "bytes": 5384,
+      "sha256": "489ed5d88601e23125629d18cdcf439c74653f9b817aa6dd0dcb911b06c9c6d2"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/sd-genre-formulas.md",
+      "bytes": 11886,
+      "sha256": "73c642a39caf42b1ab6beed863a0ee38b02883f95fea75b80efcc83788645d66"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/sd-master-review.md",
+      "bytes": 6358,
+      "sha256": "d3671821ed3b722c2a8c5b8c9d648e9d784647f951a24d564fe0901847825887"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/sd-sample-pilots.md",
+      "bytes": 7711,
+      "sha256": "dd45f334c287be8469e3d1c250da942aa2c51f7cfef759c70ad9cc020817d89c"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/references/sd-storyboard-rhythm.md",
+      "bytes": 15663,
+      "sha256": "27833b39eecf0b1d683c53b56872c91bddbe9c47d835d880c5de322b50568fb9"
+    },
+    {
+      "path": "ugc-chuang-yi-guang-gao-pian-dao-yan/SKILL.md",
+      "bytes": 40935,
+      "sha256": "33bad6f01693ed7598553f43237ce5b2b187986d764c58ad6298e5d2ca4d4b3b"
+    },
+    {
+      "path": "ugc-cinematic-comedy-pro/SKILL.md",
+      "bytes": 5931,
+      "sha256": "dab6180fd7951c540e4e35b9d92be4992018d756b77fd6b46a0dab272e441b9e"
+    },
+    {
+      "path": "ugc-dian-shang-bao-kuan-zhong-cao-jiao-ben-sheng-cheng-qi/SKILL.md",
+      "bytes": 7297,
+      "sha256": "28822967810d2b9cf129c7c725f10319a5cf0b95effd4efab2b82a77fed56876"
+    },
+    {
+      "path": "ugc-dian-ying-ji-shi-pin-fen-jing-jing-xi-hua-chai-jie/SKILL.md",
+      "bytes": 2164,
+      "sha256": "2ed3dd7b370f2dac55641fc5021e6481edae7bec06b62a1f787f354abd51758e"
+    },
+    {
+      "path": "ugc-fan-zhuan-wei-duan-ju-dai-huo-shi-pin/_meta.json",
+      "bytes": 114,
+      "sha256": "b702f38b933dee59ccb14125648e3ee2bc7815acd95ad5fda66c59a52a563ebf"
+    },
+    {
+      "path": "ugc-fan-zhuan-wei-duan-ju-dai-huo-shi-pin/agents/openai.yaml",
+      "bytes": 286,
+      "sha256": "9493815342557c509de6aa2f6873ae9e3badb06d145a00e7c59ed4fb8b666bfa"
+    },
+    {
+      "path": "ugc-fan-zhuan-wei-duan-ju-dai-huo-shi-pin/references/prompt-rules.md",
+      "bytes": 10804,
+      "sha256": "6ce2259ef0a181f6f9ed074c9bcd89cdd86307a56b5d241f0565f10b9ac7178b"
+    },
+    {
+      "path": "ugc-fan-zhuan-wei-duan-ju-dai-huo-shi-pin/references/story-ideas.md",
+      "bytes": 29238,
+      "sha256": "e1f6c019e4e996d2d9a4f2fa4442563e799ba35d3d882e1dbe972633bde09f41"
+    },
+    {
+      "path": "ugc-fan-zhuan-wei-duan-ju-dai-huo-shi-pin/references/topics.md",
+      "bytes": 5895,
+      "sha256": "478cd094551cf01c31d8a4702dc7a2ff9e5dd500be083219d4bf6ee37d09cd2c"
+    },
+    {
+      "path": "ugc-fan-zhuan-wei-duan-ju-dai-huo-shi-pin/SKILL.md",
+      "bytes": 8841,
+      "sha256": "b0b94378fde02300b9ca8827b55dcbf5582781663effe5679b6fe59f79c4fa87"
+    },
+    {
+      "path": "ugc-fen-jing-dao-yan/SKILL.md",
+      "bytes": 21995,
+      "sha256": "19b0bdb4b0e8cb7920fcb27de9c11bfe063a83901b73f3caa0aefe9cca3104e6"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/evals/basic.md",
+      "bytes": 3619,
+      "sha256": "29f5b3529685830da1587c12c94ae43667a08f8b52ae552d9ed54cd8467762b8"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/references/authority.md",
+      "bytes": 3323,
+      "sha256": "b5b0dac36922f2fdbcad43d61e98009f2bf2c4a296a53a58f147f06d83b8959c"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/references/citation.md",
+      "bytes": 3854,
+      "sha256": "cede7bbfc85bea3e95d9bb7f15c84e40576813319a444bf9a9737ac56225647f"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/references/monitor.md",
+      "bytes": 3624,
+      "sha256": "e97488b2118b80840c1374c2c283acbeb6bff5b7504326eeb7897ab35bee3f79"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/references/platforms.md",
+      "bytes": 6553,
+      "sha256": "758446459e683f3c402d32e47864220bb5100118c050b0010d8cf352fdbecc9d"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/references/presence.md",
+      "bytes": 3898,
+      "sha256": "2d36e8039af2ccb97808db68a399f18ececcef5d13e0bfe12e1d22ef4e7e6fa4"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/references/scoring.md",
+      "bytes": 5925,
+      "sha256": "b7e432f39a5456e63fa669059bba726bcfb56c16b88636c2d88fe4619a1fad29"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/references/structure.md",
+      "bytes": 3320,
+      "sha256": "f981c2168d72fbb96f55fb68090fd92b2ba90fecf09a85003c67947ae7dbd360"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/references/technical-checks.md",
+      "bytes": 13062,
+      "sha256": "ee2d121baf4b660bd4e532ba9e453e145868c365b232e7a8b1ca3c7e68728c01"
+    },
+    {
+      "path": "ugc-geo-zhen-duan/SKILL.md",
+      "bytes": 12104,
+      "sha256": "25f40c5936255eb535f67eeb6d12f5084e32c69854035f881cd46e9da3235433"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/references/01-grwm-beauty-dna.md",
+      "bytes": 1464,
+      "sha256": "ebb652437894cc88ca259653a4b1c89e5880d7172a331ec0954a151bf5a2464b"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/references/02-viral-script-hooks.md",
+      "bytes": 1521,
+      "sha256": "9b4b20b8a9adcfb86b4d77a5bd16ad66fa81d34dfcdab4fd8cbc065be500a22d"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/references/03-sound-design-asmr.md",
+      "bytes": 1198,
+      "sha256": "a6965d8ccce7471997adf3308cfada791d901587a485f8e67540cc5aff913081"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/references/cinedance-camera-optics.md",
+      "bytes": 1315,
+      "sha256": "175d65cbac042e2cb7558617bfd9871d499e40b65ea240fea64ed37195282c5f"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/references/midjourney-v8-t2i-engine.md",
+      "bytes": 30706,
+      "sha256": "fc8a36c8f658b3d125e580d7c37c225a908d94d13352b2bfdb54c8f4cbb7e00d"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/references/multiref-ensemble-acting.md",
+      "bytes": 9360,
+      "sha256": "05036608a5e17bcfe7a46da478ca90db3b04e28f3531ffbf5a4969cb46d0cf7b"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/references/perf-acting-au-system.md",
+      "bytes": 1551,
+      "sha256": "eddd10cd1e142b8002286ff54a03820aea774bca30c1f99070868e6a5d013a13"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/references/whitebox-3d-rendering-guide.md",
+      "bytes": 1494,
+      "sha256": "82ee82fe7ea147a070f144e9fef5d2eee8a5499211541ee503d0963fa387bca5"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/skill-intro.md",
+      "bytes": 3178,
+      "sha256": "b7de2b6126b6fe9a1722da2dbbbd059d5cf69ecdeec1d3486a98573127cb7c4d"
+    },
+    {
+      "path": "ugc-grwm-mei-zhuang-jiao-cheng-guang-gao-feng-ge/SKILL.md",
+      "bytes": 20664,
+      "sha256": "3da6b35e7ada97ffe49dd909d44f4080fa8fc187e84a4a5596bfccc0ae6b9c66"
+    },
+    {
+      "path": "ugc-huang-jin-15-miao-wei-xu-shi/references/formats/hook-curve-library.md",
+      "bytes": 6047,
+      "sha256": "82c60803409ba69e5dcca9faea32536947888fd99e21e733b0b0388362b9cd48"
+    },
+    {
+      "path": "ugc-huang-jin-15-miao-wei-xu-shi/references/formats/shot-prompt-grammar.md",
+      "bytes": 5102,
+      "sha256": "651adca567373006a41816ced45cefe853012d9a96d084a7a87e20f8259de6a1"
+    },
+    {
+      "path": "ugc-huang-jin-15-miao-wei-xu-shi/references/formats/style-variants.md",
+      "bytes": 3759,
+      "sha256": "21021fbf75ee983dbf2bc3548c0cefa0cc3ed93518e8839045289ad08839f556"
+    },
+    {
+      "path": "ugc-huang-jin-15-miao-wei-xu-shi/references/INDEX.md",
+      "bytes": 513,
+      "sha256": "0b173d5fff9532daede8a2efe4adfc28a2390ddc4aeeb4df861539e184de9759"
+    },
+    {
+      "path": "ugc-huang-jin-15-miao-wei-xu-shi/SKILL.md",
+      "bytes": 10462,
+      "sha256": "2b803618a1bbd49df475764307b3e7658a40f0be658ee2eba43b6613c7886cfd"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/agents/openai.yaml",
+      "bytes": 222,
+      "sha256": "d5cb420d8e928a484836cf223560445017fecd475b05d76532c2af8f2e3f9341"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/evals/basic.md",
+      "bytes": 10151,
+      "sha256": "16190216bd130d88690b98bd64abd2e7f66791f29a208be30264e5f1422df02b"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/evals/boundaries.md",
+      "bytes": 3960,
+      "sha256": "04803e04f1e10f156225e927c3693d9d4cb9c1b9b7f94c9caec093f921b152a1"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/evals/platform-compatibility.md",
+      "bytes": 9735,
+      "sha256": "ba2f54375ce8db47250730de5e75ab32b5d3013601b2e5a11df86669004eef63"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/evals/regression.md",
+      "bytes": 8800,
+      "sha256": "e0f7f43becb510bfd8e38cdb09527dc5d4c381511f40669168eab3d0777a459b"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/references/action-priority.md",
+      "bytes": 2975,
+      "sha256": "20a986c44866e6de7a21b58be00e092d2455deef0a019cdb4995072a7cd0c499"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/references/competitor-set.md",
+      "bytes": 3442,
+      "sha256": "112898d5d17f19f6a56fdee4184cdb4de1ea3182dc1cd47565ca36d96efd4d49"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/references/content-reverse.md",
+      "bytes": 3107,
+      "sha256": "6b975327598a910e2e9df00644ea576ead7e4797b96b754cb80a483c677ea524"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/references/data-sources.md",
+      "bytes": 3968,
+      "sha256": "bf6a22b2b30788a7de8922915dbc21a049c5ff7d65368acf66c85441f563abbb"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/references/dimensions.md",
+      "bytes": 5555,
+      "sha256": "855a520fb2eac2c7b55d97eb210b85bcba915f289646c3767a23a86c8ec134cd"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/references/evidence-protocol.md",
+      "bytes": 3279,
+      "sha256": "031df5c6da8e4312404790d489186122d1a6ca9cfcac3343e343238e51f4e286"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/references/report.md",
+      "bytes": 4517,
+      "sha256": "1dca4c087eab8b65363da89fa379ce7a8dbd07a9f325e6f5da0c96c4980db938"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/references/sentiment.md",
+      "bytes": 4604,
+      "sha256": "ecfc220e38e8a52614499efcb0ea3dfef3e43533a53feafe7c5d382c60814315"
+    },
+    {
+      "path": "ugc-jing-pin-ying-xiao-fen-xi/SKILL.md",
+      "bytes": 16345,
+      "sha256": "e364509512c7d81565f83c0e02b5624596fec8401c7081c7078458e578453401"
+    },
+    {
+      "path": "ugc-ju-ben-shen-cha-yu-gai-bian-da-shi/SKILL.md",
+      "bytes": 47132,
+      "sha256": "ecfda1382124e9e5901d0abe91da96904e0a18d89588c61c1e8acf5882151283"
+    },
+    {
+      "path": "ugc-ling-shi-dai-huo-jiao-ben-sheng-cheng-qi/SKILL.md",
+      "bytes": 1260,
+      "sha256": "ef21c3d1a5d9e125fc64fe048513726d40ad612fee5e8c3c9ac45df71c895e6c"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/references/01-food-mukbang-asmr-dna.md",
+      "bytes": 1799,
+      "sha256": "3b62bbe30df0193e35f9a4ff1b2289e4a4de1a847a524a1b93e9578b939c2946"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/references/02-viral-script-hooks.md",
+      "bytes": 1619,
+      "sha256": "c63555623ba65acae31368fd06aefbf7a154c8a4bf09fbe21ed74f2164395a1e"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/references/03-sound-design-asmr.md",
+      "bytes": 1423,
+      "sha256": "8cc10b614d68e6ef344f8322824aa362d856f96a566e9c40497a32f92249374b"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/references/cinedance-camera-optics.md",
+      "bytes": 1727,
+      "sha256": "0299c8b74cc4c0eed7ed737d27c1c98bc34d25f4f7c9f3f73fc063aa0dad9fed"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/references/midjourney-v8-t2i-engine.md",
+      "bytes": 30706,
+      "sha256": "fc8a36c8f658b3d125e580d7c37c225a908d94d13352b2bfdb54c8f4cbb7e00d"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/references/multiref-ensemble-acting.md",
+      "bytes": 9360,
+      "sha256": "05036608a5e17bcfe7a46da478ca90db3b04e28f3531ffbf5a4969cb46d0cf7b"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/references/perf-acting-au-system.md",
+      "bytes": 1697,
+      "sha256": "31bb2a4ff55ee6c8d15696ad409370763f6e0c2e9436c8b832c93b1c2f43ab06"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/references/whitebox-3d-rendering-guide.md",
+      "bytes": 1697,
+      "sha256": "dcd4a8f9bf43d7ef2098914b472c99820d4a3672bf536d23bc7c204e8f14f917"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/skill-intro.md",
+      "bytes": 3254,
+      "sha256": "b414271444a8a923d25415453cd091fc860a805cba982a377b71d2506f7f683d"
+    },
+    {
+      "path": "ugc-mei-shi-chi-bo-asmr-guang-gao-feng-ge/SKILL.md",
+      "bytes": 20908,
+      "sha256": "b0d5fc4b0803923ad8b1cd35bd1197ca7acbe88b5e20e0a14a3a3c45fd4836a2"
+    },
+    {
+      "path": "ugc-mei-zhuang-zhong-cao-yin-qing-beautyforge/SKILL.md",
+      "bytes": 112585,
+      "sha256": "6660d4251fefdf26b4a347d0a14d83c8a440207df6be8baa479010d96494ab97"
+    },
+    {
+      "path": "ugc-pin-pai-logo-dong-tai-pian-tou-sheng-cheng-ji-neng/SKILL.md",
+      "bytes": 5160,
+      "sha256": "ae78bd07edc208860ef0df9e2934d8bf44428ba776f33308bf31167b1d3eb850"
+    },
+    {
+      "path": "ugc-pin-pai-shi-jue-quan-liu-cheng/agents/openai.yaml",
+      "bytes": 382,
+      "sha256": "f2f7d900f823a26891f5818fcb16f53ef2b295172181cea2d9a084d481852ae6"
+    },
+    {
+      "path": "ugc-pin-pai-shi-jue-quan-liu-cheng/references/brand-to-mockup-patterns.md",
+      "bytes": 1205,
+      "sha256": "97b93de25a0a65d11138f7e3b69b7c19f3fc4d3e2ce89fc603539e4b1ed20b36"
+    },
+    {
+      "path": "ugc-pin-pai-shi-jue-quan-liu-cheng/SKILL.md",
+      "bytes": 6067,
+      "sha256": "c7fa777548918b42175be96856179387be13bf5751db48decdcfc53cb4a7752b"
+    },
+    {
+      "path": "ugc-qi-ye-lao-ban-zhuan-shu-ai-ying-xiao-fang-an-sheng-cheng-qi/SKILL.md",
+      "bytes": 1117,
+      "sha256": "422ff413c9b1f5bfa63f12101ec7c76f762608628e0bbf3ef0c88e29cdabbd30"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/assets/character_card_blank.md",
+      "bytes": 1936,
+      "sha256": "68c06961205d85fd92f0e96d02eca8c240c66d0a985c8376b601765999f68e9a"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/assets/geo_layout_blank.md",
+      "bytes": 1290,
+      "sha256": "9cb062ae81f19dd3106a5335c6fe3095e9e45419057f0c753ef51ff8b431252d"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/assets/satisfaction_density_blank.md",
+      "bytes": 1350,
+      "sha256": "90694cd206342299caa25b15596cb57d3a2a8c9f7ff5e66ae866f6bcf3fd6c75"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/assets/storyboard_skeleton_blank.md",
+      "bytes": 2905,
+      "sha256": "43c698fa2e6bf6eb83b63760afa158d94983132e0d5e69885439277e7c3f785f"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/assets/style_prefix_template.md",
+      "bytes": 3385,
+      "sha256": "3cf3858de30114b6db286830c5f8fa950c95d8c89fa95d6bbd992a839d8001f1"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/01-whitebox-champion-rendering.md",
+      "bytes": 12763,
+      "sha256": "f6e9b02f12a070f163a8f1e9f96748c58b5caf83a4b9aa439b216c660a2e191f"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/02-seedance-25-full-capabilities.md",
+      "bytes": 8965,
+      "sha256": "0f5dcec006dd19f64d507f0bd8fcf5b0627ed2e9b5f839a95947b7ad3a0456e2"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/03-cinedance-camera-optics.md",
+      "bytes": 29268,
+      "sha256": "33838eeba98e5e907f3b92663449db3e5454326ff501b310b5ae38435c6b7bd2"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/04-acting-behavior-system.md",
+      "bytes": 23085,
+      "sha256": "84632551e0bd1aaa9e5a1d045fc99cdb35cd4fc885d159c493d88498b4860101"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/05-lira-asset-generation.md",
+      "bytes": 29014,
+      "sha256": "40efc75bbb286037a1fc2dd70cf8d13009688769ccc5da98f8469290fd7c73af"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/06-audio-driven-sound-engineering.md",
+      "bytes": 8807,
+      "sha256": "6c766bdb439ca24d013a84dfc2f8cbb4dccb24ac995b80f6fa4ffd52db78e0bf"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/07-hellgrind-production-pipeline.md",
+      "bytes": 10166,
+      "sha256": "f655a229d763eb6c1254ac0693338ad21987acd87103798061679889f457a79d"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/08-master-prompt-templates.md",
+      "bytes": 12273,
+      "sha256": "fcb17128fe15670fbdaec0eedd0768a6c871a2feb6311c425cec850ffd73a178"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/0822-master-deep-enhancement.md",
+      "bytes": 13573,
+      "sha256": "a84fe4a5b55c3b3b5556d9890a59fc08e463d64b3f31cef5c6c118e13b43e10a"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/10-capability-engines.md",
+      "bytes": 10368,
+      "sha256": "59c250923b24a809fd4d28a38d4d9ecb64cd0cd0715e65c4536beefd668ec321"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/11-user-asset-logo-placement.md",
+      "bytes": 9024,
+      "sha256": "be7cf776679f6c2f02de11181d0cfc0487635331d9878316435b1152606523ca"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/13-multiref-i2v-pipeline.md",
+      "bytes": 27948,
+      "sha256": "866b698f4cb0a6006d91a1ef4de616b879286c1708357617ca8a64b83432aae2"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/14-seedance-25-longvideo.md",
+      "bytes": 4413,
+      "sha256": "4ddb3a90faecc8ffd0d8567bf02fbaad9fc9af621641ac3c8734a461a9f3c0cc"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/15-director-shot-library.md",
+      "bytes": 5191,
+      "sha256": "2e457a21bb93b8ffefc18d2997f0516e96a7d75d4a4580f04905fad9d98e34a4"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/ad-master-creative-method.md",
+      "bytes": 3571,
+      "sha256": "a2b5af6aecd61773091b847d7e956f26c806911b2f50414d86c5f83a62d82ad7"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/ad-master-directors.md",
+      "bytes": 3537,
+      "sha256": "f0ff3358caf32771900cb1572edf5e95f2bac2b0f1dd657962b3cdd4fa3a57c3"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/ad-master-jury.md",
+      "bytes": 2864,
+      "sha256": "e7ba8f3cfad965668ac5c10602518ddd320d4a701a83f71974a4d5ba80d33bed"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/ad-structure-brand.md",
+      "bytes": 3519,
+      "sha256": "854bff137cbe88ab41ef052d5b34546731e11729011db1489a2053260a2ab3b4"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/ad-style-library.md",
+      "bytes": 6676,
+      "sha256": "ee5c07628834e2ba22fabc4fd870a96bf60e23a3b1f1d51fad8bd01d6e2bcd73"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/sd-character-continuity.md",
+      "bytes": 8350,
+      "sha256": "08ad5d1ae21a708aa54921b02f8edfa0bf64fcc0b9c6f9700861c7539c96bd0e"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/sd-comic-drama-video.md",
+      "bytes": 8771,
+      "sha256": "8ac859389625473e3152d2a93c7f3b85f4d6673cc80652ebd111dcafa5e6fe94"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/sd-dialogue-generation.md",
+      "bytes": 5236,
+      "sha256": "e62f12e354f49cf50a78ab2a10a7463d051952592ebd952d3715ce4a53766415"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/sd-ending-hooks.md",
+      "bytes": 5649,
+      "sha256": "a63db8c279d995b6245542dfca1c4b73cfa99d40ee396eab0193e4cdf264e67a"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/sd-episode-structure.md",
+      "bytes": 5384,
+      "sha256": "489ed5d88601e23125629d18cdcf439c74653f9b817aa6dd0dcb911b06c9c6d2"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/sd-genre-formulas.md",
+      "bytes": 11886,
+      "sha256": "73c642a39caf42b1ab6beed863a0ee38b02883f95fea75b80efcc83788645d66"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/sd-master-review.md",
+      "bytes": 6358,
+      "sha256": "d3671821ed3b722c2a8c5b8c9d648e9d784647f951a24d564fe0901847825887"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/sd-sample-pilots.md",
+      "bytes": 7711,
+      "sha256": "dd45f334c287be8469e3d1c250da942aa2c51f7cfef759c70ad9cc020817d89c"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/references/sd-storyboard-rhythm.md",
+      "bytes": 15663,
+      "sha256": "27833b39eecf0b1d683c53b56872c91bddbe9c47d835d880c5de322b50568fb9"
+    },
+    {
+      "path": "ugc-quan-qiu-ding-niu-chuang-yi-guang-gao-pian-dao-yan/SKILL.md",
+      "bytes": 46631,
+      "sha256": "d1e05f71068764d49d29b18828fc6e6731b2c67cb29dec6a837c563e05e2cd22"
+    },
+    {
+      "path": "ugc-random-art-duan-shi-pin/agents/openai.yaml",
+      "bytes": 343,
+      "sha256": "009e4f6cb3e0245a611645665fa87ff5d3f627445704e0586e73d7362eaa2d0e"
+    },
+    {
+      "path": "ugc-random-art-duan-shi-pin/references/action-and-camera-patterns.md",
+      "bytes": 8889,
+      "sha256": "0f9808959131c8a77c21da211d77927ed1d4da0010a02890d645c0e619cf963e"
+    },
+    {
+      "path": "ugc-random-art-duan-shi-pin/references/battle-example.md",
+      "bytes": 5571,
+      "sha256": "f5067f210f06a053237e6ce430c34ab31cb3b2708bf1ced91f11907711e693e7"
+    },
+    {
+      "path": "ugc-random-art-duan-shi-pin/references/continuity-locks.md",
+      "bytes": 3479,
+      "sha256": "adfc0f462f538d70232d55c5fb675d7ec51eb0ae067b90b659cabf8a154c4077"
+    },
+    {
+      "path": "ugc-random-art-duan-shi-pin/references/portal-grammar.md",
+      "bytes": 2863,
+      "sha256": "fd2ade4600676d1199cce9e08720d9f0015c3ebf3264e2841f7083cc667c70a7"
+    },
+    {
+      "path": "ugc-random-art-duan-shi-pin/references/quality-gates.md",
+      "bytes": 2092,
+      "sha256": "adfddb7ed92996f7ad72d184a8780e32530a65b1f92145337f5e9f70bbbe9047"
+    },
+    {
+      "path": "ugc-random-art-duan-shi-pin/references/style-deck.md",
+      "bytes": 42479,
+      "sha256": "2fbe2c7ca02257cc3cd6890adb1c412f2cefdbfd4e9b995edf0d35795c613266"
+    },
+    {
+      "path": "ugc-random-art-duan-shi-pin/SKILL.md",
+      "bytes": 6804,
+      "sha256": "6737463fbfd19339355992d207e1e34020b13ae36c081d8edabefc3b4a7d2487"
+    },
+    {
+      "path": "ugc-shang-ye-guang-gao-chuang-zuo/SKILL.md",
+      "bytes": 163019,
+      "sha256": "68167ef3e64e42ea1b10157b1302f4a7ba0470c6418a528a6abd23931c8e4797"
+    },
+    {
+      "path": "ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7/references/credits_policy.md",
+      "bytes": 8143,
+      "sha256": "9cd3ac068b0ba1db1f9617a98c37290f71b91bda52e979e3814a488d0a35cee3"
+    },
+    {
+      "path": "ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7/references/digital_human_api.md",
+      "bytes": 6597,
+      "sha256": "8e12cb4c5b0a29f7a4c6962549202763872976039e856290bb351c07aaaa3c91"
+    },
+    {
+      "path": "ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7/references/fruit_specs_guide.md",
+      "bytes": 3773,
+      "sha256": "df35eed8fa69808287507e1d7266ad0635bf79dfd465693e65e122c29a6e499b"
+    },
+    {
+      "path": "ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7/references/image_prompts.md",
+      "bytes": 7106,
+      "sha256": "165f6f50158e604461fdb91911208a3a9d6d80e0cf9dbac46aad7dd9b9740cc3"
+    },
+    {
+      "path": "ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7/references/script_guide.md",
+      "bytes": 7940,
+      "sha256": "3c2945b64f7d7f9aa95c7bc8b8f5b67f7d324cd49a5b3a094f5540fe6c12f055"
+    },
+    {
+      "path": "ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7/references/seedance_fusion.md",
+      "bytes": 8056,
+      "sha256": "67408624487ca6bbc361c2608309d2f670a85e41825886d2e29b58853c310ed5"
+    },
+    {
+      "path": "ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7/references/video_prompts.md",
+      "bytes": 5712,
+      "sha256": "214060ddaabd66cb08df6591d1d2376cfbb41e0c0d988c0ec1f4f2403aed4276"
+    },
+    {
+      "path": "ugc-shu-zi-ren-zhi-bo-jian-shi-yong-shu-cai-shui-guo-v7/SKILL.md",
+      "bytes": 29746,
+      "sha256": "12eafa9983584d4aeb9fa8e9924ac5e48da22cef514d245347239d5fc63f8866"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/references/01-tiktok-viral-challenge-dna.md",
+      "bytes": 1410,
+      "sha256": "437e1ea0d0bae9a12ee39737b9531a6171f7d80a0a3649506a05e92857b86494"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/references/02-viral-script-hooks.md",
+      "bytes": 1403,
+      "sha256": "20296024be076176a8dac4ef11144eac6220584596412d6be19336e9bf3a6bfd"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/references/03-sound-design-asmr.md",
+      "bytes": 1212,
+      "sha256": "920b77414e493b98cdf6dd5ee3d7c17f520cf5776d3118c5712370a44c472cf8"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/references/cinedance-camera-optics.md",
+      "bytes": 1342,
+      "sha256": "e31e18540ce02042e05123986a218cb6777cac1f8f78f06e460bc90c780818cf"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/references/midjourney-v8-t2i-engine.md",
+      "bytes": 30706,
+      "sha256": "fc8a36c8f658b3d125e580d7c37c225a908d94d13352b2bfdb54c8f4cbb7e00d"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/references/multiref-ensemble-acting.md",
+      "bytes": 9360,
+      "sha256": "05036608a5e17bcfe7a46da478ca90db3b04e28f3531ffbf5a4969cb46d0cf7b"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/references/perf-acting-au-system.md",
+      "bytes": 1538,
+      "sha256": "0fd2d6d0a44aa4c27cb063b763f07651f404b2328ac501e02fc001b9487102de"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/references/whitebox-3d-rendering-guide.md",
+      "bytes": 1504,
+      "sha256": "773dd2f494030e8cf62b589949a2710433b3d9483b933ba802f8fd43dae1646b"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/skill-intro.md",
+      "bytes": 3133,
+      "sha256": "99f26000850c47af45f8828f579ead9086bf91a381f552582ede69b4a6552dbc"
+    },
+    {
+      "path": "ugc-tiktok-bing-du-tiao-zhan-sai-guang-gao-feng-ge/SKILL.md",
+      "bytes": 20243,
+      "sha256": "aa627105f65c34b9fb604a7aa777406b9cc384bba7ec637204b2f05ab08172ec"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/references/01-tiktok-ugc-native-dna.md",
+      "bytes": 1489,
+      "sha256": "e397ccd6a69e3d5dd4d8facb2978bc01cb6765a4a265c6f7427fcb5af730bab7"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/references/02-viral-script-hooks.md",
+      "bytes": 1386,
+      "sha256": "58937e8c91842fac4ed0b8da928861d528836558687fbffbe0d6a88828e5b9f8"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/references/03-sound-design-asmr.md",
+      "bytes": 1228,
+      "sha256": "7fa5d886373b9bd069e88507f9e3f9ec3c9c071d0519cde0c8f4c7949c4e8787"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/references/cinedance-camera-optics.md",
+      "bytes": 1286,
+      "sha256": "fb5118d390431e6981ff4f8f5324d7b238e5b395be4734b3309f587788ace5ea"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/references/midjourney-v8-t2i-engine.md",
+      "bytes": 30706,
+      "sha256": "fc8a36c8f658b3d125e580d7c37c225a908d94d13352b2bfdb54c8f4cbb7e00d"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/references/multiref-ensemble-acting.md",
+      "bytes": 9360,
+      "sha256": "05036608a5e17bcfe7a46da478ca90db3b04e28f3531ffbf5a4969cb46d0cf7b"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/references/perf-acting-au-system.md",
+      "bytes": 1513,
+      "sha256": "4e450e4aab3677293ddbd8f5b4db5e2c570e1573526d1a99897fec54fb327fbc"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/references/whitebox-3d-rendering-guide.md",
+      "bytes": 1481,
+      "sha256": "4b4018ca5a112d22cae06b602c3cc5f746df88dff5962fa5c80c4c08d028fc72"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/skill-intro.md",
+      "bytes": 3127,
+      "sha256": "0e99c0957aeb751ba88329835b3dc4c071db81da2fb6c929059dc5a379cf7862"
+    },
+    {
+      "path": "ugc-tiktokugc-yuan-sheng-dai-huo-guang-gao-feng-ge/SKILL.md",
+      "bytes": 21865,
+      "sha256": "06f8bebee3f1d689ee1c6960cf4a0097ef9061bcb71ab383dd559b7bb944cdee"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/references/01-store-visit-vlog-dna.md",
+      "bytes": 1550,
+      "sha256": "b10bec028ad3747c6b869605a7c42aa9b671205c4ebb26778fe9fd968126f53e"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/references/02-viral-script-hooks.md",
+      "bytes": 1546,
+      "sha256": "0779c77c66270b137f7f0d0d52e538ebbb0bc9f8f1b9018856c20f3580113ed7"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/references/03-sound-design-asmr.md",
+      "bytes": 1413,
+      "sha256": "9b4e580bb19fd99c2bb609504d2031f48a894cd99bde38e18556740d41ef627a"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/references/cinedance-camera-optics.md",
+      "bytes": 1464,
+      "sha256": "fa699845ee99ee5d2fb5c44b352dd1d0c21a114f5aa45b40d6d40a07585cd52c"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/references/midjourney-v8-t2i-engine.md",
+      "bytes": 30706,
+      "sha256": "fc8a36c8f658b3d125e580d7c37c225a908d94d13352b2bfdb54c8f4cbb7e00d"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/references/multiref-ensemble-acting.md",
+      "bytes": 9360,
+      "sha256": "05036608a5e17bcfe7a46da478ca90db3b04e28f3531ffbf5a4969cb46d0cf7b"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/references/perf-acting-au-system.md",
+      "bytes": 1697,
+      "sha256": "3ca2cbbdeab922c904a64363061349e9f49d979552615c24fe7d450712040283"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/references/whitebox-3d-rendering-guide.md",
+      "bytes": 1726,
+      "sha256": "e1a9945bd9d205d4c44f3377a850ea7c21ed46d61e20f7fc63679db20c61e7e2"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/skill-intro.md",
+      "bytes": 3673,
+      "sha256": "5c8c9a3f2b58cc493f5916999ba76880302e81af57406c00d96ba3e450983a0d"
+    },
+    {
+      "path": "ugc-wang-hong-tan-dian-vlog-guang-gao-feng-ge/SKILL.md",
+      "bytes": 22910,
+      "sha256": "00c4f5384d040a4ac0c5df38d1a9fb124a73219aac748bcc1e6d70ea538ec4bc"
+    },
+    {
+      "path": "ugc-wen-lv-duan-pian-chuang-zuo-skill/SKILL.md",
+      "bytes": 71426,
+      "sha256": "bee7a11cea916e90ab919ae7225beeb970e3ca931c4f875339b353a1a22d89a1"
+    },
+    {
+      "path": "ugc-xiao-bai-pian-chang/references/presets.md",
+      "bytes": 4407,
+      "sha256": "20e64e519d9c63d640ba41e09d29e7054c7150121447bef575d0c762e3f40db9"
+    },
+    {
+      "path": "ugc-xiao-bai-pian-chang/references/realism-engine.md",
+      "bytes": 4849,
+      "sha256": "558212af8db66966f365eed86ae67bf960cd870bc2386192a620babf6f1c70f2"
+    },
+    {
+      "path": "ugc-xiao-bai-pian-chang/SKILL.md",
+      "bytes": 7331,
+      "sha256": "11b996c187982c76c1212cc0a1183b42cf9d6afa2a47cfb61b08ecca30e989f4"
+    },
+    {
+      "path": "ugc-yi-jian-chu-pian-tu-pian-miao-bian-zhen-ren-gan-vlog-shi-pin/SKILL.md",
+      "bytes": 9489,
+      "sha256": "f8ebc5d9c38b207f4b58ed15f730c3ca876a49226e55adc9a20de41be8c8300a"
+    },
+    {
+      "path": "ugc-ying-di-ti-shi-ci-sheng-cheng/agents/openai.yaml",
+      "bytes": 390,
+      "sha256": "23add4df4cc534ee0b676e00d978546042e9ff4d08340ac9b17f28c3939f8819"
+    },
+    {
+      "path": "ugc-ying-di-ti-shi-ci-sheng-cheng/references/au-facs-practice.md",
+      "bytes": 3581,
+      "sha256": "0975b6dd9677370b094c7db01013a2116fa1386deac93f6abb095f37bfbb9991"
+    },
+    {
+      "path": "ugc-ying-di-ti-shi-ci-sheng-cheng/references/eight-dimension-template.md",
+      "bytes": 3562,
+      "sha256": "e9eb884a434da3dc6c00ebd46cab6d3a2a520a8a48a90659e4f5ff4317cc6b1e"
+    },
+    {
+      "path": "ugc-ying-di-ti-shi-ci-sheng-cheng/references/performance-method.md",
+      "bytes": 4153,
+      "sha256": "3907f5c24b4b2c6d380b45f435a2625a80ce0690a8db8f89f6ed367315b5abdc"
+    },
+    {
+      "path": "ugc-ying-di-ti-shi-ci-sheng-cheng/references/seedance-prompt-assembly.md",
+      "bytes": 5165,
+      "sha256": "1bbfadbf355fc203de3c47e8a45234030b73faa45e15300f5a3f84b6d173c8c4"
+    },
+    {
+      "path": "ugc-ying-di-ti-shi-ci-sheng-cheng/SKILL.md",
+      "bytes": 5786,
+      "sha256": "e151ab540212ee513de8e925f6f7fa1944d6de22ee8521e614da38a2f07c4a1a"
+    },
+    {
+      "path": "ugc-ying-shi-bian-ju-skill/SKILL.md",
+      "bytes": 16316,
+      "sha256": "7dce708e890bb9c80b34b4162e55d6c301ca0086dc4878ed26632e447e89fa65"
+    },
+    {
+      "path": "ugc-ying-shi-mei-shu-zhi-dao-skill/references/场景设计方法.md",
+      "bytes": 2483,
+      "sha256": "f7695ad1e3dabc2b844e142aa8cc6bcd84b5a6a44764841896f4fb7553dbeebc"
+    },
+    {
+      "path": "ugc-ying-shi-mei-shu-zhi-dao-skill/SKILL.md",
+      "bytes": 14337,
+      "sha256": "0090cff75e840fcb7120c17c7434d9ec8a2748c2730685a14b5e3955e2ad292c"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/references/01-ugc-selfie-aesthetic-dna.md",
+      "bytes": 392,
+      "sha256": "aa4bfd668d2d46589cf71db2d1abd0e5e65ce638ccde56e0f893ffa3ff72b651"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/references/02-high-conversion-seeding-script.md",
+      "bytes": 376,
+      "sha256": "63615d26383bc377c999ff1639799bccbaff47c9fa94e287daf0bbab0b77aef3"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/references/03-sound-design-natural-asmr.md",
+      "bytes": 382,
+      "sha256": "627b542a3150ff89b4e7c60d71a608683396403404f39e7220c789825d307c97"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/references/cinedance-camera-optics.md",
+      "bytes": 237,
+      "sha256": "3bfe953510cc28a674a83d61ff27242c35714f5343f07d2fb7da9ceadd06af42"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/references/midjourney-v8-t2i-engine.md",
+      "bytes": 6738,
+      "sha256": "6849c939d406ef67507c5c3007412ee231d90d609dedf26456612523b5a4732e"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/references/multiref-ensemble-acting.md",
+      "bytes": 3092,
+      "sha256": "528a63557beedc48af952f807db9e6065d58fec596d1c3a992b67f4b85cd553c"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/references/perf-acting-au-system.md",
+      "bytes": 358,
+      "sha256": "1cfc1467f8fad47a5b66190b5e6b0e22928fa5d67d897481b6e16f20e7fdc5ec"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/references/whitebox-3d-rendering-guide.md",
+      "bytes": 198,
+      "sha256": "116f8590c53e66fe61fc85b85dfc5751eaa60e33a1809e7fce0ee0aeb13bf205"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/skill-intro.md",
+      "bytes": 680,
+      "sha256": "6a79649669ed7143bde7c6127a94104564430380f33ae8511caaaa6171da282c"
+    },
+    {
+      "path": "ugc-zhen-shi-zi-pai-zhong-cao-duan-shi-pin-da-shi/SKILL.md",
+      "bytes": 11311,
+      "sha256": "062e2855717de6e0865092c660eddde5089a4c402726c3d1cb968362508f1073"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/references/01-knowledge-edu-blogger-dna.md",
+      "bytes": 1700,
+      "sha256": "2132fb9fdb2752ce3b76c3c9b3f716874104df11d0007ca5b54644556909a4a2"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/references/02-viral-script-hooks.md",
+      "bytes": 1621,
+      "sha256": "d94ebf64d65ea7261b4da30994eb7d52372671e503c08d81f0473fd521e0da1c"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/references/03-sound-design-asmr.md",
+      "bytes": 1516,
+      "sha256": "9f19a363d2560841823a20faacb1256ad958e5a0d54fbb6e3c094ae9b68fa1b1"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/references/cinedance-camera-optics.md",
+      "bytes": 1561,
+      "sha256": "228f246f6e23ec30953311668eccf4b653cf7a63e12099280e66b9313825d8b7"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/references/midjourney-v8-t2i-engine.md",
+      "bytes": 30706,
+      "sha256": "fc8a36c8f658b3d125e580d7c37c225a908d94d13352b2bfdb54c8f4cbb7e00d"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/references/multiref-ensemble-acting.md",
+      "bytes": 9360,
+      "sha256": "05036608a5e17bcfe7a46da478ca90db3b04e28f3531ffbf5a4969cb46d0cf7b"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/references/perf-acting-au-system.md",
+      "bytes": 1768,
+      "sha256": "a12e5789049cf85a7a4065cabedfb6220577432169b71dcac4a908da20643cae"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/references/whitebox-3d-rendering-guide.md",
+      "bytes": 1703,
+      "sha256": "19c12d5755e05f8bae44575198fc2e1193220765a3ad606e66f5863dfecd6771"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/skill-intro.md",
+      "bytes": 3874,
+      "sha256": "8d01cd60f6b9925d449cd0429624823c7bdf52827d1a67114775970260ba8cd9"
+    },
+    {
+      "path": "ugc-zhi-shi-bo-zhu-kou-bo-guang-gao-feng-ge/SKILL.md",
+      "bytes": 22738,
+      "sha256": "6dd79655edaa7b97dd2acece3d4dc15035d1c92d1d57fb2f96a4f0070d6ba7bb"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references00-reference-index.md",
+      "bytes": 3958,
+      "sha256": "c845826951c9431d1dd98ad2cdf2413ca98e175eb05924c192414850fc73e065"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references01-project-development.md",
+      "bytes": 3507,
+      "sha256": "89523555fbd9ae30627537d0847df7c064a8cc9b4a625929ae14ef064192fc3c"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references02-audience-genre-engine.md",
+      "bytes": 3890,
+      "sha256": "4c7bc81bed0205f6835d5388083a00eac26f812ab3e87bf3b5c325769cbc754b"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references03-character-relationship.md",
+      "bytes": 3363,
+      "sha256": "cb33f87fdec71a2e65c036a011ca70d84ed3da3f655dfa61264ef22f1735f23c"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references04-structure-suspense-payoff.md",
+      "bytes": 2881,
+      "sha256": "8c2901694489eee207ad1396138ab9acba33fef53caee8cccde4ffe8e47cc1bc"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references05-scene-dialogue-library.md",
+      "bytes": 3253,
+      "sha256": "c4c943dea09a6a7d3037a34f78122a4f64fb3c755f1355810dfdb9296ebee23c"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references06-humor-fourth-wall.md",
+      "bytes": 3496,
+      "sha256": "fc04a8058c4e0802f6ff5bcf0afd81c83e3ccfa1e5be0c66a9d312bb19c53728"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references07-directing-action-vfx.md",
+      "bytes": 3459,
+      "sha256": "45931075c94bb60136da3846150fa9ce3506ebee089d25fea3f1affa9ebfeb53"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references08-continuity-production.md",
+      "bytes": 2729,
+      "sha256": "7ef9f1da0d4c4fd3791e241d99765548020b2fa459f2e22728d28cb00f49c11b"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references09-rewrite-diagnosis.md",
+      "bytes": 2573,
+      "sha256": "76e02dbcece6fe5613dba61c2a334a7fa87655823c00c1674e1306c6398e6bc7"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references10-quality-gate.md",
+      "bytes": 2700,
+      "sha256": "1e2c13d332a56462a0ab88c694b4d7f66af8eae404ac23ebb3e54d294508a92c"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/references/references11-project-state-templates.md",
+      "bytes": 573,
+      "sha256": "25d3ca6e15782f45fe5e890791663dbff90374d47b25b334bc98d777e7ce27bb"
+    },
+    {
+      "path": "ugc-zhuan-ye-ju-ben-skill/SKILL.md",
+      "bytes": 9340,
+      "sha256": "87d2d68ebf7305040b44d848e2ec702aca906115235e6eaf24d4fe2644180d1a"
+    },
+    {
+      "path": "video-language-localization/_meta.json",
+      "bytes": 1353,
+      "sha256": "307a3ee8ec80660b4a962481e4812038a18ccecf9b4d8f0621c6571291955ca3"
+    },
+    {
+      "path": "video-language-localization/references/segmentation_guide.md",
+      "bytes": 14087,
+      "sha256": "eaba3287db83919467aea6b3c6ef8dbe1a9d85a80d330480dfc2da23c82ef705"
+    },
+    {
+      "path": "video-language-localization/scripts/speech_rate_evaluator.py",
+      "bytes": 14710,
+      "sha256": "4862f08f28c3012fa83341cf92204ce8708a4a5b54e28d573d1722d92c4973ee"
+    },
+    {
+      "path": "video-language-localization/scripts/unit_localizer.py",
+      "bytes": 27651,
+      "sha256": "3b99b25039248220cbce5aa3580765869ae9f014b7c219601678d05f243c4f38"
+    },
+    {
+      "path": "video-language-localization/scripts/video_splitter.py",
+      "bytes": 10987,
+      "sha256": "913bd94aeddd459b2ba6082a5228b9c0a189a20dbd4547cd4ae2b596f682f354"
+    },
+    {
+      "path": "video-language-localization/SKILL.md",
+      "bytes": 70009,
+      "sha256": "664df1142f7f5aff6e9f6b272d080e37750d55d5fd07d0b6920980ed5d3984fe"
+    }
+  ]
+}

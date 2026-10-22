@@ -1,0 +1,20 @@
+{
+ "dir": "partial-video-editor",
+ "sandbox_path": "/workspace/.skills/partial-video-editor/",
+ "skill_name": "partial-video-editor",
+ "display_name": "",
+ "description": "为已有视频的局部精修提供编辑方案和可执行提示词。适用于替换指定物品或服饰、删除路人杂物、修改局部背景或画面文字，以及微调表情、嘴型和手势；支持将改动限定在某个镜头或指定秒数内。围绕需要修改的对象和区域约束改动，保护其余人物、动作、构图、运镜与光影，并保持修改前后的画面连续。",
+ "tools": [],
+ "category_heuristic": "其他",
+ "skill_md_bytes": 13039,
+ "file_count": 2,
+ "composition": {
+  "SKILL.md": 1,
+  "json": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "partial-video-editor/SKILL.md",
+  "partial-video-editor/evals/evals.json"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "dir": "digital-avatar-product-video",
+ "sandbox_path": "/workspace/.skills/digital-avatar-product-video/",
+ "skill_name": "digital-avatar-product-video",
+ "display_name": "数字人产品视频",
+ "description": "基于商品图片与卖点，创作虚拟达人或数字人出镜的产品推荐、口播带货和品牌种草视频。适用于让达人手持、佩戴或现场展示商品，围绕使用场景、消费痛点和产品特点进行讲解与推荐。将人物表演、商品展示和口播内容结合，保持达人形象、商品外观及场景一致，呈现自然的产品互动和与语音协调的口型。",
+ "tools": [
+  "sandbox_generate_image",
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video"
+ ],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 10595,
+ "file_count": 6,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 5
+ },
+ "has_scripts": false,
+ "files": [
+  "digital-avatar-product-video/SKILL.md",
+  "digital-avatar-product-video/references/INDEX.md",
+  "digital-avatar-product-video/references/formats/audio-design.md",
+  "digital-avatar-product-video/references/formats/output-spec.md",
+  "digital-avatar-product-video/references/formats/video-prompt.md",
+  "digital-avatar-product-video/references/industries/product-categories.md"
+ ]
+}

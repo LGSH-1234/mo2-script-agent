@@ -1,0 +1,24 @@
+{
+ "dir": "multi-grid-storyboard",
+ "sandbox_path": "/workspace/.skills/multi-grid-storyboard/",
+ "skill_name": "multi-grid-storyboard",
+ "display_name": "多宫格分镜",
+ "description": "多宫格分镜/故事板「一张图」生成器。当用户提到多宫格分镜、故事板、storyboard、线稿分镜、火柴人分镜、概念分镜、分镜草图、12格/15格以内分镜时，必须使用本 skill。它把一个故事创意或一组参考素材，直接生成为一张干净、专业、会讲故事的多宫格分镜图（默认黑白简约线稿）。核心是把\"分镜图本身做好\"：画面内无文字防乱码、每格唯一且剧情递进、景别有节奏、构图撑满、角色跨格一致。本 skill 只负责产出分镜图文件，不生成视频。",
+ "tools": [
+  "sandbox_generate_image"
+ ],
+ "category_heuristic": "叙事/短剧类",
+ "skill_md_bytes": 11320,
+ "file_count": 3,
+ "composition": {
+  "other": 1,
+  "SKILL.md": 1,
+  "references": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "multi-grid-storyboard/README_使用说明.md",
+  "multi-grid-storyboard/SKILL.md",
+  "multi-grid-storyboard/references/prompt_templates.md"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "dir": "commercial-ad-creation",
+ "sandbox_path": "/workspace/.skills/commercial-ad-creation/",
+ "skill_name": "commercial-ad-creation",
+ "display_name": "商业广告创作",
+ "description": "商业产品广告视频的全流程创作技能。覆盖从视频规格定义、故事板设计、关键元素图像生成、镜头视频生成、音频层设计到最终剪辑合成的完整链路。当用户需要为产品或品牌制作商业广告视频（含产品展示、场景应用、功能演示、品牌片）时触发。支持用户上传产品素材绑定复用，支持多市场多语言，按阶段暂停确认。",
+ "tools": [
+  "sandbox_generate_image",
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video\"]\nimage_model: seedream_5.0_pro\nvideo_model: Seedance_2.5"
+ ],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 12079,
+ "file_count": 5,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 4
+ },
+ "has_scripts": false,
+ "files": [
+  "commercial-ad-creation/SKILL.md",
+  "commercial-ad-creation/references/INDEX.md",
+  "commercial-ad-creation/references/formats/platforms-markets.md",
+  "commercial-ad-creation/references/formats/video-prompt-grammar.md",
+  "commercial-ad-creation/references/industries/product-ad.md"
+ ]
+}

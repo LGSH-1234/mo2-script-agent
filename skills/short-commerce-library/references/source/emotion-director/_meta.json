@@ -1,0 +1,22 @@
+{
+ "dir": "emotion-director",
+ "sandbox_path": "/workspace/.skills/emotion-director/",
+ "skill_name": "emotion-director",
+ "display_name": "情绪导演",
+ "description": "将用户提供的原始素材（故事大纲、剧本片段、分镜草稿、小说段落、剧情提示词、口播文案等）转化为可直接用于视频生成的标准结构影视级视频提示词。当用户需要为视频生成模型编写情绪驱动型分镜提示词、将文学化叙事转化为可拍摄物理描述、设计情绪曲线与角色动作序列时触发。",
+ "tools": [
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video\"]\nvideo_model: seedance2.0_direct"
+ ],
+ "category_heuristic": "叙事/短剧类",
+ "skill_md_bytes": 18790,
+ "file_count": 1,
+ "composition": {
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "emotion-director/SKILL.md"
+ ]
+}

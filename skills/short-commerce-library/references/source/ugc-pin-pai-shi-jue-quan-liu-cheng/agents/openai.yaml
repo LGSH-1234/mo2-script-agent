@@ -1,0 +1,7 @@
+interface:
+  display_name: "E-commerce Brand Image Generator"
+  short_description: "Directly generate full brand and e-commerce image sets"
+  default_prompt: "Use $ecommerce-brand-image-generator to directly generate a complete e-commerce brand image set and consistent real-world Mockups from this brief and any supplied product images."
+
+policy:
+  allow_implicit_invocation: true

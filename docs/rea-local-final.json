@@ -1,0 +1,15 @@
+{
+ "browser":{"mode":"launch","executable_path":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome","headless":true},
+ "start_url":{"url":"http://127.0.0.1:8766/storyboard?project=project-55a2be8bb2f44bf2"},
+ "environment":{"viewport":{"width":1440,"height":900,"device_scale_factor":1},"locale":"zh-CN","timezone":"Asia/Shanghai","color_scheme":"dark","reduced_motion":"reduce","service_workers":"block"},
+ "actions":[
+  {"step_id":"board-final","action":"wait_for_timeout","duration_ms":600},
+  {"step_id":"results-tab","action":"click","locator":{"kind":"role","role":"button","name":"视频结果 1"},"timeout_ms":10000},
+  {"step_id":"video-completed","action":"wait_for_timeout","duration_ms":1000},
+  {"step_id":"pricing","action":"click","locator":{"kind":"role","role":"link","name":"价格方案"},"timeout_ms":10000},
+  {"step_id":"pricing-final","action":"wait_for_timeout","duration_ms":600},
+  {"step_id":"close-pricing","action":"click","locator":{"kind":"role","role":"button","name":"关闭"},"timeout_ms":10000},
+  {"step_id":"home-final","action":"wait_for_timeout","duration_ms":600}
+ ],
+ "capture":{"after_each_step":["dom","accessibility","screenshot","url"],"at_end":["url"],"events":["page-errors"]}
+}

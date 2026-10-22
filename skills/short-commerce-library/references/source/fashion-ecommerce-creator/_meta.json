@@ -1,0 +1,23 @@
+{
+ "dir": "fashion-ecommerce-creator",
+ "sandbox_path": "/workspace/.skills/fashion-ecommerce-creator/",
+ "skill_name": "fashion-ecommerce-creator",
+ "display_name": "女装电商素材生成器",
+ "description": "女装电商带货全流程素材生成器（v4.12）。当用户上传服装/包包/配饰商品图片并要求生成淘宝主图、详情页、带货视频或电商文案时，生成模特四视图（韩系纤瘦·素体净版零配饰锚点），再基于「KV主视觉+模特四视图+产品四视图」多参考结构生成符合 2026 淘宝新规的 5 张主图+长图+详情页（图片版+可编辑 HTML 版双交付），生成带货视频（按方向拆分画幅：UGC 类 9:16 / 主图视频位 1:1 或 3:4 / 可选白底商品视频 1:1），并输出轻量电商文案包（标题/利益点短句/逐屏标题/台词脚本）。内置姿态指令库、表情微指令库、道具物理连接锁（道具必须长在手上：接触点三要素+无主道具禁令，杜绝悬空包袋）、摄影质感系统（五要素摄影参数强制）、人体比例锁、场景族随机化系统、图型防污染声明（主图2/4/5 影棚与白底图型物理隔离场景族，杜绝影棚图被场景污染）、首帧-视频同体系锁与 UGC 首帧专拍机制、首帧-画幅锁（首帧画幅=视频画幅）、音轨与台词系统（台词形态三选一声明/前3秒钩子/台词-画面锚点/TTS/字幕安全区/BGM 规范）、三重一致性锁定系统与强制双参考挂载规则、服装 DNA 锁定卡、风格参考图物理隔离 + 8 层结构化反推引擎 + KV-DNA 延展链、可编辑 HTML 详情页交付规范（独立文本节点+内联注释标记+图片占位一键替换+文字层规避 AI 文字出错）、统一生成后自检清单 C8。杜绝模特姿势僵硬、表情假笑、比例失真、串脸跑款、场景雷同、UGC 跑成大片、悬空道具、影棚图型场景污染、配饰凭空出现、口播链路缺失与主图视频画幅缺位。适用于淘宝、天猫女装类目上新场景。含轻量文案包（可跳过）。",
+ "tools": [
+  "sandbox_generate_image",
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video\"]\nimage_model: seedream_5.0_pro\nvideo_model: seedance2.0_direct"
+ ],
+ "category_heuristic": "画风/滤镜类",
+ "skill_md_bytes": 93466,
+ "file_count": 1,
+ "composition": {
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "fashion-ecommerce-creator/SKILL.md"
+ ]
+}

@@ -1,0 +1,84 @@
+
+{
+  "version": "0.1.9",
+  "skill_id": "business_growth_advisor_v2",
+  "display_name": "生意增长顾问",
+  "platforms": [
+    {
+      "id": "tiktok_shop",
+      "display_name": "TikTok Shop",
+      "region": "global",
+      "reference": "references/platforms/tiktok_shop.md",
+      "supported_topics": [
+        "low conversion creative diagnostics",
+        "product value proposition to video direction",
+        "shop diagnostics",
+        "product performance",
+        "short video and livestream commerce",
+        "creator or affiliate collaboration",
+        "paid promotion readiness",
+        "creative brief to video plan"
+      ],
+      "aliases": [
+        "tiktok",
+        "tiktok shop",
+        "tt shop",
+        "tik tok shop",
+        "tts"
+      ]
+    },
+    {
+      "id": "douyin_qianchuan",
+      "display_name": "抖音电商 / 巨量千川",
+      "region": "CN",
+      "reference": "references/platforms/douyin_qianchuan.md",
+      "supported_topics": [
+        "素材不转化诊断",
+        "商品卖点到视频方向",
+        "店铺和商品经营诊断",
+        "短视频和直播带货内容诊断",
+        "千川投放数据诊断",
+        "素材跑量与转化分析",
+        "创意测试与视频改版建议"
+      ],
+      "aliases": [
+        "抖音",
+        "抖店",
+        "抖音电商",
+        "巨量千川",
+        "千川",
+        "随心推"
+      ]
+    },
+    {
+      "id": "xiaohongshu",
+      "display_name": "小红书",
+      "region": "CN",
+      "reference": "references/platforms/xiaohongshu.md",
+      "supported_topics": [
+        "不知道拍什么",
+        "账号和内容诊断",
+        "图文/短视频种草诊断",
+        "搜索关键词和笔记承接",
+        "商品和店铺转化诊断",
+        "达人/蒲公英合作诊断",
+        "聚光投放素材与转化分析",
+        "从种草 brief 到视频/笔记方案"
+      ],
+      "aliases": [
+        "小红书",
+        "xhs",
+        "rednote",
+        "red note",
+        "RED",
+        "蒲公英",
+        "聚光",
+        "小红书电商"
+      ]
+    }
+  ],
+  "fallback": {
+    "mode": "pippit_omni_search",
+    "description": "未覆盖平台先询问平台、地区、业务目标、时间窗和指标口径，再通过 pippit_omni_search 补齐公开规则、公开指标解释、行业常识、公开竞品表达和通用最佳实践。"
+  }
+}

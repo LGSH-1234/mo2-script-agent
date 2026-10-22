@@ -1,0 +1,22 @@
+{
+ "dir": "material_fission",
+ "sandbox_path": "/workspace/.skills/material_fission/",
+ "skill_name": "material_fission",
+ "display_name": "",
+ "description": "当用户在提供参考视频的基础上要求批量产出多条版本、素材裂变，或按人群、开头、场景、卖点、人物、包装、语言、商品等维度派生多条视频时使用。本 Skill 仅适用于产品营销、达人带货、品牌推广等营销类视频的复刻裂变场景，非营销类素材复刻裂变请使用 imitation_video skill",
+ "tools": [
+  "dynamic_questionnaire",
+  "sandbox_generate_video",
+  "render_video"
+ ],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 15537,
+ "file_count": 1,
+ "composition": {
+  "SKILL.md": 1
+ },
+ "has_scripts": false,
+ "files": [
+  "material_fission/SKILL.md"
+ ]
+}

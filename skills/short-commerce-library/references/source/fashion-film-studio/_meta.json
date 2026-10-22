@@ -1,0 +1,31 @@
+{
+ "dir": "fashion-film-studio",
+ "sandbox_path": "/workspace/.skills/fashion-film-studio/",
+ "skill_name": "fashion-film-studio",
+ "display_name": "时装短片创作",
+ "description": "时装短片全流程创作技能。从服装资产解析出发，经刀版三视图、模特服饰卡、空场景图、六宫格分镜预览，到 15 秒时装短片视频生成与 BGM 组装。支持秀场走秀(Runway)与买家秀/街拍(Lifestyle)两种风格路线，逐步推进、每步等待用户确认。当用户需要创作服装展示视频、时尚穿搭短片、时装走秀视频、买家秀风格视频时触发。",
+ "tools": [
+  "sandbox_generate_image",
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video\"]\nimage_model: seedream_5.0_pro\nvideo_model: Seedance_2.5"
+ ],
+ "category_heuristic": "画风/滤镜类",
+ "skill_md_bytes": 24873,
+ "file_count": 8,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 7
+ },
+ "has_scripts": false,
+ "files": [
+  "fashion-film-studio/SKILL.md",
+  "fashion-film-studio/references/INDEX.md",
+  "fashion-film-studio/references/craft/lighting-camera-fabric.md",
+  "fashion-film-studio/references/formats/bgm-prompt.md",
+  "fashion-film-studio/references/formats/lifestyle-style.md",
+  "fashion-film-studio/references/formats/runway-style.md",
+  "fashion-film-studio/references/formats/video-prompt-grammar.md",
+  "fashion-film-studio/references/industries/garment-analysis.md"
+ ]
+}

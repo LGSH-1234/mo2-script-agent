@@ -1,0 +1,25 @@
+{
+ "dir": "character-realism-enhancer",
+ "sandbox_path": "/workspace/.skills/character-realism-enhancer/",
+ "skill_name": "character-realism-enhancer",
+ "display_name": "真人质感设定图",
+ "description": "将上传的照片、AI肖像、二维人物图、半写实角色图、草图或参考图转化为真实可信的电影级人物概念设定图。解决身份保留、去油腻去AI感、真实皮肤质感重建、材质体积还原等核心问题。当用户要求人物设定图、角色设定、草图转设定图、二维人物转真人质感、照片转角色概念、AI脸去假、去油腻、真实皮肤质感、skin realism、character concept art、image-to-character-design prompts 时触发。",
+ "tools": [
+  "sandbox_generate_image"
+ ],
+ "category_heuristic": "画风/滤镜类",
+ "skill_md_bytes": 14318,
+ "file_count": 5,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 4
+ },
+ "has_scripts": false,
+ "files": [
+  "character-realism-enhancer/SKILL.md",
+  "character-realism-enhancer/references/INDEX.md",
+  "character-realism-enhancer/references/identity-preservation.md",
+  "character-realism-enhancer/references/lighting-material.md",
+  "character-realism-enhancer/references/skin-material.md"
+ ]
+}

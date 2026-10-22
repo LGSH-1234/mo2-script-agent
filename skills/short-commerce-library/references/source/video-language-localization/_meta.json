@@ -1,0 +1,30 @@
+{
+ "dir": "video-language-localization",
+ "sandbox_path": "/workspace/.skills/video-language-localization/",
+ "skill_name": "video-language-localization",
+ "display_name": "",
+ "description": ">- 将一整条视频本地化成另一个国家 / 地区的版本 (改变整条视频面向的语言市场)。当用户想把一条视频 \"做成英文版 / 日文版等某国・某地区版本 / 出海到某个国家 / 本地化 /localize/dub 成目标市场版本\" 时使用本技能。触发条件只有一个：目标是把整条视频转成另一个国家 / 地区的语言市场版本。单纯替换 / 更换视频里的人物 / 角色、单纯替换 / 克隆音色 / 声音等单点编辑，不路由本技能。",
+ "tools": [
+  "marketing_video_analysis",
+  "sandbox_generate_video",
+  "dynamic_questionnaire",
+  "sandbox_generate_audio",
+  "sandbox_generate_image"
+ ],
+ "category_heuristic": "其他",
+ "skill_md_bytes": 70010,
+ "file_count": 5,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 1,
+  "scripts": 3
+ },
+ "has_scripts": true,
+ "files": [
+  "video-language-localization/SKILL.md",
+  "video-language-localization/references/segmentation_guide.md",
+  "video-language-localization/scripts/speech_rate_evaluator.py",
+  "video-language-localization/scripts/unit_localizer.py",
+  "video-language-localization/scripts/video_splitter.py"
+ ]
+}

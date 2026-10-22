@@ -1,0 +1,43 @@
+
+{
+  "skill_id": "business_growth_advisor_v2",
+  "fornax_skill_key": "nest.skill.business_growth_advisor_v2",
+  "display_name": "生意增长顾问",
+  "version": "0.1.9",
+  "created_at": "2026-08-26",
+  "target_runtime": "online_agent",
+  "status": "draft",
+  "scope": "商品卖点诊断、投放视频方向、素材转化诊断、投放复盘、门店客流与团购转化、B2B 价值表达与下一步增长动作",
+  "supported_platforms": [
+    "tiktok_shop",
+    "douyin_qianchuan",
+    "xiaohongshu"
+  ],
+  "data_sources": [
+    "user_provided_files_or_text",
+    "pippit_omni_search_for_public_market_research"
+  ],
+  "primary_value_props": [
+    "输入商品图和卖点，自动拆出 3 条投放视频方向",
+    "不知道视频怎么拍？先诊断你的卖点和转化钩子",
+    "素材跑不动，可能不是产品差，是开头没打中人",
+    "让 AI 先像投手一样看你的商品，再给你素材方案",
+    "从“卖点一大堆”变成“用户愿意停下来的视频脚本”"
+  ],
+  "method_sources": [
+    "Strategyzer Value Proposition Canvas",
+    "Jobs-to-be-Done",
+    "TikTok creative best practices",
+    "Google Ads creative guidance",
+    "pippit_omni_search public market observation"
+  ],
+  "outputs": [
+    "markdown_execution_plan",
+    "video_brief_or_video_via_available_agent_capabilities"
+  ],
+  "non_goals": [
+    "platform_backend_auto_login",
+    "api_key_or_developer_account_setup",
+    "direct_ad_platform_account_management"
+  ]
+}

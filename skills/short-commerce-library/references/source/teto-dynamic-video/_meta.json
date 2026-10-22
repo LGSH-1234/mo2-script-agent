@@ -1,0 +1,30 @@
+{
+ "dir": "teto-dynamic-video",
+ "sandbox_path": "/workspace/.skills/teto-dynamic-video/",
+ "skill_name": "teto-dynamic-video",
+ "display_name": "动感锚点视频",
+ "description": "根据用户上传的参考图，自动识别主体类型并生成 18 秒高动感卡点视频（TETO 动感模式）或高级感产品 TVC 模式。支持 6 类主体（产品/建筑/风景/动物/人物/车辆），自动定位像素级锚点、提取音频节拍、规划 BPM 分档分镜、生成视频片段、卡点拼装与特效渲染。当用户上传参考图并要求生成动感短视频、卡点视频、产品展示视频时触发。",
+ "tools": [
+  "sandbox_generate_image",
+  "render_video",
+  "sandbox_generate_video",
+  "sandbox_process_video\"]\nimage_model: seedream_5.0_pro\nvideo_model: Seedance_2.5"
+ ],
+ "category_heuristic": "营销带货类",
+ "skill_md_bytes": 20915,
+ "file_count": 7,
+ "composition": {
+  "SKILL.md": 1,
+  "references": 6
+ },
+ "has_scripts": false,
+ "files": [
+  "teto-dynamic-video/SKILL.md",
+  "teto-dynamic-video/references/INDEX.md",
+  "teto-dynamic-video/references/formats/audio-rhythm.md",
+  "teto-dynamic-video/references/formats/background-replacement.md",
+  "teto-dynamic-video/references/formats/shot-design-and-effects.md",
+  "teto-dynamic-video/references/formats/tvc-mode.md",
+  "teto-dynamic-video/references/formats/video-prompt-grammar.md"
+ ]
+}
