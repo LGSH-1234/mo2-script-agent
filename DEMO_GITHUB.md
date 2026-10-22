@@ -6,7 +6,7 @@
 
 ```bash
 # 需要 Python 3.11+；前端产物已在 web/dist
-cp .env.example .env   # 按需填入密钥；无密钥也可先看壳与静态流程
+cp .env.example .env   # 按需填入密钥；无密钥也可进欢迎页走导入直出（路径 B）
 ./start-public.sh
 # 浏览器打开 http://127.0.0.1:8766/storyboard
 ```
