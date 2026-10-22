@@ -8,7 +8,7 @@
 # 需要 Python 3.11+；前端产物已在 web/dist
 cp .env.example .env   # 按需填入密钥；无密钥也可先看壳与静态流程
 ./start-public.sh
-# 浏览器打开 http://127.0.0.1:8766
+# 浏览器打开 http://127.0.0.1:8766/storyboard
 ```
 
 同源代理路径：`/demo-proxy/`（与壳嵌入一致）。

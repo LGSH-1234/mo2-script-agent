@@ -15,5 +15,5 @@ if [ ! -f web/dist/index.html ]; then
   printf '%s\n' '缺少前端构建产物 web/dist，请先 npm ci && npm run build。'
   exit 1
 fi
-printf '%s\n' "Listening on http://${HOST}:${PORT}"
+printf '%s\n' "Listening on http://${HOST}:${PORT}/storyboard"
 exec .venv/bin/python -m uvicorn web_app.app:app --host "$HOST" --port "$PORT"
