@@ -346,10 +346,19 @@ def create_app(data_dir: Path | None = None):
     app.mount("/media", StaticFiles(directory=ROOT / "web/public"), name="media")
     dist = ROOT / "web/dist"
     if dist.exists():
-        app.mount("/assets", StaticFiles(directory=dist / "assets"), name="assets")
+        # Vite base is /demo-proxy/ for shell same-origin; also serve under that prefix
+        # so direct :8766/storyboard works (HTML references /demo-proxy/assets/*).
+        assets_dir = dist / "assets"
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
+        app.mount("/demo-proxy/assets", StaticFiles(directory=assets_dir), name="demo_proxy_assets")
 
         @app.get("/{path:path}")
         def frontend(path: str):
+            # Normalize shell-proxy prefix so SPA routes resolve on bare :8766 too.
+            if path.startswith("demo-proxy/"):
+                path = path[len("demo-proxy/"):]
+            elif path == "demo-proxy":
+                path = ""
             if path.startswith(("api/", "assets/")):
                 raise HTTPException(404)
             public_pages = {"": "index.html", "about": "about.html", "pricing": "pricing.html"}
