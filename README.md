@@ -10,7 +10,7 @@
 git clone https://github.com/LGSH-1234/mo2-script-agent.git
 cd mo2-script-agent
 
-cp .env.example .env   # 可选：填入 DEEPSEEK_API_KEY 以使用真实模型；无密钥也可浏览界面与模拟流程
+cp .env.example .env   # 可选：填入 DEEPSEEK_API_KEY；无密钥也能进欢迎页，走「导入脚本 → 开始写分镜」直出
 
 # 本机演示（仅 127.0.0.1）
 bash start.sh
